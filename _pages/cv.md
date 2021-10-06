@@ -19,7 +19,7 @@ Work experience
 ======
 * 2021-present: Research Assistant
   * Gregorio Marañon Health Research Institute, Microbiology and Infectious Diseases
-  * Field: Machine Learning
+  * Field: Applied Machine Learning
   * Supervisor: Dr. Belén Rodríguez-Sánchez
 
 * 2020-present: PhD Candidate
@@ -33,7 +33,7 @@ Work experience
   * Supervisor: Dr. Pablo M. Olmos
   
 * 2018-2019: Trainee & Telecommunication Engineer
-  * ALCORT S.L
+  * ALCORT S.L.
   * Field: Telecommunication Engineer
   * Supervisor: Alejandro Cortés
 
