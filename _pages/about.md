@@ -8,10 +8,10 @@ redirect_from:
   - /about.html
 ---
 Who am I
-======
-Currently, I am a Ph.D. student in Machine Learning for personalized medicine at Universidad Carlos III de Madrid (UC3M) under the supervision of [Dr. Pablo M. Olmos](http://www.tsc.uc3m.es/~olmos/) and [Dr. Vanessa Gómez Verdejo](https://vanessa.webs.tsc.uc3m.es). I am also working with [Gregorio Marañón Health Research Institute (IISGM)](https://www.iisgm.com) under the supervision of [Dr. Belén Rodríguez-Sánchez](https://scholar.google.es/citations?user=W9sZbBoAAAAJ&hl=es). 
+------
+Currently, I am a Ph.D. student in Machine Learning for Personalized Medicine at Universidad Carlos III de Madrid (UC3M) under the supervision of [Dr. Pablo M. Olmos](http://www.tsc.uc3m.es/~olmos/) and [Dr. Vanessa Gómez Verdejo](https://vanessa.webs.tsc.uc3m.es). I am also working with [Gregorio Marañón Health Research Institute (IISGM)](https://www.iisgm.com) under the supervision of [Dr. Belén Rodríguez-Sánchez](https://scholar.google.es/citations?user=W9sZbBoAAAAJ&hl=es). 
 
-My work is focused in the development of probabilistic ML models and applying them into biomedical real problems such as the prediction Antibiotic Resistance mechanisms in different microorganism. We focus our research in heterogeneous semisupervised models than can deal with biomedical typical problems such as missing data and different sources of data.
+My work is focused in the development of probabilistic ML models and applying them into biomedical real problems such as the prediction Antibiotic Resistance mechanisms in different microorganism. We focus our research in heterogeneous semisupervised models as they can deal with biomedical typical problems such as missing data and different types of data.
 
 Last news
 ------
