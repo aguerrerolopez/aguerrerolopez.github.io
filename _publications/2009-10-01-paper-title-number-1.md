@@ -1,15 +1,13 @@
 ---
-title: "Paper Title Number 1"
+title: "Evaluation of a VR system for Pain Management using binaural acoustic stimulation"
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2009-10-01
 venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+paperurl: 'https://link.springer.com/article/10.1007/s11042-019-07953-y'
+citation: 'Perales, F.J., Riera, L., Ramis, S., *Guerrero-López, A.* Evaluation of a VR system for Pain Management using binaural acoustic stimulation. Multimed Tools Appl 78, 32869–32890 (2019). https://doi.org/10.1007/s11042-019-07953-y'
 ---
 This paper is about the number 1. The number 2 is left for future work.
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
-
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+Recommended citation: Perales, F.J., Riera, L., Ramis, S., Guerrero-López, A. Evaluation of a VR system for Pain Management using binaural acoustic stimulation. Multimed Tools Appl 78, 32869–32890 (2019). https://doi.org/10.1007/s11042-019-07953-y
