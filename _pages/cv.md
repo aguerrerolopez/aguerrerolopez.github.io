@@ -34,7 +34,7 @@ Work experience
   
 * 2018-2019: Trainee & Telecommunication Engineer
   * ALCORT S.L.
-  * Field: Telecommunication Engineer
+  * Field: Telecommunication Engineer FTTH
   * Supervisor: Alejandro Cortés and Teresa Reus
 
 * 2017-2018: Research Assistant
