@@ -13,7 +13,7 @@ Education
 ======
 * B.S. in Telematic Engineering, Universitat de les Illes Balears, 2019
 * M.S. in Information Health Engineering, Universidad Carlos III de Madrid, 2020
-* Ph.D in Machine Learning applied to Personalized Medicine, Universidad Carlos III de Madrid, 2023 (expected)
+* Ph.D. in Machine Learning applied to Personalized Medicine, Universidad Carlos III de Madrid, 2023 (expected)
 
 Work experience
 ======
@@ -25,7 +25,7 @@ Work experience
 * 2020-present: PhD Candidate
   * Universitad Carlos III de Madrid, UGIVIA group
   * Field: Machine Learning
-  * Supervisor: Dr. Pablo M. Olmos
+  * Supervisor: Dr. Pablo M. Olmos and Dr. Vanessa Gómez-Verdejo
 
 * 2019-2020: Research Assistant
   * Universitad Carlos III de Madrid, UGIVIA group
@@ -35,12 +35,12 @@ Work experience
 * 2018-2019: Trainee & Telecommunication Engineer
   * ALCORT S.L.
   * Field: Telecommunication Engineer
-  * Supervisor: Alejandro Cortés
+  * Supervisor: Alejandro Cortés and Teresa Reus
 
 * 2017-2018: Research Assistant
   * Universitat de les Illes Balears, UGIVIA group
   * Field: Computer Vision
-  * Supervisor: Francisco J. Perales
+  * Supervisor: Francisco J. Perales and Silvia Ramis
 
 Publications
 ======
