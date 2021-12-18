@@ -18,29 +18,29 @@ Education
 Work experience
 ======
 * 2021-present: Research Assistant
-  * Gregorio Marañon Health Research Institute, Microbiology and Infectious Diseases Department
-  * Field: Applied Machine Learning
-  * Supervisor: Dr. Belén Rodríguez-Sánchez
+  * __Company__: Gregorio Marañon Health Research Institute, Microbiology and Infectious Diseases Department
+  * __Field__: Applied Machine Learning
+  * __Supervisor__: Dr. Belén Rodríguez-Sánchez
 
 * 2020-present: PhD Candidate
-  * Universitad Carlos III de Madrid, UGIVIA group
-  * Field: Machine Learning
-  * Supervisor: Dr. Pablo M. Olmos and Dr. Vanessa Gómez-Verdejo
+  * __Company__: Universidad Carlos III de Madrid, Signal Theory and Communications Department
+  * __Field__: Machine Learning
+  * __Supervisor__: Dr. Pablo M. Olmos and Dr. Vanessa Gómez-Verdejo
 
 * 2019-2020: Research Assistant
-  * Universitad Carlos III de Madrid, UGIVIA group
-  * Field: Machine Learning
-  * Supervisor: Dr. Pablo M. Olmos
+  * __Company__: Universidad Carlos III de Madrid, Signal Theory and Communications Department
+  * __Field__: Machine Learning
+  * __Supervisor__: Dr. Pablo M. Olmos
   
 * 2018-2019: Trainee & Telecommunication Engineer
-  * ALCORT S.L.
-  * Field: Telecommunication Engineer FTTH
-  * Supervisor: Alejandro Cortés and Teresa Reus
+  * __Company__: ALCORT S.L.
+  * __Field__: Telecommunication Engineer FTTH
+  * __Supervisor__: Alejandro Cortés and Teresa Reus
 
 * 2017-2018: Research Assistant
-  * Universitat de les Illes Balears, UGIVIA group
-  * Field: Computer Vision
-  * Supervisor: Francisco J. Perales and Silvia Ramis
+  * __Company__: Universitat de les Illes Balears, UGIVIA group
+  * __Field__: Computer Vision
+  * __Supervisor__: Francisco J. Perales and Silvia Ramis
 
 Publications
 ======
