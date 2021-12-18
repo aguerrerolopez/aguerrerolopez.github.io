@@ -1,5 +1,5 @@
 ---
-title: "Python library: Development and Validation of a MALDI-TOF-Based Model to Predict Extended-Spectrum Beta-Lactamase and/or Carbapenemase-Producing Klebsiella pneumoniae Clinical Isolates"
+title: "Python code: Development and Validation of a MALDI-TOF-Based Model to Predict Extended-Spectrum Beta-Lactamase and/or Carbapenemase-Producing Klebsiella pneumoniae Clinical Isolates"
 excerpt: "SSHIBA model tailored for the MALDI-TOF data to predict simultanously from which hospital is the data coming from and the resistance mechanism of every bacteria to ESBL or CP."
 collection: portfolio
 ---
