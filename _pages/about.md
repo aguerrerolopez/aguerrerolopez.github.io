@@ -15,7 +15,7 @@ My work is focused in the development of probabilistic ML models and applying th
 
 Last news
 ------
-* _September 2021_: Our new paper ["Development and Validation of a MALDI-TOF-Based Model to Predict Extended-Spectrum Beta-Lactamase and/or Carbapenemase-Producing in Klebsiella pneumoniae Clinical Isolates"](https://www.biorxiv.org/content/10.1101/2021.10.04.463058v1) is submitted and under revision in [Bioinformaatics](https://academic.oup.com/bioinformatics)!
+* _January 2022_: Our new paper ["Extended-Spectrum Beta-Lactamase and Carbapenemase-Producing prediction in Klebsiella pneumoniae based on MALDI-TOF mass spectra"](https://www.biorxiv.org/content/10.1101/2021.10.04.463058v4.full) is submitted and under revision in [IEEE J-BHI](https://www.embs.org/jbhi/)!
 * _September 2021_: I did a podium presentation about our work predicting Antibiotic Resistance mechanisms based on MALDI-TOF MS data in [MSACL 2021](https://www.msacl.org/index.php?header=MSACL_2021_EU)
 * _April 2021_: Our paper ["Bayesian Sparse Factor Analysis with Kernelized Observations"](https://arxiv.org/abs/2006.00968) is submitted and under revision in [Neurocomputing](https://www.journals.elsevier.com/neurocomputing)
 
