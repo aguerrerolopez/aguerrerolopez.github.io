@@ -15,7 +15,7 @@ My work is focused in the development of probabilistic ML models and applying th
 
 Last news
 ------
-* _February 2022_: I've presented a seminar about our work predicting Antibiotic Resistance mechanisms based on MALDI-TOF MS data in [Hospital G.U. Gregorio Marañón - Servicio de Microbiología](https://www.iisgm.com/investigacion/areas-de-investigacion/area-4-enfermedades-infecciosas-y-sida/)
+* _March 2022_: I've presented a seminar about our work predicting Antibiotic Resistance mechanisms based on MALDI-TOF MS data in [Hospital G.U. Gregorio Marañón - Servicio de Microbiología](https://www.iisgm.com/investigacion/areas-de-investigacion/area-4-enfermedades-infecciosas-y-sida/)
 * _January 2022_: I've presented a seminar about our work predicting Antibiotic Resistance mechanisms based on MALDI-TOF MS data in [Seminarios Alberto Tejedor](https://www.iisgm.com/actualidad/convocatorias-y-formacion/jornadas-y-seminarios/)
 * _January 2022_: Our new paper ["Extended-Spectrum Beta-Lactamase and Carbapenemase-Producing prediction in Klebsiella pneumoniae based on MALDI-TOF mass spectra"](https://www.biorxiv.org/content/10.1101/2021.10.04.463058v4.full) is submitted and under revision in [IEEE J-BHI](https://www.embs.org/jbhi/)!
 * _September 2021_: I did a podium presentation about our work predicting Antibiotic Resistance mechanisms based on MALDI-TOF MS data in [MSACL 2021](https://www.msacl.org/index.php?header=MSACL_2021_EU)
