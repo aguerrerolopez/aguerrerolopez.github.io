@@ -25,7 +25,7 @@ Work experience
 * 2020-present: PhD Candidate
   * __Company__: Universidad Carlos III de Madrid, Signal Theory and Communications Department
   * __Field__: Machine Learning
-  * __Supervisor__: Dr. Pablo M. Olmos and Dr. Vanessa Gómez-Verdejo
+  * __Supervisors__: Dr. Pablo M. Olmos and Dr. Vanessa Gómez-Verdejo
 
 * 2019-2020: Research Assistant
   * __Company__: Universidad Carlos III de Madrid, Signal Theory and Communications Department
@@ -35,12 +35,12 @@ Work experience
 * 2018-2019: Trainee & Telecommunication Engineer
   * __Company__: ALCORT S.L.
   * __Field__: Telecommunication Engineer FTTH
-  * __Supervisor__: Alejandro Cortés and Teresa Reus
+  * __Supervisors__: Alejandro Cortés and Teresa Reus
 
 * 2017-2018: Research Assistant
   * __Company__: Universitat de les Illes Balears, UGIVIA group
   * __Field__: Computer Vision
-  * __Supervisor__: Francisco J. Perales and Silvia Ramis
+  * __Supervisors__: Francisco J. Perales and Silvia Ramis
 
 Publications
 ======
