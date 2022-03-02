@@ -9,4 +9,4 @@ date: 2022-01-26
 location: "Virtual"
 ---
 
-Presented a seminar about semi-supervised models applied to antimicrobial resistance predecition based on MALDI-TOF data in [Alberto Tejedor Seminar](https://www.iisgm.com/actualidad/convocatorias-y-formacion/jornadas-y-seminarios/).
+Presented a seminar about semi-supervised models applied to antimicrobial resistance prediction based on MALDI-TOF data in [Alberto Tejedor Seminar](https://www.iisgm.com/actualidad/convocatorias-y-formacion/jornadas-y-seminarios/).
