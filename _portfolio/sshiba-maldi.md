@@ -6,7 +6,7 @@ collection: portfolio
 
 ## SSHIBA tailored for MALDI-TOF data
 This repository implements the paper [Extended-Spectrum Beta-Lactamase and Carbapenemase-Producing prediction in Klebsiella pneumoniae based on MALDI-TOF mass spectra](https://www.biorxiv.org/content/10.1101/2021.10.04.463058v4.full)
-where I tailored SSHIBA model to being able to learn from both MALDI-TOF and Hospital label to learn the resistance mechanisms to ESBL or CP of _K. pneumoniae_. 
+where I tailored SSHIBA model to be able to learn from both MALDI-TOF and Hospital label to learn the resistance mechanisms to ESBL or CP of _K. pneumoniae_. 
 
 * [GitHub Repository](https://github.com/alexjorguer/RMPrediction)
 
