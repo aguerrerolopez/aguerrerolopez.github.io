@@ -23,8 +23,8 @@ Last news
 
 Short Bio
 ------
-* PhD candidate at [Signal Processing Group](http://gts.tsc.uc3m.es), UC3M, and predoc at [IISGM](https://www.iisgm.com), Madrid, Spain.
-* MSc in Information Health Engineering at [UC3M](https://www.uc3m.es/), Madrid, Spain.
+* Ph.D. candidate at [Signal Processing Group](http://gts.tsc.uc3m.es), UC3M, and predoc at [IISGM](https://www.iisgm.com), Madrid, Spain.
+* M.Sc. in Information Health Engineering at [UC3M](https://www.uc3m.es/), Madrid, Spain.
 * Telecommunication Engineer at [Alcort](https://alcort.net), Mallorca, Spain.
 * Research assistant at [UGIVIA](http://ugivia.uib.es), [UIB](https://www.uib.cat), Mallorca, Spain.
-* BSc in Telematics Engineering at [UIB](https://www.uib.cat), Mallorca, Spain.
+* B.Sc. in Telematics Engineering at [UIB](https://www.uib.cat), Mallorca, Spain.
