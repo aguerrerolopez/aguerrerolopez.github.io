@@ -11,9 +11,11 @@ redirect_from:
 
 Education
 ======
-* B.S. in Telematic Engineering, Universitat de les Illes Balears, 2019
-* M.S. in Information Health Engineering, Universidad Carlos III de Madrid, 2020
+
 * Ph.D. in Machine Learning applied to Personalized Medicine, Universidad Carlos III de Madrid, 2023 (expected)
+* M.S. in Information Health Engineering, Universidad Carlos III de Madrid, 2020
+* B.S. in Telematic Engineering, Universitat de les Illes Balears, 2019
+
 
 Work experience
 ======
@@ -32,7 +34,7 @@ Work experience
   * __Field__: Machine Learning
   * __Supervisor__: Dr. Pablo M. Olmos
   
-* 2018-2019: Trainee & Telecommunication Engineer
+* 2018-2019: Telecommunication Engineer
   * __Company__: ALCORT S.L.
   * __Field__: Telecommunication Engineer FTTH
   * __Supervisors__: Alejandro Cortés and Teresa Reus
