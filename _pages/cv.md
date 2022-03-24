@@ -22,27 +22,27 @@ Work experience
 * 2021-present: Research Assistant
   * __Company__: Gregorio Marañon Health Research Institute, Microbiology and Infectious Diseases Department
   * __Field__: Applied Machine Learning
-  * __Supervisor__: Dr. Belén Rodríguez-Sánchez
+  * __Supervisor__: [Dr. Belén Rodríguez-Sánchez](https://scholar.google.es/citations?user=W9sZbBoAAAAJ&hl=es)
 
 * 2020-present: PhD Candidate
   * __Company__: Universidad Carlos III de Madrid, Signal Theory and Communications Department
   * __Field__: Machine Learning
-  * __Supervisors__: Dr. Pablo M. Olmos and Dr. Vanessa Gómez-Verdejo
+  * __Supervisors__: [Dr. Pablo M. Olmos](https://www.tsc.uc3m.es/~olmos/) and [Dr. Vanessa Gómez-Verdejo](https://vanessa.webs.tsc.uc3m.es)
 
 * 2019-2020: Research Assistant
   * __Company__: Universidad Carlos III de Madrid, Signal Theory and Communications Department
   * __Field__: Machine Learning
-  * __Supervisor__: Dr. Pablo M. Olmos
+  * __Supervisor__: [Dr. Pablo M. Olmos](https://www.tsc.uc3m.es/~olmos/)
   
 * 2018-2019: Telecommunication Engineer
-  * __Company__: ALCORT S.L.
+  * __Company__: [ALCORT S.L.](https://alcort.net/sobre-nosotros/)
   * __Field__: Telecommunication Engineer FTTH
   * __Supervisors__: Alejandro Cortés and Teresa Reus
 
 * 2017-2018: Research Assistant
-  * __Company__: Universitat de les Illes Balears, UGIVIA group
-  * __Field__: Computer Vision
-  * __Supervisors__: Francisco J. Perales and Silvia Ramis
+  * __Company__: Universitat de les Illes Balears, [UGIVIA](http://ugivia.uib.es/membres/) group
+  * __Field__: Computer Vision & AI
+  * __Supervisors__: [Dr. Francisco J. Perales](https://www.uib.es/es/personal/ABDMyNjY/) and [Dr. Silvia Ramis](https://www.uib.cat/personal/ABjExMTI3OA/)
 
 Publications
 ======
