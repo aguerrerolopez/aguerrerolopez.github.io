@@ -13,8 +13,8 @@ Education
 ======
 
 * Ph.D. in Machine Learning applied to Personalized Medicine, Universidad Carlos III de Madrid, 2023 (expected)
-* M.S. in Information Health Engineering, Universidad Carlos III de Madrid, 2020
-* B.S. in Telematic Engineering, Universitat de les Illes Balears, 2019
+* M.Sc. in Information Health Engineering, Universidad Carlos III de Madrid, 2020
+* B.Sc. in Telematic Engineering, Universitat de les Illes Balears, 2019
 
 
 Work experience
