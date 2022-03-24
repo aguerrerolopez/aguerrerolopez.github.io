@@ -6,7 +6,7 @@ excerpt: ''
 date: 2022-03-21
 venue: 'Neurocomputing'
 paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S0925231222002946?via%3Dihub'
-citation: 'Carlos Sevilla-Salcedo, Alejandro Guerrero-López, Pablo M. Olmos, Vanessa Gómez-Verdejo, ayesian Sparse Factor Analysis with Kernelized Observations, Nurocomputing, 2022, ISSN 0925-2312, https://doi.org/10.1016/j.neucom.2022.03.024.'
+citation: 'Carlos Sevilla-Salcedo, Alejandro Guerrero-López, Pablo M. Olmos, Vanessa Gómez-Verdejo, ayesian Sparse Factor Analysis with Kernelized Observations, Neurocomputing, 2022, ISSN 0925-2312, https://doi.org/10.1016/j.neucom.2022.03.024.'
 ---
 Bibtex to cite:
 @article{SEVILLASALCEDO2022,
