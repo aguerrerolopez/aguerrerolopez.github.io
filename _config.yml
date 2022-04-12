@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Alejandro Guerrero-López / PhD Candidate"
+title                    : "Alejandro Guerrero-López"
 title_separator          : "-"
 name                     : &name "Alejandro Guerrero-López"
 description              : &description "PhD Candidate in Machine Learning"
