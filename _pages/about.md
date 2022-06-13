@@ -15,16 +15,16 @@ My work is focused on the development of probabilistic ML models and applying th
 
 Last news
 ------
+* _July 2022_: I am going to be attending to [Cambridge Ellis Machine Learning Summer School](http://www.ellis.eng.cam.ac.uk/summerschool/)
 * _June 2022_: I've presented a poster about ["Discrimination of species within the Enterobacter cloacae complex using machine learning"](https://www.biorxiv.org/content/10.1101/2021.11.02.467040v1.full) at [9ª Jornada de Investigación e Innovación IiSGM](https://www.iisgm.com/9a-jornada-de-investigacion-e-innovacion-los-dias-8-y-9-de-junio-de-2022/)
+* _May 2022_: I am teaching [‘Machine Learning Fundamentals’](https://alexjorguer.github.io/teaching/) course at Fundación BBVA, Fundación Carlos III de Madrid.
 * _March 2022_: Our paper ["Bayesian Sparse Factor Analysis with Kernelized Observations"](https://www.sciencedirect.com/science/article/abs/pii/S0925231222002946?via%3Dihub) has been published in Neurocomputing!
-* _March 2022_: I've presented a seminar about our work predicting Antibiotic Resistance mechanisms based on MALDI-TOF MS data in [Hospital G.U. Gregorio Marañón - Servicio de Microbiología](https://www.iisgm.com/investigacion/areas-de-investigacion/area-4-enfermedades-infecciosas-y-sida/)
-* _February 2022_: I am teaching [‘Machine Learning Fundamentals’](https://alexjorguer.github.io/teaching/) course at Fundación BBVA, Fundación Carlos III de Madrid.
-* _January 2022_: Our new paper ["Extended-Spectrum Beta-Lactamase and Carbapenemase-Producing prediction in Klebsiella pneumoniae based on MALDI-TOF mass spectra"](https://www.biorxiv.org/content/10.1101/2021.10.04.463058v4.full) is submitted and under revision in [IEEE J-BHI](https://www.embs.org/jbhi/)!
+* _March 2022_: I've presented a seminar about our work predicting [Antibiotic Resistance mechanisms based on MALDI-TOF MS data](https://www.biorxiv.org/content/10.1101/2021.10.04.463058v4.full) in [Hospital G.U. Gregorio Marañón - Servicio de Microbiología](https://www.iisgm.com/investigacion/areas-de-investigacion/area-4-enfermedades-infecciosas-y-sida/)
 
 Short Bio
 ------
 * Ph.D. candidate at [Signal Processing Group](http://gts.tsc.uc3m.es), UC3M, and predoc at [IISGM](https://www.iisgm.com), Madrid, Spain.
-* M.Sc. in Information Health Engineering at [UC3M](https://www.uc3m.es/), Madrid, Spain.
+* M.Sc. in [Information Health Engineering](https://www.uc3m.es/master/information-health-engineering) at UC3M, Madrid, Spain.
 * Telecommunication Engineer at [Alcort](https://alcort.net), Mallorca, Spain.
 * Research assistant at [UGIVIA](http://ugivia.uib.es), [UIB](https://www.uib.cat), Mallorca, Spain.
-* B.Sc. in Telematics Engineering at [UIB](https://www.uib.cat), Mallorca, Spain.
+* B.Sc. in [Telematics Engineering](https://www.uib.eu/Learn/estudis-de-grau/grau/telematica/GTT2-P/) at [UIB](https://www.uib.cat), Mallorca, Spain.
