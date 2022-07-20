@@ -16,7 +16,7 @@ My work is focused on the development of probabilistic ML models and applying th
 Last news
 ------
 * _July 2022_: *NEW PREPRINT AVAILABLE* Our new preprint [Multi-view hierarchical Variational AutoEncoders with Factor Analysis latent space](https://arxiv.org/abs/2207.09185) is being peer-reviewed at a journal!
-* _July 2022_: I attended [Cambridge Ellis Machine Learning Summer School](http://www.ellis.eng.cam.ac.uk/summerschool/)!!!
+* _July 2022_: I attended [Cambridge Ellis Machine Learning Summer School](http://www.ellis.eng.cam.ac.uk/summerschool/) and I presented two posters!!!
 * _June 2022_: I've presented a poster about ["Discrimination of species within the Enterobacter cloacae complex using machine learning"](https://www.biorxiv.org/content/10.1101/2021.11.02.467040v1.full) at [9ª Jornada de Investigación e Innovación IiSGM](https://www.iisgm.com/9a-jornada-de-investigacion-e-innovacion-los-dias-8-y-9-de-junio-de-2022/)
 * _May 2022_: I am teaching [‘Machine Learning Fundamentals’](https://alexjorguer.github.io/teaching/) course at Fundación BBVA, Fundación Carlos III de Madrid.
 * _March 2022_: Our paper ["Bayesian Sparse Factor Analysis with Kernelized Observations"](https://www.sciencedirect.com/science/article/abs/pii/S0925231222002946?via%3Dihub) has been published in Neurocomputing!
