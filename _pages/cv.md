@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 
-* Ph.D. in Machine Learning applied to Personalized Medicine, Universidad Carlos III de Madrid, 2023 (expected)
+* Ph.D. in Machine Learning applied to Personalized Medicine, Universidad Carlos III de Madrid, July 2023 (expected)
 * M.Sc. in Information Health Engineering, Universidad Carlos III de Madrid, 2020
 * B.Sc. in Telematic Engineering, Universitat de les Illes Balears, 2019
 
