@@ -2,7 +2,7 @@
 title: "Teacher in Neural Networks"
 collection: teaching
 type: "Master course"
-permalink: /teaching/2022-NeuralNetsMaster
+permalink: /teaching/2023-NeuralNetsMaster
 venue: "Universidad Carlos III de Madrid, Master in Applied Artificial Intelligence"
 date: 2022-09-01
 location: "Madrid, Spain"
