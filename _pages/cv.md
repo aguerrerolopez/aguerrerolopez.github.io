@@ -19,7 +19,7 @@ Education
 Work experience
 ======
 * 2021-present: Research Assistant
-  * __Company__: Gregorio Marañon Health Research Institute, Microbiology and Infectious Diseases Department
+  * __Company__: [Gregorio Marañon Health Research Institute](https://www.iisgm.com/), Microbiology and Infectious Diseases Department
   * __Field__: Applied Machine Learning
   * __Supervisor__: [Dr. Belén Rodríguez-Sánchez](https://scholar.google.es/citations?user=W9sZbBoAAAAJ&hl=es)
 
