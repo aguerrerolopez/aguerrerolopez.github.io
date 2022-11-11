@@ -1,5 +1,5 @@
 ---
-title: "Extended-Spectrum Beta-Lactamase and Carbapenemase-Producing prediction in Klebsiella pneumoniae based on MALDI-TOF mass spectra"
+title: "Automatic antibiotic resistance prediction in Klebsiella pneumoniae based on MALDI-TOF mass spectra"
 collection: publications
 permalink: /publication/2022-01-31-Guerrero-Lopez-et-al
 excerpt: ''
