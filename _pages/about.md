@@ -15,6 +15,8 @@ My work is focused on the development of probabilistic ML models and applying th
 
 Last news
 ------
+- _November 2022_: *PAPER ACCEPTED* Our work [Automatic antibiotic resistance prediction in Klebsiella pneumoniae based on MALDI-TOF mass spectra](https://www.biorxiv.org/content/10.1101/2021.10.04.463058) has been accepted for publication at (Engineering Applications of Artificial Intelligence)[https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence]!!
+
 - _July 2022_: *NEW PREPRINT AVAILABLE* Our new preprint [Automatic discrimination of species within the Enterobacter cloacae complex using MALDI-TOF Mass Spectrometry and supervised algorithms](https://www.biorxiv.org/content/10.1101/2021.11.02.467040v2) is being peer-reviewed at a journal!
   * <img src="../images/biorxiv_enterobacters.png" width="1000" height="200" />
 
@@ -23,11 +25,6 @@ Last news
 
 - _July 2022_: I attended [Cambridge Ellis Machine Learning Summer School](http://www.ellis.eng.cam.ac.uk/summerschool/) and I presented two posters!
   * <img src="../images/EllisSS.jpeg" width="300" height="300" /> <img src="../images/ellisSS2.jpeg" width="350" height="300" />
-
-- _June 2022_: I've presented a poster about ["Discrimination of species within the Enterobacter cloacae complex using machine learning"](https://www.biorxiv.org/content/10.1101/2021.11.02.467040v1.full) at [9ª Jornada de Investigación e Innovación IiSGM](https://www.iisgm.com/9a-jornada-de-investigacion-e-innovacion-los-dias-8-y-9-de-junio-de-2022/)
-
-- _March 2022_: Our paper ["Bayesian Sparse Factor Analysis with Kernelized Observations"](https://www.sciencedirect.com/science/article/abs/pii/S0925231222002946?via%3Dihub) has been published in Neurocomputing!  
-  * <img src="../images/bayesiansparse.png" width="500" height="200" />
 
 Short Bio
 ------
