@@ -16,6 +16,7 @@ My work is focused on the development of probabilistic ML models and applying th
 Last news
 ------
 - _December 2022_: *PAPER PUBLISHED!!!* Our work [Automatic antibiotic resistance prediction in Klebsiella pneumoniae based on MALDI-TOF mass spectra](https://authors.elsevier.com/a/1gAq53OWJ91094) has been officialy published at [Engineering Applications of Artificial Intelligence](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence)!
+  * <img src="../images/Screenshot 2022-12-01 at 14.19.45.png.png" width="1000" height="200" />
 
 - _November 2022_: *NEW PREPRINT* Our work [Detecting train driveshaft damages using accelerometer signals and Differential Convolutional Neural Networks](https://arxiv.org/abs/2211.09011) is being peer-reviewd at a journal!
   * <img src="../images/trenes.png" width="1000" height="200" />
