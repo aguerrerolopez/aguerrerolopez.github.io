@@ -8,4 +8,4 @@ date: 2022-03-01
 location: "Madrid, Spain"
 ---
 
-Tutor of American exchange students in the 'Neural Networks' undergraduate course of Bachelor in Data Science and Engineering.
+Tutor of American exchange students in the [Neural Networks](https://aplicaciones.uc3m.es/cpa/generaFicha?&est=350&plan=392&asig=16506&idioma=2) undergraduate course of [Bachelor in Data Science and Engineering.](https://www.uc3m.es/bachelor-degree/data-science)
