@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Alejandro Guerrero-López"
   avatar           : "profile.png"
-  bio              : "PhD candidate in Machine Learning for Personalized Medicine."
+  bio              : "PhD Candidate in Machine Learning for Personalized Medicine."
   location         : "Madrid, Spain."
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com/citations?user=z1Cqb6AAAAAJ&hl=es&authuser=1"
+  googlescholar    : "https://scholar.google.com/citations?user=z1Cqb6AAAAAJ&hl=es"
   email            : "alexjorguer@tsc.uc3m.es"
   researchgate     :  "https://www.researchgate.net/profile/Alejandro-Guerrero-Lopez"
   uri              :
