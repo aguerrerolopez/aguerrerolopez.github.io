@@ -49,6 +49,11 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
+Reviewing
+======
+* Artificial Intelligence and Statistics [AISTATS](http://aistats.org/aistats2023/), 2023
+
+  
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
