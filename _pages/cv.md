@@ -53,7 +53,14 @@ Reviewing
 ======
 * Artificial Intelligence and Statistics [AISTATS](http://aistats.org/aistats2023/), 2023
 
-  
+Summer Schools and other trainings
+======
+* [Cambridge Ellis Machine Learning Summer School](http://www.ellis.eng.cam.ac.uk/summerschool/), University of Cambridge, Cambridge, United Kingdom, 2022
+* Digital Health, the regulatory landscape, [Medidee](https://medidee.com), Laussane, Switzerland, 2022
+* Teaching trainee at [DEMOTEC](https://eps.uib.cat/demotec/), UIB, Palma, Spain, 2016 
+* Volunteer instructor at the Science Fair at the [UIB](https://seras.uib.cat/ciencia/2016/) , 2015 and 2016
+
+
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
