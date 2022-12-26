@@ -52,6 +52,7 @@ Publications
 Reviewing
 ======
 * Artificial Intelligence and Statistics [AISTATS](http://aistats.org/aistats2023/), 2023
+* Clinical Microbiology and Infection, [CMI](https://www.sciencedirect.com/journal/clinical-microbiology-and-infection), Elsevier
 
 Summer Schools and other trainings
 ======
