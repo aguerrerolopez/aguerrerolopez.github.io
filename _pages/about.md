@@ -15,6 +15,8 @@ My work is focused on the development of probabilistic ML models and applying th
 
 Last news
 ------
+- _January 2022_: Glad to be a reviewer in [Clinical Microbiology Infections](https://www.clinicalmicrobiologyandinfection.com)!
+
 - _December 2022_: Glad to be a reviewer in [AISTATS 2023](http://aistats.org/aistats2023/)!!
 
 - _December 2022_: *PAPER PUBLISHED!!!* Our work [Automatic antibiotic resistance prediction in Klebsiella pneumoniae based on MALDI-TOF mass spectra](https://authors.elsevier.com/a/1gAq53OWJ91094) has been officialy published at [Engineering Applications of Artificial Intelligence](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence)!
@@ -25,9 +27,6 @@ Last news
 
 - _July 2022_: *NEW PREPRINT AVAILABLE* Our new preprint [Automatic discrimination of species within the Enterobacter cloacae complex using MALDI-TOF Mass Spectrometry and supervised algorithms](https://www.biorxiv.org/content/10.1101/2021.11.02.467040) is being peer-reviewed at a journal!
   * <img src="../images/biorxiv_enterobacters.png" width="1000" height="200" />
-
-- _July 2022_: *NEW PREPRINT AVAILABLE* Our new preprint [Multi-view hierarchical Variational AutoEncoders with Factor Analysis latent space](https://arxiv.org/abs/2207.09185) is being peer-reviewed at a journal!
-  * <img src="../images/favae-preprint.png" width="1000" height="200" />
 
 Short Bio
 ------
