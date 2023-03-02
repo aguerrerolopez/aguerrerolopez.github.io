@@ -15,7 +15,8 @@ My work is focused on the development of probabilistic ML models and applying th
 
 Last news
 ------
-- _January 2022_: Glad to be a reviewer in [Clinical Microbiology Infections](https://www.clinicalmicrobiologyandinfection.com)!
+- _February 2023_: Glad to be a reviewer in [EAAI](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence)!
+- _January 202m_: Glad to be a reviewer in [Clinical Microbiology Infections](https://www.clinicalmicrobiologyandinfection.com)!
 
 - _December 2022_: Glad to be a reviewer in [AISTATS 2023](http://aistats.org/aistats2023/)!!
 
@@ -25,8 +26,6 @@ Last news
 - _November 2022_: *NEW PREPRINT* Our work [Detecting train driveshaft damages using accelerometer signals and Differential Convolutional Neural Networks](https://arxiv.org/abs/2211.09011) is being peer-reviewd at a journal!
   * <img src="../images/trenes.png" width="1000" height="200" />
 
-- _July 2022_: *NEW PREPRINT AVAILABLE* Our new preprint [Automatic discrimination of species within the Enterobacter cloacae complex using MALDI-TOF Mass Spectrometry and supervised algorithms](https://www.biorxiv.org/content/10.1101/2021.11.02.467040) is being peer-reviewed at a journal!
-  * <img src="../images/biorxiv_enterobacters.png" width="1000" height="200" />
 
 Short Bio
 ------
