@@ -5,7 +5,7 @@ permalink: /publication/2022-01-31-Guerrero-Lopez-et-al
 excerpt: ''
 date: 2022-12-01
 venue: 'Engineering Applications of Artificial Intelligence'
-paperurl: 'https://authors.elsevier.com/a/1gAq53OWJ91094'
+paperurl: 'https://www.sciencedirect.com/science/article/pii/S0952197622006340'
 citation: 'A. Guerrero-López, C. Sevilla-Salcedo, A. Candela, M. Hernández-García, E. Cercenado, P. M. Olmos, R. Cantón, P. Muñoz, V. Gómez-Verdejo, R. del Campo, and B. Rodríguez-Sánchez, “Automatic antibiotic resistance prediction in klebsiella pneumoniae based on maldi-tof mass spectra,” Engineering Applications of Artificial Intelligence, vol. 118, p. 105644, 2023.'
 ---
 This paper has been published at [Engineering Applications of Artificial Intelligence](https://www.journals.elsevier.com/engineering-applications-of-artificial-intelligence) journal.
