@@ -51,6 +51,7 @@ Publications
   
 Reviewing
 ======
+* Engineering Applications of Artificial Intelligence, [certificated](https://aguerrerolopez.github.io/images/Certificate_EAAI_Recognised.pdf), [EAAI](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence), 2023
 * Artificial Intelligence and Statistics [AISTATS](http://aistats.org/aistats2023/), 2023
 * Clinical Microbiology and Infection, [CMI](https://www.sciencedirect.com/journal/clinical-microbiology-and-infection), Elsevier
 
