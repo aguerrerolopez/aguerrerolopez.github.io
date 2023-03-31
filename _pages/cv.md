@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 
-* Ph.D. in Machine Learning applied to Personalized Medicine, [Universidad Carlos III de Madrid](https://www.uc3m.es/Home), July 2023 (expected)
+* Ph.D. in Machine Learning applied to Personalised Medicine, [Universidad Carlos III de Madrid](https://www.uc3m.es/Home), May 2023
 * M.Sc. in Information Health Engineering, [Universidad Carlos III de Madrid](https://www.uc3m.es/Home), 2020
 * B.Sc. in Telematic Engineering, [Universitat de les Illes Balears](https://www.uib.es/es/), 2019
 
@@ -20,17 +20,17 @@ Work experience
 ======
 * 2021-present: Ph.D. Candidate
   * __Company__: [Gregorio Marañon Health Research Institute](https://www.iisgm.com/), Microbiology and Infectious Diseases Department
-  * __Field__: Applied Machine Learning
+  * __Field__: Applied Machine Learning to Microbiology
   * __Supervisor__: [Dr. Belén Rodríguez-Sánchez](https://scholar.google.es/citations?user=W9sZbBoAAAAJ&hl=es)
 
 * 2020-present: Ph.D. Candidate
   * __Company__: Universidad Carlos III de Madrid, Signal Theory and Communications Department
-  * __Field__: Machine Learning
+  * __Field__: Bayesian Machine Learning.
   * __Supervisors__: [Dr. Pablo M. Olmos](https://www.tsc.uc3m.es/~olmos/) and [Dr. Vanessa Gómez-Verdejo](https://vanessa.webs.tsc.uc3m.es)
 
 * 2019-2020: Research Assistant
   * __Company__: Universidad Carlos III de Madrid, Signal Theory and Communications Department
-  * __Field__: Machine Learning
+  * __Field__: Bayesian Machine Learning
   * __Supervisor__: [Dr. Pablo M. Olmos](https://www.tsc.uc3m.es/~olmos/)
   
 * 2018-2019: Telecommunication Engineer
@@ -51,9 +51,9 @@ Publications
   
 Reviewing
 ======
-* Engineering Applications of Artificial Intelligence, [certificated](https://aguerrerolopez.github.io/images/Certificate_EAAI_Recognised.pdf), [EAAI](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence), 2023
-* Artificial Intelligence and Statistics, [certified](http://aistats.org/aistats2023/reviewers.html), [AISTATS](http://aistats.org/aistats2023/), 2023
-* Clinical Microbiology and Infection, [CMI](https://www.sciencedirect.com/journal/clinical-microbiology-and-infection), Elsevier
+* Engineering Applications of Artificial Intelligence, [certificate](https://aguerrerolopez.github.io/images/Certificate_EAAI_Recognised.pdf), [EAAI](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence), 2023
+* Artificial Intelligence and Statistics, [certificate](http://aistats.org/aistats2023/reviewers.html), [AISTATS](http://aistats.org/aistats2023/), 2023
+* Clinical Microbiology and Infection, [CMI](https://www.sciencedirect.com/journal/clinical-microbiology-and-infection), Elsevier, 2023
 
 Summer Schools and other trainings
 ======
@@ -75,4 +75,3 @@ Teaching
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
-
