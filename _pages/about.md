@@ -15,13 +15,10 @@ My research endeavors are primarily centered on advancing the field of Machine L
 
 Last news
 ------
+- __April 2023__: Our paper ["Automatic Discrimination of Species within the Enterobacter cloacae Complex Using Matrix-Assisted Laser Desorption Ionization–Time of Flight Mass Spectrometry and Supervised Algorithms"](https://journals.asm.org/doi/abs/10.1128/jcm.01049-22) has been published in Journal of Clinical Microbiology!
 - __February 2023__: Glad to be a reviewer in [EAAI](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence)!
 - __January 2023__: Glad to be a reviewer in [Clinical Microbiology Infections](https://www.clinicalmicrobiologyandinfection.com)!
 - __December 2022__: Glad to be a reviewer in [AISTATS 2023](http://aistats.org/aistats2023/)!!
-- __December 2022__: Our work [Automatic antibiotic resistance prediction in Klebsiella pneumoniae based on MALDI-TOF mass spectra](https://authors.elsevier.com/a/1gAq53OWJ91094) has been officialy __published__ at [Engineering Applications of Artificial Intelligence](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence)!
-  * <img src="../images/ksshiba_kleb.png" width="1000" height="200" />
-- __November 2022__: *NEW PREPRINT!!* Our work [Detecting train driveshaft damages using accelerometer signals and Differential Convolutional Neural Networks](https://arxiv.org/abs/2211.09011) is being peer-reviewed!
-  * <img src="../images/trenes.png" width="1000" height="200" />
 
 
 Short Bio
