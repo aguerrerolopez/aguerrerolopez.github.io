@@ -1,5 +1,5 @@
 ---
-title: "Teaching Assistant in Deep Learning"
+title: "Deep Learning"
 collection: teaching
 type: "Master course"
 permalink: /teaching/2023-DeepLearningMaster
