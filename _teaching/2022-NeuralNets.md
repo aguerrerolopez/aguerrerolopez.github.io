@@ -1,5 +1,5 @@
 ---
-title: "Tutor in 'Neural Networks'"
+title: "Neural Networks"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2022-NeuralNets
