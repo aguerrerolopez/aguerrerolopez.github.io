@@ -1,5 +1,5 @@
 ---
-title: "Tutor in 'Machine Learning applications'"
+title: "Machine Learning applications"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2022-MLApps
