@@ -1,5 +1,5 @@
 ---
-title: "Teaching Assistant in AI in Health"
+title: "AI in Health"
 collection: teaching
 type: "Master course"
 permalink: /teaching/2023-AIHealth
