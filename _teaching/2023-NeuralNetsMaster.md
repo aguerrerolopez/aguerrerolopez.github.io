@@ -1,5 +1,5 @@
 ---
-title: "Teaching Assistant in Neural Networks"
+title: "Neural Networks"
 collection: teaching
 type: "Master course"
 permalink: /teaching/2023-NeuralNetsMaster
