@@ -15,7 +15,8 @@ My research endeavors are primarily centered on advancing the field of Machine L
 
 Last news
 ------
-- __April 2023__: I'll be volunteering at the [AISTATS 2023](http://aistats.org/aistats2023/) in Valencia!
+- __May 2023__: NERVOUS to announce that I am going to defend my PhD thesis on the 31st of May at UC3M!
+- __April 2023__: Such a nice week attending to [AISTATS 2023](http://aistats.org/aistats2023/) in Valencia where I was a volunteer!
 - __April 2023__: Our paper ["Automatic Discrimination of Species within the Enterobacter cloacae Complex Using Matrix-Assisted Laser Desorption Ionization–Time of Flight Mass Spectrometry and Supervised Algorithms"](https://journals.asm.org/doi/abs/10.1128/jcm.01049-22) has been published in Journal of Clinical Microbiology!
 - __February 2023__: Glad to be a reviewer in [EAAI](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence)!
 - __January 2023__: Glad to be a reviewer in [Clinical Microbiology Infections](https://www.clinicalmicrobiologyandinfection.com)!
