@@ -22,7 +22,7 @@ Furthermore, I have a deep interest in the fields of eXplainable AI (XAI) and et
 Last news
 ------
 - __June 2023__: Excited to embark on a new journey as a postdoctoral researcher at the [Bioengineering and Optoelectronics Group](http://www.byo.upm.es/BYO) in UPM!
-- __June 2023__:  I am thrilled to announce that I have successfully obtained my Ph.D. titled "Clinical Microbiology with Multi-view deep probabilistic models" with honors!
+- __June 2023__:  I am thrilled to announce that I have successfully obtained my Ph.D. titled ["Clinical Microbiology with Multi-view deep probabilistic models"](http://aguerrerolopez.me/files/Tesis_GuerreroLopez_AlejandroJorge_FormatoWeb.pdf) with honors!
 - __May 2023__: With a mix of nervousness and excitement, I am pleased to share that I will be defending my Ph.D. thesis on May 31st at UC3M.
 - __April 2023__:  It was a fantastic week attending [AISTATS 2023](http://aistats.org/aistats2023/) in Valencia, where I had the privilege of volunteering!
 - __April 2023__: Our paper ["Automatic Discrimination of Species within the Enterobacter cloacae Complex Using Matrix-Assisted Laser Desorption Ionization–Time of Flight Mass Spectrometry and Supervised Algorithms"](https://journals.asm.org/doi/abs/10.1128/jcm.01049-22) has been published in Journal of Clinical Microbiology!
