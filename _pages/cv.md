@@ -18,9 +18,9 @@ Education
 
 Work experience
 ======
-* 2023-presnt: Postdoctoral researcher
+* 2023-present: Postdoctoral researcher
   * __Company__: [Universidad Politécnica de Madrid (UPM)](https://www.upm.es), [Bioengineering and Optoelectronics Group](http://www.byo.upm.es/BYO/research)
-  * __Field__: Applied Machine Learning to Neurology
+  * __Field__: Bayesian Machine Learning applied to Neurology
   * __Supervisor__: [Dr. Juan Ignacio Godino Llorente](http://www.byo.upm.es/BYO/people/juan-ignacio-godino-llorente)
 
 * 2021-2023: Ph.D. Candidate
@@ -28,9 +28,9 @@ Work experience
   * __Field__: Applied Machine Learning to Microbiology
   * __Supervisor__: [Dr. Belén Rodríguez-Sánchez](https://scholar.google.es/citations?user=W9sZbBoAAAAJ&hl=es)
 
-* 2020-2023t: Ph.D. Candidate
+* 2020-2023: Ph.D. Candidate
   * __Company__: Universidad Carlos III de Madrid, Signal Theory and Communications Department
-  * __Field__: Bayesian Machine Learning.
+  * __Field__: Bayesian Machine Learning
   * __Supervisors__: [Dr. Pablo M. Olmos](https://www.tsc.uc3m.es/~olmos/) and [Dr. Vanessa Gómez-Verdejo](https://vanessa.webs.tsc.uc3m.es)
 
 * 2019-2020: Research Assistant
