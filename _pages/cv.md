@@ -13,8 +13,8 @@ Education
 ======
 
 * Ph.D. in Bayesian Machine Learning applied to Personalised Medicine, [Universidad Carlos III de Madrid](https://www.uc3m.es/Home), May 2023
-* M.Sc. in Information Health Engineering, [Universidad Carlos III de Madrid](https://www.uc3m.es/Home), 2020
-* B.Sc. in Telematic Engineering, [Universitat de les Illes Balears](https://www.uib.es/es/), 2019
+* M.Sc. in Information Health Engineering, [Universidad Carlos III de Madrid](https://www.uc3m.es/Home), June 2020
+* B.Sc. in Telematic Engineering, [Universitat de les Illes Balears](https://www.uib.es/es/), June 2019
 
 Work experience
 ======
