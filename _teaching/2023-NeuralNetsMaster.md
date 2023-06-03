@@ -3,7 +3,7 @@ title: "Neural Networks"
 collection: teaching
 type: "Master course"
 permalink: /teaching/2023-NeuralNetsMaster
-venue: "Universidad Carlos III de Madrid, [Master in Applied Artificial Intelligence](https://www.uc3m.es/master/applied-artificial-intelligence#curriculum)"
+venue: "Universidad Carlos III de Madrid, Master in Applied Artificial Intelligence"
 date: 2022-09-01
 location: "Madrid, Spain"
 ---
