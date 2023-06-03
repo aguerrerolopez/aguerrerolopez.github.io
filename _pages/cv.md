@@ -12,18 +12,23 @@ redirect_from:
 Education
 ======
 
-* Ph.D. in Machine Learning applied to Personalised Medicine, [Universidad Carlos III de Madrid](https://www.uc3m.es/Home), May 2023
+* Ph.D. in Bayesian Machine Learning applied to Personalised Medicine, [Universidad Carlos III de Madrid](https://www.uc3m.es/Home), May 2023
 * M.Sc. in Information Health Engineering, [Universidad Carlos III de Madrid](https://www.uc3m.es/Home), 2020
 * B.Sc. in Telematic Engineering, [Universitat de les Illes Balears](https://www.uib.es/es/), 2019
 
 Work experience
 ======
-* 2021-present: Ph.D. Candidate
+* 2023-presnt: Postdoctoral researcher
+  * __Company__: [Universidad Politécnica de Madrid (UPM)](https://www.upm.es), [Bioengineering and Optoelectronics Group](http://www.byo.upm.es/BYO/research)
+  * __Field__: Applied Machine Learning to Neurology
+  * __Supervisor__: [Dr. Juan Ignacio Godino Llorente](http://www.byo.upm.es/BYO/people/juan-ignacio-godino-llorente)
+
+* 2021-2023: Ph.D. Candidate
   * __Company__: [Gregorio Marañon Health Research Institute](https://www.iisgm.com/), Microbiology and Infectious Diseases Department
   * __Field__: Applied Machine Learning to Microbiology
   * __Supervisor__: [Dr. Belén Rodríguez-Sánchez](https://scholar.google.es/citations?user=W9sZbBoAAAAJ&hl=es)
 
-* 2020-present: Ph.D. Candidate
+* 2020-2023t: Ph.D. Candidate
   * __Company__: Universidad Carlos III de Madrid, Signal Theory and Communications Department
   * __Field__: Bayesian Machine Learning.
   * __Supervisors__: [Dr. Pablo M. Olmos](https://www.tsc.uc3m.es/~olmos/) and [Dr. Vanessa Gómez-Verdejo](https://vanessa.webs.tsc.uc3m.es)
