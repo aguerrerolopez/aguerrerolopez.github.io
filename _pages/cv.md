@@ -107,7 +107,7 @@ Teaching
 <div id="undergraduate-section" class="section-content">
   {% for post in site.teaching %}
     {% if post.type == "Undergraduate course" %}
-      {% include archive-single.html %}
+      {% include archive-single-cv.html %}
     {% endif %}
   {% endfor %}
 </div>
@@ -117,7 +117,7 @@ Teaching
 <div id="bt-section" class="section-content">
   {% for post in site.teaching %}
     {% if post.type == "Bachelor Thesis" %}
-      {% include archive-single.html %}
+      {% include archive-single-cv.html %}
     {% endif %}
   {% endfor %}
 </div>
@@ -127,7 +127,7 @@ Teaching
 <div id="master-section" class="section-content">
   {% for post in site.teaching %}
     {% if post.type == "Master course" %}
-      {% include archive-single.html %}
+      {% include archive-single-cv.html %}
     {% endif %}
   {% endfor %}
 </div>
@@ -137,7 +137,7 @@ Teaching
 <div id="mt-section" class="section-content">
   {% for post in site.teaching %}
     {% if post.type == "Master Thesis" %}
-      {% include archive-single.html %}
+      {% include archive-single-cv.html %}
     {% endif %}
   {% endfor %}
 </div>
@@ -148,7 +148,7 @@ Teaching
 <div id="corporate-section" class="section-content">
   {% for post in site.teaching %}
     {% if post.type == "Corporate training" %}
-      {% include archive-single.html %}
+      {% include archive-single-cv.html %}
     {% endif %}
   {% endfor %}
 </div>
