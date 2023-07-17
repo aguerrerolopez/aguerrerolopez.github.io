@@ -11,6 +11,15 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
+{% assign sorted_publications = site.publications | sort: 'date' | reverse %}
+
+{% for post in sorted_publications %}
+  {% capture current_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+  
+  {% unless year == current_year %}
+    {% assign year = current_year %}
+    <h2>{{ year }}</h2>
+  {% endunless %}
+  
   {% include archive-single.html %}
 {% endfor %}
