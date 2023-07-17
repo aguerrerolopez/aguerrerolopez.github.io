@@ -76,7 +76,27 @@ Talks
   
 Teaching
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
+  <!-- Undergraduate Courses -->
+<h2>Undergraduate Courses</h2>
+{% for post in site.teaching %}
+  {% if post.type == "Undergraduate course" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+<!-- Master Programs -->
+<h2>Master Programs</h2>
+{% for post in site.teaching %}
+  {% if post.type == "Master course" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+<!-- Corporate Training -->
+<h2>Corporate Training</h2>
+{% for post in site.teaching %}
+  {% if post.type == "Corporate training" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
   
