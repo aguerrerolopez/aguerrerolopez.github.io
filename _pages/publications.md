@@ -18,8 +18,48 @@ author_profile: true
   
   {% unless year == current_year %}
     {% assign year = current_year %}
-    {{ year }}
+    <h2 class="year-toggle" onclick="toggleYear('{{ year }}')">{{ year }} <span id="toggle-icon-{{ year }}" class="toggle-icon">+</span></h2>
+    <div id="publications-{{ year }}" class="publications-section">
   {% endunless %}
   
   {% include archive-single.html %}
+  
+  {% if forloop.last %}
+    </div>
+  {% else %}
+    {% capture next_post_year %}{{ sorted_publications[forloop.index].date | date: "%Y" }}{% endcapture %}
+    {% if year != next_post_year %}
+      </div>
+    {% endif %}
+  {% endif %}
 {% endfor %}
+
+<script>
+function toggleYear(year) {
+  var publicationsSection = document.getElementById("publications-" + year);
+  var toggleIcon = document.getElementById("toggle-icon-" + year);
+  
+  if (publicationsSection.style.display === "none") {
+    publicationsSection.style.display = "block";
+    toggleIcon.innerHTML = "-";
+  } else {
+    publicationsSection.style.display = "none";
+    toggleIcon.innerHTML = "+";
+  }
+}
+</script>
+
+<style>
+.year-toggle {
+  cursor: pointer;
+}
+
+.publications-section {
+  display: none;
+  margin-bottom: 20px;
+}
+
+.toggle-icon {
+  margin-left: 5px;
+}
+</style>
