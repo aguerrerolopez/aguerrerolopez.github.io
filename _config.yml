@@ -11,7 +11,7 @@ title                    : "Alejandro Guerrero-López"
 title_separator          : "-"
 name                     : &name "Alejandro Guerrero-López"
 description              : &description "Postdoctoral researcher in Bayesian Machine Learning"
-url                      : "https://aguerrerolopez.me" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://aguerrerolopez.me" 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "aguerrerolopez/aguerrerolopez.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -87,7 +87,7 @@ author:
   employer         : "Universidad Politécnica de Madrid"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=z1Cqb6AAAAAJ&hl=es"
-  email            : "alexjorguer@tsc.uc3m.es"
+  email            : "alejandro.guerrero@upm.es"
   researchgate     :  "https://www.researchgate.net/profile/Alejandro-Guerrero-Lopez"
   uri              :
   bitbucket        :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/alexjorguer27/"
   orcid            : "https://orcid.org/0000-0001-8869-3363"
   pinterest        :
   soundcloud       :
