@@ -16,11 +16,11 @@ author_profile: true
 {% for post in sorted_publications %}
   {% capture current_year %}{{ post.date | date: "%Y" }}{% endcapture %}
   
-
+  {% unless year == current_year %}
     {% assign year = current_year %}
     <h2 class="year-toggle" onclick="toggleYear('{{ year }}')">{{ year }} <span id="toggle-icon-{{ year }}" class="toggle-icon">+</span></h2>
     <div id="publications-{{ year }}" class="publications-section">
-
+  {% endunless %}
   
   {% include archive-single.html %}
   
@@ -29,7 +29,7 @@ author_profile: true
   {% else %}
     {% capture next_post_year %}{{ sorted_publications[forloop.index].date | date: "%Y" }}{% endcapture %}
     {% if year != next_post_year %}
-    
+      </div>
     {% endif %}
   {% endif %}
 {% endfor %}
