@@ -2,7 +2,7 @@
 title: "Neural Networks"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/2022-NeuralNets
+permalink: /teaching/2022-U-NeuralNets
 venue: "Carlos III International School, Bachelor in Data Science and Engineering"
 date: 2022-03-01
 location: "Madrid, Spain"
