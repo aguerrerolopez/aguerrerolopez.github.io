@@ -52,15 +52,12 @@ Publications
 ======
 
 {% assign sorted_publications = site.publications | sort: 'date' | reverse %}
-
 {% for post in sorted_publications %}
   {% capture current_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-  
   {% unless year == current_year %}
     {% assign year = current_year %}
 ## {{ year }}
   {% endunless %}
-  
   {% include archive-single-cv.html %}
 {% endfor %}
   
