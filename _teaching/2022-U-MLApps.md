@@ -2,7 +2,7 @@
 title: "Machine Learning applications"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/2022-MLApps
+permalink: /teaching/2022-U-MLApps
 venue: "Carlos III International School, Bachelor in Data Science and Engineering"
 date: 2022-03-01
 location: "Madrid, Spain"
