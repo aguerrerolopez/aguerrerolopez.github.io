@@ -62,7 +62,7 @@ Publications
     {% if forloop.last %}
       {% assign last_year = year %}
     {% endif %}
-* <h3 class="year-toggle{% if year == last_year %} open{% endif %}">{{ year }} <span class="toggle-icon">+</span></h3>
+<h3 class="year-toggle{% if year == last_year %} open{% endif %}">{{ year }} <span class="toggle-icon">+</span></h3>
 <div id="publications-{{ year }}" class="publications-section{% if year == last_year %} open{% endif %}">
   {% endunless %}
   
