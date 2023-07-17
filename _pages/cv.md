@@ -101,30 +101,80 @@ Talks
 Teaching
 ======
 <!-- Undergraduate Courses -->
-## Undergraduate Courses
-{% for post in site.teaching %}
-  {% if post.type == "Undergraduate course" %}
-    {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
+<h3 class="section-toggle" onclick="toggleSection('undergraduate-section')">Undergraduate Courses <span id="toggle-icon-undergraduate-section" class="toggle-icon">+</span></h3>
+<div id="undergraduate-section" class="section-content">
+  {% for post in site.teaching %}
+    {% if post.type == "Undergraduate course" %}
+      {% include archive-single.html %}
+    {% endif %}
+  {% endfor %}
+</div>
+
+<!-- Bachelor Theses -->
+<h3 class="section-toggle" onclick="toggleSection('bt-section')">Bachelor Theses <span id="toggle-icon-corporate-section" class="toggle-icon">+</span></h3>
+<div id="bt-section" class="section-content">
+  {% for post in site.teaching %}
+    {% if post.type == "Bachelor Thesis" %}
+      {% include archive-single.html %}
+    {% endif %}
+  {% endfor %}
+</div>
 
 <!-- Master Programs -->
-## Master Programs
-{% for post in site.teaching %}
-  {% if post.type == "Master course" %}
-    {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
+<h3 class="section-toggle" onclick="toggleSection('master-section')">Master Programs <span id="toggle-icon-master-section" class="toggle-icon">+</span></h3>
+<div id="master-section" class="section-content">
+  {% for post in site.teaching %}
+    {% if post.type == "Master course" %}
+      {% include archive-single.html %}
+    {% endif %}
+  {% endfor %}
+</div>
+
+<!-- Master Theses -->
+<h3 class="section-toggle" onclick="toggleSection('mt-section')">Master Theses <span id="toggle-icon-corporate-section" class="toggle-icon">+</span></h3>
+<div id="mt-section" class="section-content">
+  {% for post in site.teaching %}
+    {% if post.type == "Master Thesis" %}
+      {% include archive-single.html %}
+    {% endif %}
+  {% endfor %}
+</div>
+
 
 <!-- Corporate Training -->
-## Corporate Training
-{% for post in site.teaching %}
-  {% if post.type == "Corporate training" %}
-    {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
+<h3 class="section-toggle" onclick="toggleSection('corporate-section')">Corporate Training <span id="toggle-icon-corporate-section" class="toggle-icon">+</span></h3>
+<div id="corporate-section" class="section-content">
+  {% for post in site.teaching %}
+    {% if post.type == "Corporate training" %}
+      {% include archive-single.html %}
+    {% endif %}
+  {% endfor %}
+</div>
 
 
+
+
+
+<style>
+.section-toggle {
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.section-content {
+  display: none;
+  margin-bottom: 20px;
+}
+
+.toggle-icon {
+  margin-left: 5px;
+}
+
+.publications-section {
+  display: none;
+  margin-bottom: 20px;
+}
+</style>
 
 
 
@@ -144,20 +194,19 @@ yearToggles.forEach(function(toggle) {
     }
   });
 });
+function toggleSection(sectionId) {
+  var sectionContent = document.getElementById(sectionId);
+  var toggleIcon = document.getElementById("toggle-icon-" + sectionId);
+  
+  if (sectionContent.style.display === "none") {
+    sectionContent.style.display = "block";
+    toggleIcon.innerHTML = "-";
+  } else {
+    sectionContent.style.display = "none";
+    toggleIcon.innerHTML = "+";
+  }
+}
 </script>
 
-<style>
-.year-toggle {
-  cursor: pointer;
-}
 
-.publications-section {
-  display: none;
-  margin-bottom: 20px;
-}
-
-.toggle-icon {
-  margin-left: 5px;
-}
-</style>
 
