@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning applications"
+title: "Machine Learning Applications"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2022-U-MLApps
