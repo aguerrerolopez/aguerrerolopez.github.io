@@ -76,8 +76,8 @@ Talks
   
 Teaching
 ======
-  <!-- Undergraduate Courses -->
-<h2>Undergraduate Courses</h2>
+<!-- Undergraduate Courses -->
+## Undergraduate Courses
 {% for post in site.teaching %}
   {% if post.type == "Undergraduate course" %}
     {% include archive-single.html %}
@@ -85,7 +85,7 @@ Teaching
 {% endfor %}
 
 <!-- Master Programs -->
-<h2>Master Programs</h2>
+## Master Programs
 {% for post in site.teaching %}
   {% if post.type == "Master course" %}
     {% include archive-single.html %}
@@ -93,10 +93,10 @@ Teaching
 {% endfor %}
 
 <!-- Corporate Training -->
-<h2>Corporate Training</h2>
+## Corporate Training
 {% for post in site.teaching %}
   {% if post.type == "Corporate training" %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
-  
+
