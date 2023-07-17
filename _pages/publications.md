@@ -5,13 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 
----
-layout: archive
-title: "Publications"
-permalink: /publications/
-author_profile: true
----
-
 {% if author.googlescholar %}
   You can also find my articles on [my Google Scholar profile]({{author.googlescholar}}).
 {% endif %}
