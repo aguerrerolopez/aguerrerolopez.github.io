@@ -1,7 +1,7 @@
 ---
 title: "Machine Learning Fundamentals"
 collection: teaching
-type: "BBVA"
+type: "Corporate training"
 permalink: /teaching/2022-C-BBVA
 venue: "Fundación Carlos III de Madrid"
 date: 2022-01-01
