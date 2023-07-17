@@ -18,38 +18,8 @@ author_profile: true
   
   {% unless year == current_year %}
     {% assign year = current_year %}
-    <details>
-      <summary class="year-toggle">{{ year }}</summary>
-      <div id="publications-{{ year }}" class="publications-section">
+    ## {{ year }}
   {% endunless %}
   
   {% include archive-single.html %}
-  
-  {% if forloop.last %}
-      </div>
-    </details>
-  {% else %}
-    {% capture next_post_year %}{{ sorted_publications[forloop.index].date | date: "%Y" }}{% endcapture %}
-    {% if year != next_post_year %}
-      </div>
-    </details>
-    {% endif %}
-  {% endif %}
 {% endfor %}
-
-<style>
-.year-toggle {
-  cursor: pointer;
-  font-weight: bold;
-}
-
-.publications-section {
-  margin-left: 1em;
-  margin-bottom: 1em;
-}
-
-details:not([open]) .publications-section {
-  display: none;
-}
-</style>
-
