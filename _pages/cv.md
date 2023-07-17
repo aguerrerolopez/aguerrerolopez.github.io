@@ -104,8 +104,8 @@ Talks
 
   {% unless last_year == current_year %}
     {% assign last_year = current_year %}
-    <h3 class="year-toggle">{{ last_year }} <span class="toggle-icon">+</span></h3>
-    <div class="year-content">
+<h3 class="year-toggle">{{ last_year }} <span class="toggle-icon">+</span></h3>
+<div class="year-content">
   {% endunless %}
 
   {% include archive-single-talk.html %}
