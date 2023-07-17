@@ -21,7 +21,7 @@ Work experience
 * 2023-present: Postdoctoral researcher
   * __Company__: [Universidad Politécnica de Madrid (UPM)](https://www.upm.es), [Bioengineering and Optoelectronics Group](http://www.byo.upm.es/BYO/research)
   * __Field__: Bayesian Machine Learning applied to Neurology
-  * __Supervisor__: [Dr. Juan Ignacio Godino Llorente](http://www.byo.upm.es/BYO/people/juan-ignacio-godino-llorente)
+  * __Supervisor__: [Prof. Juan Ignacio Godino Llorente](http://www.byo.upm.es/BYO/people/juan-ignacio-godino-llorente)
 
 * 2021-2023: Ph.D. Candidate
   * __Company__: [Gregorio Marañon Health Research Institute](https://www.iisgm.com/), Microbiology and Infectious Diseases Department
