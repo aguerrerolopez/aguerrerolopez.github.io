@@ -96,6 +96,7 @@ Summer Schools and other trainings
 
 Talks
 ======
+
 {% assign sorted_talks = site.talks | sort: 'date' | reverse %}
 {% assign last_year = "" %}
 
@@ -104,14 +105,11 @@ Talks
 
   {% unless last_year == current_year %}
     {% assign last_year = current_year %}
-    {% if forloop.last %}
-      {% assign last_year = year %}
-    {% endif %}
 <h3 class="year-toggle">{{ last_year }} <span class="toggle-icon">+</span></h3>
 <div class="year-content">
   {% endunless %}
 
-  {% include archive-single-talk.html %}
+  {% include archive-single-talk-cv.html %}
 
   {% if forloop.last %}
     </div>
@@ -122,6 +120,7 @@ Talks
     {% endif %}
   {% endif %}
 {% endfor %}
+
   
 Teaching
 ======
