@@ -52,8 +52,8 @@ Publications
 ======
 
 {% assign sorted_publications = site.publications | sort: 'date' | reverse %}
-
 {% assign last_year = "" %}
+
 {% for post in sorted_publications %}
   {% capture current_year %}{{ post.date | date: "%Y" }}{% endcapture %}
   
@@ -104,6 +104,9 @@ Talks
 
   {% unless last_year == current_year %}
     {% assign last_year = current_year %}
+    {% if forloop.last %}
+      {% assign last_year = year %}
+    {% endif %}
 <h3 class="year-toggle">{{ last_year }} <span class="toggle-icon">+</span></h3>
 <div class="year-content">
   {% endunless %}
