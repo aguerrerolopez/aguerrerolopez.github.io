@@ -29,7 +29,7 @@ author_profile: true
   {% else %}
     {% capture next_post_year %}{{ sorted_publications[forloop.index].date | date: "%Y" }}{% endcapture %}
     {% if year != next_post_year %}
-      </div>
+    
     {% endif %}
   {% endif %}
 {% endfor %}
