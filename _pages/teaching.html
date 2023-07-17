@@ -7,26 +7,63 @@ author_profile: true
 
 {% include base_path %}
 
+<script>
+function toggleSection(sectionId) {
+  var sectionContent = document.getElementById(sectionId);
+  var toggleIcon = document.getElementById("toggle-icon-" + sectionId);
+  
+  if (sectionContent.style.display === "none") {
+    sectionContent.style.display = "block";
+    toggleIcon.innerHTML = "-";
+  } else {
+    sectionContent.style.display = "none";
+    toggleIcon.innerHTML = "+";
+  }
+}
+</script>
+
+<style>
+.section-toggle {
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.section-content {
+  display: none;
+  margin-bottom: 20px;
+}
+
+.toggle-icon {
+  margin-left: 5px;
+}
+</style>
+
 <!-- Undergraduate Courses -->
-<h2>Undergraduate Courses</h2>
-{% for post in site.teaching %}
-  {% if post.type == "Undergraduate course" %}
-    {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
+<h2 class="section-toggle" onclick="toggleSection('undergraduate-section')">Undergraduate Courses <span id="toggle-icon-undergraduate-section" class="toggle-icon">+</span></h2>
+<div id="undergraduate-section" class="section-content">
+  {% for post in site.teaching %}
+    {% if post.type == "Undergraduate course" %}
+      {% include archive-single.html %}
+    {% endif %}
+  {% endfor %}
+</div>
 
 <!-- Master Programs -->
-<h2>Master Programs</h2>
-{% for post in site.teaching %}
-  {% if post.type == "Master course" %}
-    {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
+<h2 class="section-toggle" onclick="toggleSection('master-section')">Master Programs <span id="toggle-icon-master-section" class="toggle-icon">+</span></h2>
+<div id="master-section" class="section-content">
+  {% for post in site.teaching %}
+    {% if post.type == "Master course" %}
+      {% include archive-single.html %}
+    {% endif %}
+  {% endfor %}
+</div>
 
 <!-- Corporate Training -->
-<h2>Corporate Training</h2>
-{% for post in site.teaching %}
-  {% if post.type == "Corporate training" %}
-    {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
+<h2 class="section-toggle" onclick="toggleSection('corporate-section')">Corporate Training <span id="toggle-icon-corporate-section" class="toggle-icon">+</span></h2>
+<div id="corporate-section" class="section-content">
+  {% for post in site.teaching %}
+    {% if post.type == "Corporate training" %}
+      {% include archive-single.html %}
+    {% endif %}
+  {% endfor %}
+</div>
