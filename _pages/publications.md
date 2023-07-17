@@ -18,7 +18,7 @@ author_profile: true
   
   {% unless year == current_year %}
     {% assign year = current_year %}
-    ## {{ year }}
+## {{ year }}
   {% endunless %}
   
   {% include archive-single.html %}
