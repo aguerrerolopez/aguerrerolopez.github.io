@@ -48,6 +48,16 @@ function toggleSection(sectionId) {
   {% endfor %}
 </div>
 
+<!-- Bachelor Theses -->
+<h2 class="section-toggle" onclick="toggleSection('bt-section')">Bachelor Theses <span id="toggle-icon-corporate-section" class="toggle-icon">+</span></h2>
+<div id="bt-section" class="section-content">
+  {% for post in site.teaching %}
+    {% if post.type == "Bachelor Thesis" %}
+      {% include archive-single.html %}
+    {% endif %}
+  {% endfor %}
+</div>
+
 <!-- Master Programs -->
 <h2 class="section-toggle" onclick="toggleSection('master-section')">Master Programs <span id="toggle-icon-master-section" class="toggle-icon">+</span></h2>
 <div id="master-section" class="section-content">
@@ -57,6 +67,17 @@ function toggleSection(sectionId) {
     {% endif %}
   {% endfor %}
 </div>
+
+<!-- Master Theses -->
+<h2 class="section-toggle" onclick="toggleSection('mt-section')">Master Theses <span id="toggle-icon-corporate-section" class="toggle-icon">+</span></h2>
+<div id="mt-section" class="section-content">
+  {% for post in site.teaching %}
+    {% if post.type == "Master Thesis" %}
+      {% include archive-single.html %}
+    {% endif %}
+  {% endfor %}
+</div>
+
 
 <!-- Corporate Training -->
 <h2 class="section-toggle" onclick="toggleSection('corporate-section')">Corporate Training <span id="toggle-icon-corporate-section" class="toggle-icon">+</span></h2>
