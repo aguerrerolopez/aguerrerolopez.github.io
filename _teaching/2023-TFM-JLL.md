@@ -7,6 +7,6 @@ venue: "Master in Applied Artificial Intelligence, Universidad Carlos III de Mad
 date: 2023-07-03
 location: "Madrid, Spain"
 ---
-Developing a Deep Learning models to predict antibiotic-resistant bacteria in multi-domain datasets. 
+Developing Deep Learning models to predict antibiotic-resistant bacteria in multi-domain datasets. 
 
 Mark: 9,2/10
