@@ -46,7 +46,7 @@ Work experience
 * 2017-2018: Research Assistant
   * __Company__: Universitat de les Illes Balears, [UGIVIA](http://ugivia.uib.es/membres/) group
   * __Field__: Computer Vision
-  * __Supervisors__: [Dr. Francisco J. Perales](https://www.uib.es/es/personal/ABDMyNjY/) and [Dr. Silvia Ramis](https://www.uib.cat/personal/ABjExMTI3OA/)
+  * __Supervisors__: [Prof. Francisco J. Perales](https://www.uib.es/es/personal/ABDMyNjY/) and [Dr. Silvia Ramis](https://www.uib.cat/personal/ABjExMTI3OA/)
 
 Publications
 ======
