@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 {% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+  You can also find my articles on [my Google Scholar profile]({{author.googlescholar}}).
 {% endif %}
 
 {% include base_path %}
@@ -18,7 +18,7 @@ author_profile: true
   
   {% unless year == current_year %}
     {% assign year = current_year %}
-    <h2 class="year-toggle" onclick="toggleYear('{{ year }}')">{{ year }} <span id="toggle-icon-{{ year }}" class="toggle-icon">+</span></h2>
+    <h2 class="year-toggle">{{ year }} <span class="toggle-icon">+</span></h2>
     <div id="publications-{{ year }}" class="publications-section">
   {% endunless %}
   
@@ -35,18 +35,21 @@ author_profile: true
 {% endfor %}
 
 <script>
-function toggleYear(year) {
-  var publicationsSection = document.getElementById("publications-" + year);
-  var toggleIcon = document.getElementById("toggle-icon-" + year);
-  
-  if (publicationsSection.style.display === "none") {
-    publicationsSection.style.display = "block";
-    toggleIcon.innerHTML = "-";
-  } else {
-    publicationsSection.style.display = "none";
-    toggleIcon.innerHTML = "+";
-  }
-}
+var yearToggles = document.querySelectorAll('.year-toggle');
+yearToggles.forEach(function(toggle) {
+  toggle.addEventListener('click', function() {
+    var publicationsSection = this.nextElementSibling;
+    var toggleIcon = this.querySelector('.toggle-icon');
+    
+    if (publicationsSection.style.display === 'none') {
+      publicationsSection.style.display = 'block';
+      toggleIcon.innerHTML = '-';
+    } else {
+      publicationsSection.style.display = 'none';
+      toggleIcon.innerHTML = '+';
+    }
+  });
+});
 </script>
 
 <style>
