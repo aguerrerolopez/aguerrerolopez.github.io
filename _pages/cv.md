@@ -66,7 +66,7 @@ Publications
 <div id="publications-{{ year }}" class="publications-section{% if year == last_year %} open{% endif %}">
   {% endunless %}
   
-  {% include archive-single.html %}
+  {% include archive-single-cv.html %}
   
   {% if forloop.last %}
     </div>
