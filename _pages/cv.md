@@ -96,9 +96,29 @@ Summer Schools and other trainings
 
 Talks
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
+{% assign sorted_talks = site.talks | sort: 'date' | reverse %}
+{% assign last_year = "" %}
+
+{% for post in sorted_talks %}
+  {% capture current_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+
+  {% unless last_year == current_year %}
+    {% assign last_year = current_year %}
+    <h3 class="year-toggle">{{ last_year }} <span class="toggle-icon">+</span></h3>
+    <div class="year-content">
+  {% endunless %}
+
+  {% include archive-single-talk.html %}
+
+  {% if forloop.last %}
+    </div>
+  {% else %}
+    {% capture next_talk_year %}{{ sorted_talks[forloop.index].date | date: "%Y" }}{% endcapture %}
+    {% if next_talk_year != last_year %}
+      </div>
+    {% endif %}
+  {% endif %}
+{% endfor %}
   
 Teaching
 ======
