@@ -17,6 +17,7 @@ Currently, I am a postdoctoral researcher at the [Bioengineering and Optoelectro
 
 Last news
 ------
+- __July 2023__: Our paper [Detecting train driveshaft damages using accelerometer signals and Differential Convolutional Neural Networks Networks](https://arxiv.org/abs/2211.09011) has been accepted for publication in the [Engineering Applications of Artificial Intelligence](https://www.journals.elsevier.com/engineering-applications-of-artificial-intelligence) journal!
 - __June 2023__: Excited to embark on a new journey as a postdoctoral researcher at the [Bioengineering and Optoelectronics Group](http://www.byo.upm.es/BYO) in UPM!
 - __June 2023__:  I am thrilled to announce that I have successfully obtained my Ph.D. titled ["Clinical Microbiology with Multi-view deep probabilistic models"](http://aguerrerolopez.me/files/Tesis_GuerreroLopez_AlejandroJorge_FormatoWeb.pdf) with honors!
 - __April 2023__:  It was a fantastic week attending [AISTATS 2023](http://aistats.org/aistats2023/) in Valencia, where I had the privilege of volunteering!
