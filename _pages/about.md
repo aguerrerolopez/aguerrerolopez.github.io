@@ -17,8 +17,8 @@ Currently, I am a postdoctoral researcher at the [Bioengineering and Optoelectro
 
 Last news
 ------
+- __August 2023__: Our paper [Detecting train driveshaft damages using accelerometer signals and Differential Convolutional Neural Networks Networks](https://doi.org/10.1016/j.engappai.2023.106840) has been published in the [Engineering Applications of Artificial Intelligence](https://www.journals.elsevier.com/engineering-applications-of-artificial-intelligence) journal!
 - __July 2023__: We've just submitted a new paper titled [Exploring the Power of PPG Matrix for Atrial Fibrillation Detection with Integrated Explainability](http://dx.doi.org/10.2139/ssrn.4514512) to the Computer Methods and Programs in Biomedicine journal.
-- __July 2023__: Our paper [Detecting train driveshaft damages using accelerometer signals and Differential Convolutional Neural Networks Networks](https://arxiv.org/abs/2211.09011) has been accepted for publication in the [Engineering Applications of Artificial Intelligence](https://www.journals.elsevier.com/engineering-applications-of-artificial-intelligence) journal!
 - __June 2023__: Excited to embark on a new journey as a postdoctoral researcher at the [Bioengineering and Optoelectronics Group](http://www.byo.upm.es/BYO) in UPM!
 - __June 2023__:  I am thrilled to announce that I have successfully obtained my Ph.D. titled ["Clinical Microbiology with Multi-view deep probabilistic models"](http://aguerrerolopez.me/files/Tesis_GuerreroLopez_AlejandroJorge_FormatoWeb.pdf) with honors!
 
