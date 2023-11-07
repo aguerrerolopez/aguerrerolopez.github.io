@@ -181,73 +181,47 @@ Teaching
 
 
 <style>
-.section-toggle {
-  cursor: pointer;
-  margin-bottom: 5px;
-}
+  .section-toggle {
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
 
-.section-content {
-  display: none;
-  margin-bottom: 20px;
-}
-
-.toggle-icon {
-  margin-left: 5px;
-}
-
-.publications-section {
-  display: none;
-  margin-bottom: 20px;
-}
-
-.year-content {
-    display: none; /* Hide the content by default */
+  .section-content,
+  .year-content,
+  .publications-section {
+    display: none;
+    margin-bottom: 20px;
   }
 
   .toggle-icon::before {
-    content: "+"; /* Display a plus icon for collapsed content */
+    content: "+";
   }
 </style>
 
-
-
 <script>
-document.querySelectorAll('.year-toggle').forEach(function (toggle) {
+  document.querySelectorAll('.section-toggle, .year-toggle').forEach(function (toggle) {
     toggle.addEventListener('click', function () {
       var content = this.nextElementSibling;
+      var toggleIcon = this.querySelector('.toggle-icon');
       content.style.display = content.style.display === 'none' ? 'block' : 'none';
-      this.querySelector('.toggle-icon').textContent = content.style.display === 'none' ? '+' : '-';
+      toggleIcon.innerHTML = content.style.display === 'none' ? '+' : '-';
     });
   });
 
-var yearToggles = document.querySelectorAll('.year-toggle');
-yearToggles.forEach(function(toggle) {
-  toggle.addEventListener('click', function() {
-    var publicationsSection = this.nextElementSibling;
-    var toggleIcon = this.querySelector('.toggle-icon');
-    
-    if (publicationsSection.style.display === 'none') {
-      publicationsSection.style.display = 'block';
-      toggleIcon.innerHTML = '-';
+  function toggleSection(sectionId) {
+    var sectionContent = document.getElementById(sectionId);
+    var toggleIcon = document.getElementById("toggle-icon-" + sectionId);
+
+    if (sectionContent.style.display === "none") {
+      sectionContent.style.display = "block";
+      toggleIcon.innerHTML = "-";
     } else {
-      publicationsSection.style.display = 'none';
-      toggleIcon.innerHTML = '+';
+      sectionContent.style display = "none";
+      toggleIcon.innerHTML = "+";
     }
-  });
-});
-function toggleSection(sectionId) {
-  var sectionContent = document.getElementById(sectionId);
-  var toggleIcon = document.getElementById("toggle-icon-" + sectionId);
-  
-  if (sectionContent.style.display === "none") {
-    sectionContent.style.display = "block";
-    toggleIcon.innerHTML = "-";
-  } else {
-    sectionContent.style.display = "none";
-    toggleIcon.innerHTML = "+";
   }
-}
 </script>
+
 
 
 
