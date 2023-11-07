@@ -204,9 +204,7 @@ Teaching
     display: none; /* Hide the content by default */
   }
 
-.toggle-icon::before {
-    content: "+"; /* Display a plus icon for collapsed content */
-  }
+
 </style>
 
 
