@@ -100,27 +100,28 @@ Talks
 {% assign sorted_talks = site.talks | sort: 'date' | reverse %}
 {% assign last_year = "" %}
 
-{% for post in sorted_talks %}
-  {% capture current_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+<div class="cv-container">
+  {% for post in sorted_talks %}
+    {% capture current_year %}{{ post.date | date: "%Y" }}{% endcapture %}
 
-  {% unless last_year == current_year %}
-    {% assign last_year = current_year %}
-<h3 class="year-toggle">{{ last_year }} <span class="toggle-icon">+</span></h3>
-<div class="year-content">
-  {% endunless %}
+    {% unless last_year == current_year %}
+      {% assign last_year = current_year %}
+      <h3 class="year-toggle">{{ last_year }} <span class="toggle-icon">+</span></h3>
+      <div class="year-content">
+    {% endunless %}
 
-  {% include archive-single-talk-cv.html %}
+    {% include archive-single-talk-cv.html %}
 
-  {% if forloop.last %}
-    </div>
-  {% else %}
-    {% capture next_talk_year %}{{ sorted_talks[forloop.index].date | date: "%Y" }}{% endcapture %}
-    {% if next_talk_year != last_year %}
+    {% if forloop.last %}
       </div>
+    {% else %}
+      {% capture next_talk_year %}{{ sorted_talks[forloop.index].date | date: "%Y" }}{% endcapture %}
+      {% if next_talk_year != last_year %}
+        </div>
+      {% endif %}
     {% endif %}
-  {% endif %}
-{% endfor %}
-
+  {% endfor %}
+</div>
   
 Teaching
 ======
@@ -198,11 +199,27 @@ Teaching
   display: none;
   margin-bottom: 20px;
 }
+
+.year-content {
+    display: none; /* Hide the content by default */
+  }
+
+  .toggle-icon::before {
+    content: "+"; /* Display a plus icon for collapsed content */
+  }
 </style>
 
 
 
 <script>
+document.querySelectorAll('.year-toggle').forEach(function (toggle) {
+    toggle.addEventListener('click', function () {
+      var content = this.nextElementSibling;
+      content.style.display = content.style.display === 'none' ? 'block' : 'none';
+      this.querySelector('.toggle-icon').textContent = content.style.display === 'none' ? '+' : '-';
+    });
+  });
+
 var yearToggles = document.querySelectorAll('.year-toggle');
 yearToggles.forEach(function(toggle) {
   toggle.addEventListener('click', function() {
