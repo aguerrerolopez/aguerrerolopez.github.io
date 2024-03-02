@@ -17,14 +17,15 @@ author_profile: true
   {% assign publications_in_category = site.publications | where: "category", category %}
 
   {% if publications_in_category.size > 0 %}
-    <h2 class="category-toggle">{{ category | capitalize }} <span class="toggle-icon">+</span></h2>
-    <div id="publications-{{ category | slugify }}" class="publications-section">
+<h2 class="category-toggle">{{ category | capitalize }} <span class="toggle-icon">+</span></h2>
+<div id="publications-{{ category | slugify }}" class="publications-section"></div>
       {% for post in publications_in_category %}
         {% include archive-single.html %}
       {% endfor %}
-    </div>
+    
   {% endif %}
 {% endfor %}
+
 
 <script>
 var categoryToggles = document.querySelectorAll('.category-toggle');
