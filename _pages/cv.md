@@ -9,14 +9,14 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+Academic background
 ======
 
 * Ph.D. in Bayesian Machine Learning applied to Personalised Medicine, [Universidad Carlos III de Madrid](https://www.uc3m.es/Home), May 2023
 * M.Sc. in Information Health Engineering, [Universidad Carlos III de Madrid](https://www.uc3m.es/Home), June 2020
 * B.Sc. in Telematic Engineering, [Universitat de les Illes Balears](https://www.uib.es/es/), June 2019
 
-Work experience
+Professional history
 ======
 * 2023-present: Postdoctoral researcher
   * __Company__: [Universidad Politécnica de Madrid (UPM)](https://www.upm.es), [Bioengineering and Optoelectronics Group](http://www.byo.upm.es/BYO/research)
@@ -57,60 +57,16 @@ Publications
   {% assign publications_in_category = site.publications | where: "category", category %}
 
   {% if publications_in_category.size > 0 %}
-    <h3 class="category-toggle">{{ category | capitalize }} <span class="toggle-icon">+</span></h3>
-    <div id="publications-{{ category | slugify }}" class="publications-section">
+<h2 class="category-toggle">{{ category | capitalize }} <span class="toggle-icon">+</span></h2>
+<div id="publications-{{ category | slugify }}" class="publications-section">
       {% for post in publications_in_category %}
-        {% include archive-single-cv.html %}
+        {% include archive-single.html %}
       {% endfor %}
-    </div>
+</div>
   {% endif %}
 {% endfor %}
 
 
-
-Reviewing
-======
-* Engineering Applications of Artificial Intelligence, [certificate](https://aguerrerolopez.github.io/images/Certificate_EAAI_Recognised.pdf), [EAAI](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence), 2023
-* Artificial Intelligence and Statistics, [certificate](http://aistats.org/aistats2023/reviewers.html), [AISTATS](http://aistats.org/aistats2023/), 2023
-* Clinical Microbiology and Infection, [CMI](https://www.sciencedirect.com/journal/clinical-microbiology-and-infection), Elsevier, 2023
-
-Summer Schools and other trainings
-======
-* [Cambridge Ellis Machine Learning Summer School](http://www.ellis.eng.cam.ac.uk/summerschool/), University of Cambridge, Cambridge, United Kingdom, 2022
-* Digital Health, the regulatory landscape, [Medidee](https://medidee.com), Laussane, Switzerland, 2022
-* Teaching trainee at [DEMOTEC](https://eps.uib.cat/demotec/), UIB, Palma, Spain, 2016 
-* Volunteer instructor at the Science Fair at the [UIB](https://seras.uib.cat/ciencia/2016/) , 2015 and 2016
-
-
-Talks
-======
-
-{% assign sorted_talks = site.talks | sort: 'date' | reverse %}
-{% assign last_year = "" %}
-
-<div class="cv-container">
-  {% for post in sorted_talks %}
-    {% capture current_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-
-    {% unless last_year == current_year %}
-      {% assign last_year = current_year %}
-      <h3 class="year-toggle">{{ last_year }} <span class="toggle-icon">+</span></h3>
-      <div class="year-content">
-    {% endunless %}
-
-    {% include archive-single-talk-cv.html %}
-
-    {% if forloop.last %}
-      </div>
-    {% else %}
-      {% capture next_talk_year %}{{ sorted_talks[forloop.index].date | date: "%Y" }}{% endcapture %}
-      {% if next_talk_year != last_year %}
-        </div>
-      {% endif %}
-    {% endif %}
-  {% endfor %}
-</div>
-  
 Teaching
 ======
 <!-- Undergraduate Courses -->
@@ -164,6 +120,49 @@ Teaching
   {% endfor %}
 </div>
 
+
+Talks
+======
+{% assign sorted_talks = site.talks | sort: 'date' | reverse %}
+{% assign last_year = "" %}
+
+<div class="cv-container">
+  {% for post in sorted_talks %}
+    {% capture current_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+
+    {% unless last_year == current_year %}
+      {% assign last_year = current_year %}
+      <h3 class="year-toggle">{{ last_year }} <span class="toggle-icon">+</span></h3>
+      <div class="year-content">
+    {% endunless %}
+
+    {% include archive-single-talk-cv.html %}
+
+    {% if forloop.last %}
+      </div>
+    {% else %}
+      {% capture next_talk_year %}{{ sorted_talks[forloop.index].date | date: "%Y" }}{% endcapture %}
+      {% if next_talk_year != last_year %}
+        </div>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</div>
+
+Reviewing
+======
+* Engineering Applications of Artificial Intelligence, [certificate](https://aguerrerolopez.github.io/images/Certificate_EAAI_Recognised.pdf), [EAAI](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence), 2023 - currently
+* Artificial Intelligence and Statistics, [certificate](http://aistats.org/aistats2023/reviewers.html), [AISTATS](http://aistats.org/aistats2023/), 2023 - currently
+* Clinical Microbiology and Infection, [CMI](https://www.sciencedirect.com/journal/clinical-microbiology-and-infection), Elsevier, 2023
+
+Summer Schools and other trainings
+======
+* [Cambridge Ellis Machine Learning Summer School](http://www.ellis.eng.cam.ac.uk/summerschool/), University of Cambridge, Cambridge, United Kingdom, 2022
+* Digital Health, the regulatory landscape, [Medidee](https://medidee.com), Laussane, Switzerland, 2022
+* Teaching trainee at [DEMOTEC](https://eps.uib.cat/demotec/), UIB, Palma, Spain, 2016 
+* Volunteer instructor at the Science Fair at the [UIB](https://seras.uib.cat/ciencia/2016/) , 2015 and 2016
+
+  
 
 <style>
 .section-toggle {
