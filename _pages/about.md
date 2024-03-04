@@ -33,11 +33,11 @@ Stay tuned for exclusive updates, insights, and the official launch date. Join u
 🌟 **Latest Buzz** 🌟
 ------
 
+- **March 2024**: 📢 Exciting news! We've released a groundbreaking public dataset on Parkinsonian speech. Perfect for researchers! Use it wisely and don't forget to cite! [Explore now](https://zenodo.org/records/10777657).
+
 - **January 2024** 🚀: Dive into our latest breakthrough! Discover our new preprint on revolutionizing Clostridioide difficile ribotyping with cutting-edge probabilistic Machine Learning. [Check it out](biorxiv.org/content/10.1101/2024.01.24.576988v1)!
 
 - **December 2023** 📊: Exciting News! We've released a groundbreaking public dataset on Clostriodide Difficile ribotypes. Perfect for researchers! Use it wisely and don't forget to cite! [Explore now](https://zenodo.org/records/10370872).
-
-- **August 2023** 🛤️: Our latest paper is making waves! Learn how we're detecting train driveshaft damages using advanced tech. Now published in the [Engineering Applications of Artificial Intelligence](https://www.journals.elsevier.com/engineering-applications-of-artificial-intelligence) journal. [Read the paper](https://doi.org/10.1016/j.engappai.2023.106840).
 
 👀 Keep your eyes peeled for more thrilling updates and milestones in my journey!
 
