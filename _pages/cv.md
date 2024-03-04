@@ -25,7 +25,7 @@ Work experience
 
 * 2021-2023: Ph.D. Candidate
   * __Company__: [Gregorio Marañon Health Research Institute](https://www.iisgm.com/), Microbiology and Infectious Diseases Department
-  * __Field__: Applied Machine Learning to Microbiology
+  * __Field__: Bayesian Machine Learning applied to Microbiology
   * __Supervisor__: [Dr. Belén Rodríguez-Sánchez](https://scholar.google.es/citations?user=W9sZbBoAAAAJ&hl=es)
 
 * 2020-2023: Ph.D. Candidate
