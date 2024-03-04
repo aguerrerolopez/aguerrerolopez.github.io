@@ -173,7 +173,9 @@ Teaching
   cursor: pointer;
   margin-bottom: 5px;
 }
-
+.category-toggle {
+  cursor: pointer;
+}
 .section-content {
   display: none;
   margin-bottom: 20px;
@@ -233,6 +235,21 @@ function toggleSection(sectionId) {
     toggleIcon.innerHTML = "+";
   }
 }
+var categoryToggles = document.querySelectorAll('.category-toggle');
+categoryToggles.forEach(function(toggle) {
+  toggle.addEventListener('click', function() {
+    var publicationsSection = this.nextElementSibling;
+    var toggleIcon = this.querySelector('.toggle-icon');
+    
+    if (publicationsSection.style.display === 'none') {
+      publicationsSection.style.display = 'block';
+      toggleIcon.innerHTML = '-';
+    } else {
+      publicationsSection.style.display = 'none';
+      toggleIcon.innerHTML = '+';
+    }
+  });
+});
 </script>
 
 
