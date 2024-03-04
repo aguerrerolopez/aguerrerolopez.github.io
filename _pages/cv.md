@@ -165,17 +165,12 @@ Teaching
 </div>
 
 
-
-
-
 <style>
 .section-toggle {
   cursor: pointer;
   margin-bottom: 5px;
 }
-.category-toggle {
-  cursor: pointer;
-}
+
 .section-content {
   display: none;
   margin-bottom: 20px;
@@ -194,30 +189,12 @@ Teaching
     display: none; /* Hide the content by default */
   }
 
-.year-toggle {
+.category-toggle {
   cursor: pointer;
 }
-
 </style>
 
 
-<script>
-var categoryToggles = document.querySelectorAll('.category-toggle');
-categoryToggles.forEach(function(toggle) {
-  toggle.addEventListener('click', function() {
-    var publicationsSection = this.nextElementSibling;
-    var toggleIcon = this.querySelector('.toggle-icon');
-    
-    if (publicationsSection.style.display === 'none') {
-      publicationsSection.style.display = 'block';
-      toggleIcon.innerHTML = '-';
-    } else {
-      publicationsSection.style.display = 'none';
-      toggleIcon.innerHTML = '+';
-    }
-  });
-});
-</script>
 
 <script>
 document.querySelectorAll('.year-toggle').forEach(function (toggle) {
@@ -253,10 +230,23 @@ function toggleSection(sectionId) {
   } else {
     sectionContent.style.display = "none";
     toggleIcon.innerHTML = "+";
-  };
-};
-
+  }
+}
+var categoryToggles = document.querySelectorAll('.category-toggle');
+categoryToggles.forEach(function(toggle) {
+  toggle.addEventListener('click', function() {
+    var publicationsSection = this.nextElementSibling;
+    var toggleIcon = this.querySelector('.toggle-icon');
+    
+    if (publicationsSection.style.display === 'none') {
+      publicationsSection.style.display = 'block';
+      toggleIcon.innerHTML = '-';
+    } else {
+      publicationsSection.style.display = 'none';
+      toggleIcon.innerHTML = '+';
+    }
+  });
+});
 </script>
-
 
 
