@@ -33,6 +33,8 @@ Stay tuned for exclusive updates, insights, and the official launch date. Join u
 🌟 **Latest Buzz** 🌟
 ------
 
+- **March 2024**: 📢 Exciting news! Along with the dataset, a descriptive preprint of the dataset is also public! Perfect for understand how to use the dataset, it comes with some code to launch your first experiments! [Check it out now](https://arxiv.org/abs/2403.02371).
+
 - **March 2024**: 📢 Exciting news! We've released a groundbreaking public dataset on Parkinsonian speech. Perfect for researchers! Use it wisely and don't forget to cite! [Explore now](https://zenodo.org/records/10777657).
 
 - **January 2024** 🚀: Dive into our latest breakthrough! Discover our new preprint on revolutionizing Clostridioide difficile ribotyping with cutting-edge probabilistic Machine Learning. [Check it out](biorxiv.org/content/10.1101/2024.01.24.576988v1)!
