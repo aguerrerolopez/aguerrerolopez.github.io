@@ -33,13 +33,16 @@ Stay tuned for exclusive updates, insights, and the official launch date. Join u
 🌟 **Latest Buzz** 🌟
 ------
 
+- **March 2024**: 📢 Exciting developments this month! Our research on AF detection via PPG signals, incorporating explainability features, has been officially accepted by EAAI for publication!
+
+- **March 2024**: 📢 We're thrilled to unveil our latest contribution to Parkinson's disease research: the MARTA model. This innovative approach sheds new light on how Parkinson's influences phonemic groups in speech. [Learn more about our findings!](https://doi.org/10.36227/techrxiv.171084943.31044695/v1)
+
 - **March 2024**: 📢 Exciting news! Along with the dataset, a descriptive preprint of the dataset is also public! Perfect for understand how to use the dataset, it comes with some code to launch your first experiments! [Check it out now](https://arxiv.org/abs/2403.02371).
 
 - **March 2024**: 📢 Exciting news! We've released a groundbreaking public dataset on Parkinsonian speech. Perfect for researchers! Use it wisely and don't forget to cite! [Explore now](https://zenodo.org/records/10777657).
 
 - **January 2024** 🚀: Dive into our latest breakthrough! Discover our new preprint on revolutionizing Clostridioide difficile ribotyping with cutting-edge probabilistic Machine Learning. [Check it out](biorxiv.org/content/10.1101/2024.01.24.576988v1)!
 
-- **December 2023** 📊: Exciting News! We've released a groundbreaking public dataset on Clostriodide Difficile ribotypes. Perfect for researchers! Use it wisely and don't forget to cite! [Explore now](https://zenodo.org/records/10370872).
 
 👀 Keep your eyes peeled for more thrilling updates and milestones in my journey!
 

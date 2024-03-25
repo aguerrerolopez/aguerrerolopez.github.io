@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2024-03-05-Mendes-Laureano-et-al
 excerpt: ''
 date: 2024-03-05
-venue: 'ArXiv'
+venue: 'arXiv'
 category: "Preprints"
 paperurl: 'https://arxiv.org/abs/2403.02371'
 citation: 'Mendes-Laureano, J., Gómez-García, J. A., Guerrero-López, A., Luque-Buzo, E., Arias-Londoño, J. D., Grandas-Pérez, F. J., & Godino Llorente, J. I. (2024). NeuroVoz: a Castillian Spanish corpus of parkinsonian speech. arXiv 2403.02371. https://arxiv.org/abs/2403.02371'
