@@ -33,7 +33,7 @@ Stay tuned for exclusive updates, insights, and the official launch date. Join u
 🌟 **Latest Buzz** 🌟
 ------
 
-- **March 2024**: 📢 Exciting developments this month! Our research on AF detection via PPG signals, incorporating explainability features, has been officially accepted by EAAI for publication!
+- **March 2024**: 📢 Exciting developments this month! Our research on AF detection via PPG signals, incorporating explainability features, has been officially accepted by EAAI for publication! [Read it here!](https://doi.org/10.1016/j.engappai.2024.108325)
 
 - **March 2024**: 📢 We're thrilled to unveil our latest contribution to Parkinson's disease research: the MARTA model. This innovative approach sheds new light on how Parkinson's influences phonemic groups in speech. [Learn more about our findings!](https://doi.org/10.36227/techrxiv.171084943.31044695/v1)
 
