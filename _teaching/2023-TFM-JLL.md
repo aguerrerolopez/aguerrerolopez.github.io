@@ -9,4 +9,4 @@ location: "Madrid, Spain"
 ---
 Developing Deep Learning models to predict antibiotic-resistant bacteria in multi-domain datasets. 
 
-Mark: 9,2/10
+Mark: 9.2/10

@@ -9,7 +9,7 @@ location: "Madrid, Spain"
 ---
 Developing a Transformer based model, namely ShaftFormer, to characterise train driveshaft damages.
 
-Mark: 9,4/10
+Mark: 9.4/10
 
 
 

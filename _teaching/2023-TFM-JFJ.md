@@ -9,4 +9,4 @@ location: "Madrid, Spain"
 ---
 Developing AI solutions, namely Recommender Systems such as NCF, to League of Legends pre-game winning team prediction.
 
-Mark: -/10
+Mark: 10/10
