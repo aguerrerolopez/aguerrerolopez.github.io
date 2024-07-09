@@ -15,6 +15,22 @@ Currently, I am a postdoctoral researcher at the [Bioengineering and Optoelectro
 
 **Previously.**   I obtained my Ph.D. with honors (cum laude) from UC3M (Universidad Carlos III de Madrid) in the field of __Machine Learning for Personalised Medicine__, specifically the clinical microbiology field. I am grateful for the invaluable guidance and joint supervision provided by [Dr. Pablo M. Olmos](http://www.tsc.uc3m.es/~olmos/) and [Dr. Vanessa Gómez-Verdejo](https://vanessa.webs.tsc.uc3m.es) throughout my doctoral journey. During my thesis, I was affiliated with the [Gregorio Marañón Health Research Institute (IISGM)](https://www.iisgm.com), where I had the privilege of working under the guidance of [Dr. Belén Rodríguez-Sánchez](https://scholar.google.es/citations?user=W9sZbBoAAAAJ&hl=es). The experience gained during my time at IISGM has significantly shaped my research interests and provided me with valuable insights into the challenges faced by the biomedical community.
 
+🌟 **Latest Buzz** 🌟
+------
+
+- **July 2024**: 📢 Exciting news! We've released a groundbreaking public dataset on upper airway surgery in pre- and post-operative states. Perfect for researchers! Use it wisely and don't forget to cite! [Explore now](https://www.nature.com/articles/s41597-024-03540-5#citeas).
+
+- **June 2024**: 📢 Big news! Our last preprint about "Automatic semantic segmentation of the osseous structures of the paranasal sinuses" is out! [Read it now](https://www.biorxiv.org/content/10.1101/2024.06.21.599833v1.abstract)
+
+- **March 2024**: 📢 Exciting developments this month! Our research on AF detection via PPG signals, incorporating explainability features, has been officially accepted by EAAI for publication! [Read it here!](https://doi.org/10.1016/j.engappai.2024.108325)
+
+- **March 2024**: 📢 We're thrilled to unveil our latest contribution to Parkinson's disease research: the MARTA model. This innovative approach sheds new light on how Parkinson's influences phonemic groups in speech. [Learn more about our findings!](https://doi.org/10.36227/techrxiv.171084943.31044695/v1)
+
+
+
+👀 Keep your eyes peeled for more thrilling updates and milestones in my journey!
+
+
 🌟 **Big news** 🌟
 ------
 
@@ -30,21 +46,6 @@ We're thrilled to unveil our latest innovation: [BacteriaID](https://bacteria.id
 
 Stay tuned for exclusive updates, insights, and the official launch date. Join us in this groundbreaking journey at [BacteriaID](https://bacteria.id).
 
-🌟 **Latest Buzz** 🌟
-------
-
-- **March 2024**: 📢 Exciting developments this month! Our research on AF detection via PPG signals, incorporating explainability features, has been officially accepted by EAAI for publication! [Read it here!](https://doi.org/10.1016/j.engappai.2024.108325)
-
-- **March 2024**: 📢 We're thrilled to unveil our latest contribution to Parkinson's disease research: the MARTA model. This innovative approach sheds new light on how Parkinson's influences phonemic groups in speech. [Learn more about our findings!](https://doi.org/10.36227/techrxiv.171084943.31044695/v1)
-
-- **March 2024**: 📢 Exciting news! Along with the dataset, a descriptive preprint of the dataset is also public! Perfect for understand how to use the dataset, it comes with some code to launch your first experiments! [Check it out now](https://arxiv.org/abs/2403.02371).
-
-- **March 2024**: 📢 Exciting news! We've released a groundbreaking public dataset on Parkinsonian speech. Perfect for researchers! Use it wisely and don't forget to cite! [Explore now](https://zenodo.org/records/10777657).
-
-- **January 2024** 🚀: Dive into our latest breakthrough! Discover our new preprint on revolutionizing Clostridioide difficile ribotyping with cutting-edge probabilistic Machine Learning. [Check it out](biorxiv.org/content/10.1101/2024.01.24.576988v1)!
-
-
-👀 Keep your eyes peeled for more thrilling updates and milestones in my journey!
 
 
 Short Bio
