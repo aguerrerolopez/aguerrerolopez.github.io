@@ -151,9 +151,11 @@ Talks
 
 Reviewing
 ======
+* IEEE JBHI, [certificate](https://publons.com/wos-op/review/author/ELOAqeQL/), [IEEE JBHI](https://www.embs.org/jbhi/), 2024 - currently
+* mSystems, [certificate](https://publons.com/wos-op/review/author/BlaEXPKv/), [mSystems](https://journals.asm.org/journal/msystemsn), American Society for Microbiology, 2024
 * Engineering Applications of Artificial Intelligence, [certificate](https://aguerrerolopez.github.io/images/Certificate_EAAI_Recognised.pdf), [EAAI](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence), 2023 - currently
 * Artificial Intelligence and Statistics, [certificate](http://aistats.org/aistats2023/reviewers.html), [AISTATS](http://aistats.org/aistats2023/), 2023 - currently
-* Clinical Microbiology and Infection, [CMI](https://www.sciencedirect.com/journal/clinical-microbiology-and-infection), Elsevier, 2023
+* Clinical Microbiology and Infection, [CMI](https://www.sciencedirect.com/journal/clinical-microbiology-and-infection), 2023 - currently
 
 Summer Schools and other trainings
 ======
