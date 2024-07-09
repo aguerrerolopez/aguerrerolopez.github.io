@@ -2,6 +2,7 @@
 title: "Paper python code: Factor Analysis Variational AutoEncoder"
 excerpt: "Python code to [Multi-view hierarchical Variational AutoEncoders with Factor Analysis latent space](https://arxiv.org/abs/2207.09185) paper."
 collection: portfolio
+category: "Software"
 ---
 
 ## Factor Analysis Variational AutoEncoder

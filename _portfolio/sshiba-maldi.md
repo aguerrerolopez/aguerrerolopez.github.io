@@ -2,6 +2,7 @@
 title: "Paper python code: Automatic antibiotic resistance prediction in Klebsiella pneumoniae based on MALDI-TOF mass spectra"
 excerpt: "KSSHIBA model tailored for the MALDI-TOF data to predict simultanously from which hospital is the data coming from and the resistance mechanism of every bacteria to ESBL or CP."
 collection: portfolio
+category: "Software"
 ---
 
 ## KSSHIBA tailored for MALDI-TOF data
