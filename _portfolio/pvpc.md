@@ -1,5 +1,5 @@
 ---
-title: "Python script: PVPC reader"
+title: "Python: PVPC reader"
 excerpt: "An unfinished project of reading public spanish electrical prices and do some ML"
 collection: portfolio
 category: "Software"

@@ -1,5 +1,5 @@
 ---
-title: "Paper python code: Bayesian Sparse Factor Analysis with Kernelized Observations"
+title: "Python: Bayesian Sparse Factor Analysis with Kernelized Observations"
 excerpt: "Python code to [Bayesian Sparse Factor Analysis with Kernelized Observations](https://doi.org/10.1016/j.neucom.2022.03.024) paper."
 collection: portfolio
 category: "Software"

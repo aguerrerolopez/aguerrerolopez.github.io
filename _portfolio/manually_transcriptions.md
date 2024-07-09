@@ -1,5 +1,5 @@
 ---
-title: "Manual Transcription Editor"
+title: "Python: Manual Transcription Editor"
 excerpt: "I have developed a powerful and user-friendly tool designed to manually correct automatic transcriptions of audio files. This tool is particularly useful for refining transcriptions made by Whisper, ensuring high accuracy and quality."
 collection: portfolio
 category: "Software"

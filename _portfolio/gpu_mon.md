@@ -1,5 +1,5 @@
 ---
-title: "GPU monitoring"
+title: "Bash: GPU monitoring"
 excerpt: "Bash simple script to monitorize the use of GPU by the colleagues of the department"
 collection: portfolio
 category: "Software"

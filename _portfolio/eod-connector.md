@@ -1,5 +1,5 @@
 ---
-title: "Matlab library: EODConnector"
+title: "MatLab: EODConnector"
 excerpt: "A library to retrieve any stock market data from [EOD Historical Data](https://eodhistoricaldata.com) market datafeed API."
 collection: portfolio
 category: "Software"
