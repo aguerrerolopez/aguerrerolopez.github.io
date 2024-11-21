@@ -18,7 +18,11 @@ Academic background
 
 Professional history
 ======
-* 2023-present: Postdoctoral researcher
+* 2024: Visiting Professor
+  * __Company__: Universidad Carlos III de Madrid, Signal Theory and Communications Department
+  * __Field__: Bayesian Machine Learning
+
+* 2023-2024: Postdoctoral researcher
   * __Company__: [Universidad Politécnica de Madrid (UPM)](https://www.upm.es), [Bioengineering and Optoelectronics Group](http://www.byo.upm.es/BYO/research)
   * __Field__: Bayesian Machine Learning applied to Neurology
   * __Supervisor__: [Prof. Juan Ignacio Godino Llorente](http://www.byo.upm.es/BYO/people/juan-ignacio-godino-llorente)
