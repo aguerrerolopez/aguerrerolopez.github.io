@@ -27,10 +27,9 @@ Currently, I am a visiting professor at [Signal Theory and Communications](https
 
 Short Bio
 ------
-* Visiting Professor at [Signal Theory and Communications](https://www.tsc.uc3m.es/index.php), [UC3M](https://www.uc3m.es/Inicio), Madrid, Spain.
-* Postdoctoral researcher at the [Bioengineering and Optoelectronics Group](http://www.byo.upm.es/BYO), UPM, Madrid, Spain.
-* Ph.D. candidate at [Signal Processing Group](http://gts.tsc.uc3m.es), UC3M, and predoctoral researcher at [Gregorio Marañón Health Research Institute](https://www.iisgm.com), Madrid, Spain.
-* M.Sc. in [Information Health Engineering](https://www.uc3m.es/master/information-health-engineering) at UC3M, Madrid, Spain.
-* Telecommunication Engineer at [Alcort](https://alcort.net), Mallorca, Spain.
-* Research assistant at [UGIVIA](http://ugivia.uib.es), [UIB](https://www.uib.cat), Mallorca, Spain.
-* B.Sc. in [Telematics Engineering](https://www.uib.eu/Learn/estudis-de-grau/grau/telematica/GTT2-P/) at [UIB](https://www.uib.cat), Mallorca, Spain.
+* Visiting Professor at [Signal Theory and Communications](https://www.tsc.uc3m.es/index.php), [UC3M](https://www.uc3m.es/Inicio), Madrid, Spain. 2024 - still here!
+* Postdoctoral researcher at the [Bioengineering and Optoelectronics Group](http://www.byo.upm.es/BYO), UPM, Madrid, Spain. 2023-2024
+* Ph.D. candidate at [Signal Processing Group](http://gts.tsc.uc3m.es), UC3M, and predoctoral researcher at [Gregorio Marañón Health Research Institute](https://www.iisgm.com), Madrid, Spain. 2020-2023
+* M.Sc. in [Information Health Engineering](https://www.uc3m.es/master/information-health-engineering) at UC3M, Madrid, Spain. 2019-2020
+* Research assistant at [UGIVIA](http://ugivia.uib.es), [UIB](https://www.uib.cat), Mallorca, Spain. 2018-2019
+* B.Sc. in [Telematics Engineering](https://www.uib.eu/Learn/estudis-de-grau/grau/telematica/GTT2-P/) at [UIB](https://www.uib.cat), Mallorca, Spain. 2015-2019
