@@ -8,7 +8,7 @@ category: "Software"
 # 🛠️ Manual Transcription Editor
 
 ## Overview
-
+Access here to the manual transcriptor project: https://github.com/aguerrerolopez/TranscriptionEditor
 
 
 ## ✨ Features
