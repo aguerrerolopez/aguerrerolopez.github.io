@@ -106,9 +106,6 @@ document.addEventListener('DOMContentLoaded', function() {
 .toggle-icon {
   margin-left: 5px;
 }
-</style>
-
-
 
 .publication-item {
   margin-bottom: 1em;
@@ -126,3 +123,8 @@ document.addEventListener('DOMContentLoaded', function() {
 .load-more:hover {
   color: #0056b3;
 }
+</style>
+
+
+
+
