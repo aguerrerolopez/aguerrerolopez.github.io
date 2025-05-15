@@ -18,7 +18,11 @@ Academic background
 
 Professional history
 ======
-* 2024: Visiting Professor
+* 2025-: Postdoctoral researcher
+  * __Company__: University of Zurich, Applied  Microbiology  Research (AMR)  Lab
+  * __Field__: Applied ML to Microbiology
+
+* 2024-2025: Visiting Professor
   * __Company__: Universidad Carlos III de Madrid, Signal Theory and Communications Department
   * __Field__: Bayesian ML
 
