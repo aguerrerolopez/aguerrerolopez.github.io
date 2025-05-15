@@ -17,11 +17,11 @@ Currently, I am a visiting professor at [Signal Theory and Communications](https
 
 🌟 **Latest Buzz** 🌟
 ------
-- **December 2024**: Excited to announce that I come back to [UC3M](https://www.tsc.uc3m.es/index.php) as Visting Professor!
+- **June 2025**: Excited to be part of the professors of the [ESCMID Artificial Intelligence and Machine Learning in Medical Microbiology Diagnostics](https://www.escmid.org/event-detail/artificial-intelligence-and-machine-learning-in-medical-microbiology-diagnostics/) at Zurich, Switzerland!
 
-- **November 2024**: Delighted to organize the [2nd Automatic Assessment of Parkinsonian Speech Workshop](https://www.byo.upm.es/AAPS24/scientific-committee) at the Massachusetts Institute of Technology (MIT)! 
+- **April 2025**: New preprint available performing a systematic review of how ML and DL are used to solve microbiological problems with MALDI-TOF data! [Explore now](https://doi.org/10.1101/2025.01.25.634879).
 
-- **July 2024**: 📢 Exciting news! We've released a groundbreaking public dataset on upper airway surgery in pre- and post-operative states. Perfect for researchers! Use it wisely and don't forget to cite! [Explore now](https://www.nature.com/articles/s41597-024-03540-5#citeas).
+- **March 2025**: 📢 Exciting news! We've released a groundbreaking public dataset on CT scans of paranasal sinuses along with a new paper published on their automatic semantic segmentation! [Explore now](https://www.sciencedirect.com/science/article/pii/S0895611125000503).
 
 👀 Keep your eyes peeled for more thrilling updates and milestones in my journey!
 
