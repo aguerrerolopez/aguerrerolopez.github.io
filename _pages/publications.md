@@ -14,7 +14,10 @@ author_profile: true
 {% assign categories_order = "Peer-review Journals,Preprints,Conference Proceedings,Conference Abstracts,Datasets,Misc" | split: "," %}
 
 {% for category in categories_order %}
-  {% assign publications_in_category = site.publications | where: "category", category %}
+  {% assign publications_in_category = site.publications
+     | where: "category", category
+     | sort: "date"
+     | reverse %}
 
   {% if publications_in_category.size > 0 %}
 <h2 class="category-toggle">{{ category | capitalize }} <span class="toggle-icon">+</span></h2>
