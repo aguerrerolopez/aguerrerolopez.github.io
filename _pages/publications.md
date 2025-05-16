@@ -23,30 +23,31 @@ author_profile: true
 <h2 class="category-toggle">{{ category | capitalize }} <span class="toggle-icon">+</span></h2>
 <div id="publications-{{ category | slugify }}" class="publications-section">
       {% for post in publications_in_category %}
-        {% include archive-single.html %}
-      {% endfor %}
+  <div class="publication-item">
+    {% include archive-single.html %}
+  </div>
+{% endfor %}
+
 </div>
   {% endif %}
 {% endfor %}
 
+{% if publications_in_category.size > 5 %}
+  <button class="load-more-btn">Click here to see more…</button>
+{% endif %}
+
 
 <script>
-var categoryToggles = document.querySelectorAll('.category-toggle');
-categoryToggles.forEach(function(toggle) {
-  toggle.addEventListener('click', function() {
-    var publicationsSection = this.nextElementSibling;
-    var toggleIcon = this.querySelector('.toggle-icon');
-    
-    if (publicationsSection.style.display === 'none') {
-      publicationsSection.style.display = 'block';
-      toggleIcon.innerHTML = '-';
-    } else {
-      publicationsSection.style.display = 'none';
-      toggleIcon.innerHTML = '+';
-    }
-  });
+document.addEventListener('click', function(e) {
+  // if a load-more button was clicked…
+  if (e.target.matches('.load-more-btn')) {
+    var section = e.target.closest('.publications-section');
+    section.classList.add('show-all');      // reveal 6+
+    e.target.style.display = 'none';        // hide the button
+  }
 });
 </script>
+
 
 <style>
 .category-toggle {
@@ -61,4 +62,30 @@ categoryToggles.forEach(function(toggle) {
 .toggle-icon {
   margin-left: 5px;
 }
+
+/* hide items 6 and up by default */
+.publications-section .publication-item:nth-child(n+6) {
+  display: none;
+}
+
+/* when .show-all is on, reveal them */
+.publications-section.show-all .publication-item:nth-child(n+6) {
+  display: block;
+}
+
+/* style the button */
+.load-more-btn {
+  background: none;
+  border: none;
+  color: #007bff;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 1em 0;
+  text-decoration: underline;
+  padding: 0;
+}
+.load-more-btn:hover {
+  color: #0056b3;
+}
+
 </style>
