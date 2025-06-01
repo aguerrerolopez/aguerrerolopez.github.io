@@ -19,11 +19,11 @@ Academic background
 Professional history
 ======
 * 2025-: Postdoctoral researcher
-  * __Company__: University of Zurich, Applied  Microbiology  Research (AMR)  Lab
+  * __Company__: University of Zurich, [Institute for Medical Microbiology](https://www.imm.uzh.ch), [Applied  Microbiology  Research (AMR) lab](https://appliedmicrobiologyresearch.net)
   * __Field__: Applied ML to Microbiology
 
-* 2024-2025: Visiting Professor
-  * __Company__: Universidad Carlos III de Madrid, Signal Theory and Communications Department
+* 2024-2025: Visiting professor in Data science
+  * __Company__: UC3M, Signal Theory and Communications Department
   * __Field__: Bayesian ML
 
 * 2023-2024: Postdoctoral researcher
@@ -31,18 +31,13 @@ Professional history
   * __Field__: Bayesian ML applied to speech
   * __Supervisor__: [Prof. Juan Ignacio Godino Llorente](http://www.byo.upm.es/BYO/people/juan-ignacio-godino-llorente)
 
-* 2021-2023: Ph.D. Candidate
-  * __Company__: [Gregorio Marañon Health Research Institute](https://www.iisgm.com/), Microbiology and Infectious Diseases Department
-  * __Field__: Bayesian ML applied to microbiology
-  * __Supervisor__: [Dr. Belén Rodríguez-Sánchez](https://scholar.google.es/citations?user=W9sZbBoAAAAJ&hl=es)
-
 * 2020-2023: Ph.D. Candidate
-  * __Company__: Universidad Carlos III de Madrid, Signal Theory and Communications Department
-  * __Field__: Bayesian ML
-  * __Supervisors__: [Dr. Pablo M. Olmos](https://www.tsc.uc3m.es/~olmos/) and [Dr. Vanessa Gómez-Verdejo](https://vanessa.webs.tsc.uc3m.es)
+  * __Company__: UC3M, Signal Theory and Communications Department and [Gregorio Marañon Health Research Institute](https://www.iisgm.com/), Microbiology and Infectious Diseases Department
+  * __Field__: Bayesian ML and its application to microbiology
+  * __Supervisors__: [Dr. Pablo M. Olmos](https://www.tsc.uc3m.es/~olmos/) and [Dr. Vanessa Gómez-Verdejo](https://vanessa.webs.tsc.uc3m.es) at the university and [Dr. Belén Rodríguez-Sánchez](https://scholar.google.es/citations?user=W9sZbBoAAAAJ&hl=es) at the hospital.
 
 * 2019-2020: Research Assistant
-  * __Company__: Universidad Carlos III de Madrid, Signal Theory and Communications Department
+  * __Company__: Universidad Carlos III de Madrid (UC3M), Signal Theory and Communications Department
   * __Field__: Bayesian ML
   * __Supervisor__: [Dr. Pablo M. Olmos](https://www.tsc.uc3m.es/~olmos/)
   

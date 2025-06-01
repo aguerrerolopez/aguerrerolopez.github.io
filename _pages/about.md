@@ -17,17 +17,19 @@ Currently, I am a visiting professor at [Signal Theory and Communications](https
 
 🌟 **Latest Buzz** 🌟
 ------
+
+- **June 2025**: 📢 Exciting news! We've released the biggest dataset -completely free and open source- of MALDI-TOF MS of clinically relevant microorganisms. A total of **207,950** samples containing bacteria, fungi and mycobacteria from the Hospital General Universitario Gregorio Marañón. [Use it now for your own research!](https://doi.org/10.1101/2025.05.31.657186).
+
 - **June 2025**: Excited to be part of the professors of the [ESCMID Artificial Intelligence and Machine Learning in Medical Microbiology Diagnostics](https://www.escmid.org/event-detail/artificial-intelligence-and-machine-learning-in-medical-microbiology-diagnostics/) at Zurich, Switzerland!
 
 - **April 2025**: New preprint available performing a systematic review of how ML and DL are used to solve microbiological problems with MALDI-TOF data! [Explore now](https://doi.org/10.1101/2025.01.25.634879).
-
-- **March 2025**: 📢 Exciting news! We've released a groundbreaking public dataset on CT scans of paranasal sinuses along with a new paper published on their automatic semantic segmentation! [Explore now](https://www.sciencedirect.com/science/article/pii/S0895611125000503).
 
 👀 Keep your eyes peeled for more thrilling updates and milestones in my journey!
 
 Short Bio
 ------
-* Visiting Professor at [Signal Theory and Communications](https://www.tsc.uc3m.es/index.php), [UC3M](https://www.uc3m.es/Inicio), Madrid, Spain. 2024 - still here!
+* Postdoctoral researcher at the [Institute for Medical Microbiology](https://appliedmicrobiologyresearch.net) at [University of Zurich (UZH)](https://www.imm.uzh.ch), Zurich, Switzerland, July 2025 - currently here!
+* Visiting professor at [Signal Theory and Communications](https://www.tsc.uc3m.es/index.php), [UC3M](https://www.uc3m.es/Inicio), Madrid, Spain. 2024 - June 2025
 * Postdoctoral researcher at the [Bioengineering and Optoelectronics Group](http://www.byo.upm.es/BYO), UPM, Madrid, Spain. 2023-2024
 * Ph.D. candidate at [Signal Processing Group](http://gts.tsc.uc3m.es), UC3M, and predoctoral researcher at [Gregorio Marañón Health Research Institute](https://www.iisgm.com), Madrid, Spain. 2020-2023
 * M.Sc. in [Information Health Engineering](https://www.uc3m.es/master/information-health-engineering) at UC3M, Madrid, Spain. 2019-2020
