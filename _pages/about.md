@@ -9,11 +9,13 @@ redirect_from:
 ---
 Who am I
 ------
-Currently, I am a visiting professor at [Signal Theory and Communications](https://www.tsc.uc3m.es/index.php) in [Universidad Carlos III de Madrid](https://www.uc3m.es/Inicio). 
+Currently, I am a **postdoctoral researcher** at the [Institute of Medical Microbiology (IMM), University of Zurich (UZH)](https://www.imm.uzh.ch/de/Highlights.html), in [Prof. Dr. Adrian Egli](https://appliedmicrobiologyresearch.net/en/)'s group.
 
 **Research.**  My research primarily focuses on advancing the field of Machine Learning by understanding and developing novel probabilistic models that address real-world biomedical problems. To overcome the common challenges encountered in the biomedical field (missing data, multimodalities, high-dimensional data), I am dedicated to learn, develop and apply Bayesian models that offer more accurate and reliable predictions. I have a deep interest in the fields of eXplainable AI (XAI). With the growing influence of AI technologies in our society, it is crucial to ensure transparency, trustworthiness, and ethical alignment.
 
-**Quick CV.**  I obtained my Ph.D. with honors (cum laude) from Universidad Carlos III de Madrid (UC3M) in the field of __Machine Learning for Personalised Medicine__, specifically the clinical microbiology field supervised by [Prof. Pablo M. Olmos](http://www.tsc.uc3m.es/~olmos/) and [Prof. Vanessa Gómez-Verdejo](https://vanessa.webs.tsc.uc3m.es). I was a Postdoc Researcher at the [Applied Signal Processing Group](https://www.gaps.ssr.upm.es) on speech processing to detect Parkinson's disease supervised by [Prof. Juan I. Godino-Llorente](https://scholar.google.com/citations?user=fdkx_u4AAAAJ&hl=es) and [Prof. Julián D. Arias-Londoño](https://jdariasl.github.io). I am currently affiliated with the [Gregorio Marañón Health Research Institute (IISGM)](https://www.iisgm.com), where I collaborate [Dr. Belén Rodríguez-Sánchez](https://scholar.google.es/citations?user=W9sZbBoAAAAJ&hl=es). 
+**Quick CV**  
+I hold a Ph.D. with honors (cum laude) from Universidad Carlos III de Madrid (UC3M), where I worked on **Bayesian Machine Learning applied to Clinical Microbiology** supervised by [Prof. Pablo M. Olmos](http://www.tsc.uc3m.es/~olmos/) and [Prof. Vanessa Gómez-Verdejo](https://vanessa.webs.tsc.uc3m.es), with the microbiology guidance of [Dr. Belén Rodríguez-Sánchez](https://scholar.google.es/citations?user=W9sZbBoAAAAJ&hl=es). After that, I was a postdoc at the [Applied Signal Processing Group](https://www.gaps.ssr.upm.es) at Universidad Politécnica de Madrid (UPM) on speech impairment research under [Prof. Juan I. Godino-Llorente](https://scholar.google.com/citations?user=fdkx_u4AAAAJ&hl=es) and [Prof. Julián D. Arias-Londoño](https://jdariasl.github.io). I am now a **postdoctoral researcher** at the [Institute of Medical Microbiology (IMM), University of Zurich (UZH)](https://www.imm.uzh.ch/de/Highlights.html), in [Prof. Dr. Adrian Egli](https://appliedmicrobiologyresearch.net/en/)'s group.
+
 
 🌟 **Latest Buzz** 🌟
 ------
