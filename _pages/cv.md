@@ -132,7 +132,7 @@ Teaching
   <ul>
     <li>Based on <strong>9 official teaching evaluations</strong>, achieved an average score of <strong>4.83 / 5</strong> with a standard deviation of <strong>0.29</strong>.</li>
     <li>Recipient of multiple formal letters of recognition from Universidad Carlos III de Madrid for outstanding teaching performance.</li>
-    <li><a href="_teaching/felicitaciones.pdf" target="_blank">Full record of evaluations and recognition letters (PDF)</a></li>
+    <li><a href="/assets/felicitaciones.pdf" target="_blank">Full record of evaluations and recognition letters (PDF)</a></li>
   </ul>
 </div>
 
