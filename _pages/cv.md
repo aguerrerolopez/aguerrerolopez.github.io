@@ -126,6 +126,16 @@ Teaching
   {% endfor %}
 </div>
 
+<!-- Teaching Evaluations & Recognitions -->
+<h3 class="section-toggle" onclick="toggleSection('evaluation-section')">Teaching evaluations & Recognitions <span id="toggle-icon-evaluation-section" class="toggle-icon">+</span></h3>
+<div id="evaluation-section" class="section-content">
+  <ul>
+    <li>Based on <strong>9 official teaching evaluations</strong>, achieved an average score of <strong>4.83 / 5</strong> with a standard deviation of <strong>0.29</strong>.</li>
+    <li>Recipient of multiple formal letters of recognition from Universidad Carlos III de Madrid for outstanding teaching performance.</li>
+    <li><a href="_teaching/felicitaciones.pdf" target="_blank">Full record of evaluations and recognition letters (PDF)</a></li>
+  </ul>
+</div>
+
 
 Talks
 ======
@@ -169,6 +179,11 @@ Summer Schools and other trainings
 * Digital Health, the regulatory landscape, [Medidee](https://medidee.com), Laussane, Switzerland, 2022
 * Teaching trainee at [DEMOTEC](https://eps.uib.cat/demotec/), UIB, Palma, Spain, 2016 
 * Volunteer instructor at the Science Fair at the [UIB](https://seras.uib.cat/ciencia/2016/) , 2015 and 2016
+
+Workshops
+=====
+* Local organising committee of the 2nd Automatic Assessment of Parkinsonian Speech Workshop (AAPS'24) hosted by the Massachusetts Institute of Technology (MIT).
+* Instructor at the ESCMID Workshop on Artificial Intelligence and Machine Learning in Medical Microbiology Diagnostics. More than 150+ participants.
 
   
 

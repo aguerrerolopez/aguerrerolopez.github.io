@@ -8,8 +8,8 @@ category: "Software"
 # 🛠️ Manual Transcription Editor
 
 ## Overview
-Access here to the manual transcriptor project: https://github.com/aguerrerolopez/TranscriptionEditor
 
+Access here to the manual transcriptor project: <https://github.com/aguerrerolopez/TranscriptionEditor>
 
 ## ✨ Features
 
@@ -22,8 +22,8 @@ Access here to the manual transcriptor project: https://github.com/aguerrerolope
 The tool features a clean and simple design, making it easy for users to navigate and utilize its functionalities effectively. Below are some screenshots showcasing the interface:
 
 ### Main Interface
-![Main Interface](../images/example_censured.png)
 
+![Main Interface](../images/example_censured.png)
 
 ## 🔧 Installation & Usage
 

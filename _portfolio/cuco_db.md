@@ -6,6 +6,7 @@ category: "Datasets"
 ---
 
 ## CUCO Database: A voice and speech corpus of patients who underwent upper airway surgery in pre- and post-operative states
+
 We have developed a comprehensive voice and speech corpus featuring 107 Spanish Castilian speakers, including both control participants and patients who underwent upper airway surgeries such as Tonsillectomy, Functional Endoscopic Sinus Surgery, and Septoplasty.
 
 Our dataset contains 3,800 audio files, averaging 35.51 ± 5.91 recordings per patient. This resource is designed to facilitate systematic investigations into the effects of upper respiratory tract surgery on voice and speech. Previous studies using this corpus have demonstrated no significant changes in key acoustic parameters for sustained vowel phonation, aligning with our initial hypotheses. However, further research into speech recordings, particularly nasalised segments, is encouraged.

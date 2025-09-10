@@ -6,6 +6,7 @@ category: "Software"
 ---
 
 ## GPU monitoring
+
 I've created a simple but powerfull script that returns a csv with the usage of the GPUs of the machine. Easy to combine with a Telegram bot to know if your master's student is collapsing the GPUs!
 
 * [GitHub Repository](https://github.com/aguerrerolopez/GPU_monitoring)
