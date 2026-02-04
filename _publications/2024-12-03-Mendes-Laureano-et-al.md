@@ -1,13 +1,15 @@
 ---
 title: "NeuroVoz: a Castillian Spanish corpus of parkinsonian speech"
 collection: publications
-permalink: /publication/2024-03-05-Mendes-Laureano-et-al
+permalink: /publication/2024-12-03-Mendes-Laureano-et-al
 excerpt: ''
 date: 2024-12-03
 venue: 'Scientific Data'
 category: "Peer-review Journals"
 paperurl: 'https://doi.org/10.1038/s41597-024-04186-z'
-citation: 'Mendes-Laureano, J., Gómez-García, J.A., Guerrero-López, A. et al. NeuroVoz: a Castillian Spanish corpus of parkinsonian speech. Sci Data 11, 1367 (2024). https://doi.org/10.1038/s41597-024-04186-z'
+citation: 'Mendes-Laureano, J., Gómez-García, J.A., <strong>Guerrero-López, A.</strong> et al. NeuroVoz: a Castillian Spanish corpus of parkinsonian speech. Sci Data 11, 1367 (2024). https://doi.org/10.1038/s41597-024-04186-z'
+redirect_from:
+  - /publication/2024-03-05-Mendes-Laureano-et-al
 ---
 
 The advancement of Parkinson's Disease (PD) diagnosis through speech analysis is hindered by a notable lack of publicly available, diverse language datasets, limiting the reproducibility and further exploration of existing research.

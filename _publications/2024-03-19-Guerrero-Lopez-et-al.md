@@ -7,7 +7,7 @@ date: 2024-03-19
 category: "Preprints"
 venue: 'techRxiv'
 paperurl: 'http://dx.doi.org/10.36227/techrxiv.171084943.31044695/v1'
-citation: 'Alejandro Guerrero-López, Julián D. Arias-Londoño, Stefanie Shattuck-Hufnagel, et al. MARTA: a model for the automatic phonemic grouping of the parkinsonian speech. TechRxiv. March 19, 2024. 10.36227/techrxiv.171084943.31044695'
+citation: '<strong>Alejandro Guerrero-López</strong>, Julián D. Arias-Londoño, Stefanie Shattuck-Hufnagel, et al. MARTA: a model for the automatic phonemic grouping of the parkinsonian speech. TechRxiv. March 19, 2024. 10.36227/techrxiv.171084943.31044695'
 ---
 
 

@@ -9,6 +9,8 @@ author_profile: true
   You can also find my articles on [my Google Scholar profile]({{author.googlescholar}}).
 {% endif %}
 
+<p class="pub-legend"><strong>*</strong> co-first author</p>
+
 {% include base_path %}
 
 {% assign categories_order = "Peer-review Journals,Preprints,Conference Proceedings,Conference Abstracts,Datasets,Misc" | split: "," %}

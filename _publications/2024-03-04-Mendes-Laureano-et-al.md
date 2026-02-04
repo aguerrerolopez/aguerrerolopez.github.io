@@ -7,7 +7,7 @@ date: 2024-03-04
 venue: 'Zenodo'
 category: "Datasets"
 paperurl: 'https://doi.org/10.5281/zenodo.10777657'
-citation: 'Mendes-Laureano, J., Gómez-García, J. A., Guerrero-López, A., Luque-Buzo, E., Arias-Londoño, J. D., Grandas-Pérez, F. J., & Godino Llorente, J. I. (2024). NeuroVoz: a Castillian Spanish corpus of parkinsonian speech (1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.10777657'
+citation: 'Mendes-Laureano, J., Gómez-García, J. A., <strong>Guerrero-López, A.</strong>, Luque-Buzo, E., Arias-Londoño, J. D., Grandas-Pérez, F. J., & Godino Llorente, J. I. (2024). NeuroVoz: a Castillian Spanish corpus of parkinsonian speech (1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.10777657'
 ---
 
 
