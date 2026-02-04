@@ -7,7 +7,7 @@ date: 2024-12-03
 venue: 'Scientific Data'
 category: "Peer-review Journals"
 paperurl: 'https://doi.org/10.1038/s41597-024-04186-z'
-citation: 'Mendes-Laureano, J., Gómez-García, J.A., <strong>Guerrero-López, A.</strong> et al. NeuroVoz: a Castillian Spanish corpus of parkinsonian speech. Sci Data 11, 1367 (2024). https://doi.org/10.1038/s41597-024-04186-z'
+citation: 'Mendes-Laureano, J., Gómez-García, J. A., <strong>Guerrero-López, A.</strong>, et al. (2024). NeuroVoz: a Castillian Spanish corpus of parkinsonian speech. Scientific Data, 11, 1367.'
 redirect_from:
   - /publication/2024-03-05-Mendes-Laureano-et-al
 ---

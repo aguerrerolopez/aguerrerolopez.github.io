@@ -14,17 +14,17 @@ Currently, I am a **postdoctoral researcher** at the [Institute of Medical Micro
 **Research.**  My research primarily focuses on advancing the field of Machine Learning by understanding and developing novel probabilistic models that address real-world biomedical problems. To overcome the common challenges encountered in the biomedical field (missing data, multimodalities, high-dimensional data), I am dedicated to learn, develop and apply Bayesian models that offer more accurate and reliable predictions. I have a deep interest in the fields of eXplainable AI (XAI). With the growing influence of AI technologies in our society, it is crucial to ensure transparency, trustworthiness, and ethical alignment.
 
 **Quick CV**  
+{% assign peer_reviewed = site.publications | where: "category", "Peer-review Journals" %}
+I published a total of {{ peer_reviewed.size }} peer-reviewed papers; more details in the publications section.
 I hold a Ph.D. with honors (cum laude) from Universidad Carlos III de Madrid (UC3M), where I worked on **Bayesian Machine Learning applied to Clinical Microbiology** supervised by [Prof. Pablo M. Olmos](http://www.tsc.uc3m.es/~olmos/) and [Prof. Vanessa Gómez-Verdejo](https://vanessa.webs.tsc.uc3m.es), with the microbiology guidance of [Dr. Belén Rodríguez-Sánchez](https://scholar.google.es/citations?user=W9sZbBoAAAAJ&hl=es). After that, I was a postdoc at the [Applied Signal Processing Group](https://www.gaps.ssr.upm.es) at Universidad Politécnica de Madrid (UPM) on speech impairment research under [Prof. Juan I. Godino-Llorente](https://scholar.google.com/citations?user=fdkx_u4AAAAJ&hl=es) and [Prof. Julián D. Arias-Londoño](https://jdariasl.github.io). I am now a **postdoctoral researcher** at the [Institute of Medical Microbiology (IMM), University of Zurich (UZH)](https://www.imm.uzh.ch/de/Highlights.html), in [Prof. Dr. Adrian Egli](https://appliedmicrobiologyresearch.net/en/)'s group.
 
 
 🌟 **Latest Buzz** 🌟
 ------
 
-- **June 2025**: 📢 Exciting news! We've released the biggest dataset -completely free and open source- of MALDI-TOF MS of clinically relevant microorganisms. A total of **207,950** samples containing bacteria, fungi and mycobacteria from the Hospital General Universitario Gregorio Marañón. [Use it now for your own research!](https://doi.org/10.1101/2025.05.31.657186).
+- **February 2026**: New paper published as last author in *Expert Review of Anti-infective Therapy*: “How ready are we to use artificial intelligence in our fight against Antimicrobial resistance? An ESGAID and EAAS perspective.” [Read it here](https://doi.org/10.1080/14787210.2026.2625382).
 
-- **June 2025**: Excited to be part of the professors of the [ESCMID Artificial Intelligence and Machine Learning in Medical Microbiology Diagnostics](https://www.escmid.org/event-detail/artificial-intelligence-and-machine-learning-in-medical-microbiology-diagnostics/) at Zurich, Switzerland!
-
-- **April 2025**: New preprint available performing a systematic review of how ML and DL are used to solve microbiological problems with MALDI-TOF data! [Explore now](https://doi.org/10.1101/2025.01.25.634879).
+- **ESCMID 2026**: Two oral presentations — see you in Munich!
 
 👀 Keep your eyes peeled for more thrilling updates and milestones in my journey!
 
