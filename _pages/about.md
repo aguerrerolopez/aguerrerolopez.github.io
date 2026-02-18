@@ -9,7 +9,7 @@ redirect_from:
 ---
 Who am I
 ------
-Currently, I am a **postdoctoral researcher** at the [Institute of Medical Microbiology (IMM), University of Zurich (UZH)](https://www.imm.uzh.ch/de/Highlights.html), in [Prof. Dr. Adrian Egli](https://appliedmicrobiologyresearch.net/en/)'s group.
+Currently, I am a **postdoctoral researcher** at the [Institute of Medical Microbiology (IMM), University of Zurich (UZH)](https://www.imm.uzh.ch/de/Highlights.html), in [Prof. Dr. Adrian Egli](https://appliedmicrobiologyresearch.net/en/)'s group. From July 2026, I am a **Marie Skłodowska‑Curie Postdoctoral Fellow (MSCA PF)**.
 
 **Research.**  My research primarily focuses on advancing the field of Machine Learning by understanding and developing novel probabilistic models that address real-world biomedical problems. To overcome the common challenges encountered in the biomedical field (missing data, multimodalities, high-dimensional data), I am dedicated to learn, develop and apply Bayesian models that offer more accurate and reliable predictions. I have a deep interest in the fields of eXplainable AI (XAI). With the growing influence of AI technologies in our society, it is crucial to ensure transparency, trustworthiness, and ethical alignment.
 
