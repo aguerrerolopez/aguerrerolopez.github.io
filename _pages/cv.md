@@ -114,55 +114,65 @@ Ongoing PhD co-supervision (in progress)
 
 <h3 class="section-toggle" onclick="toggleSection('undergraduate-section')">Undergraduate Courses <span id="toggle-icon-undergraduate-section" class="toggle-icon">+</span></h3>
 <div id="undergraduate-section" class="section-content">
+  <ul class="cv-list">
   {% for post in site.teaching %}
     {% if post.type == "Undergraduate course" %}
       {% include archive-single-cv.html %}
     {% endif %}
   {% endfor %}
+  </ul>
 </div>
 
 <!-- Bachelor Theses -->
 
 <h3 class="section-toggle" onclick="toggleSection('bt-section')">Bachelor Theses <span id="toggle-icon-corporate-section" class="toggle-icon">+</span></h3>
 <div id="bt-section" class="section-content">
+  <ul class="cv-list">
   {% for post in site.teaching %}
     {% if post.type == "Bachelor Thesis" %}
       {% include archive-single-cv.html %}
     {% endif %}
   {% endfor %}
+  </ul>
 </div>
 
 <!-- Master Programs -->
 
 <h3 class="section-toggle" onclick="toggleSection('master-section')">Master Programs <span id="toggle-icon-master-section" class="toggle-icon">+</span></h3>
 <div id="master-section" class="section-content">
+  <ul class="cv-list">
   {% for post in site.teaching %}
     {% if post.type == "Master course" %}
       {% include archive-single-cv.html %}
     {% endif %}
   {% endfor %}
+  </ul>
 </div>
 
 <!-- Master Theses -->
 
 <h3 class="section-toggle" onclick="toggleSection('mt-section')">Master Theses <span id="toggle-icon-corporate-section" class="toggle-icon">+</span></h3>
 <div id="mt-section" class="section-content">
+  <ul class="cv-list">
   {% for post in site.teaching %}
     {% if post.type == "Master Thesis" %}
       {% include archive-single-cv.html %}
     {% endif %}
   {% endfor %}
+  </ul>
 </div>
 
 <!-- Corporate Training -->
 
 <h3 class="section-toggle" onclick="toggleSection('corporate-section')">Corporate Training <span id="toggle-icon-corporate-section" class="toggle-icon">+</span></h3>
 <div id="corporate-section" class="section-content">
+  <ul class="cv-list">
   {% for post in site.teaching %}
     {% if post.type == "Corporate training" %}
       {% include archive-single-cv.html %}
     {% endif %}
   {% endfor %}
+  </ul>
 </div>
 
 <!-- Teaching Evaluations & Recognitions -->
@@ -187,17 +197,19 @@ Invited Talks
     {% capture current_year %}{{ post.date | date: "%Y" }}{% endcapture %}
 
     {% unless last_year == current_year %}
-      {% assign last_year = current_year %}`<h3 class="year-toggle">`{{ last_year }} `<span class="toggle-icon">`+`</h3>`
-      `<div class="year-content">`
+      {% assign last_year = current_year %}
+      <h3 class="year-toggle">{{ last_year }} <span class="toggle-icon">+</span></h3>
+      <div class="year-content">
     {% endunless %}
 
     {% include archive-single-talk-cv.html %}
 
-    {% if forloop.last %}`</div>`
+    {% if forloop.last %}
+      </div>
     {% else %}
       {% capture next_talk_year %}{{ invited_talks[forloop.index].date | date: "%Y" }}{% endcapture %}
       {% if next_talk_year != last_year %}
-        `</div>`
+        </div>
       {% endif %}
     {% endif %}
   {% endfor %}
@@ -215,17 +227,19 @@ Talks
     {% capture current_year %}{{ post.date | date: "%Y" }}{% endcapture %}
 
     {% unless last_year == current_year %}
-      {% assign last_year = current_year %}`<h3 class="year-toggle">`{{ last_year }} `<span class="toggle-icon">`+`</h3>`
-      `<div class="year-content">`
+      {% assign last_year = current_year %}
+      <h3 class="year-toggle">{{ last_year }} <span class="toggle-icon">+</span></h3>
+      <div class="year-content">
     {% endunless %}
 
     {% include archive-single-talk-cv.html %}
 
-    {% if forloop.last %}`</div>`
+    {% if forloop.last %}
+      </div>
     {% else %}
       {% capture next_talk_year %}{{ noninvited_talks[forloop.index].date | date: "%Y" }}{% endcapture %}
       {% if next_talk_year != last_year %}
-        `</div>`
+        </div>
       {% endif %}
     {% endif %}
   {% endfor %}
