@@ -22,6 +22,8 @@ I hold a Ph.D. with honors (cum laude) from Universidad Carlos III de Madrid (UC
 🌟 **Latest Buzz** 🌟
 ------
 
+- **February 2026**: Thrilled to share I’ve been awarded a Marie Skłodowska-Curie Postdoctoral Fellowship (MSCA PF) for the project **OUTBRAID: OUTBreak AI-driven Detection: Enhancing MALDI-TOF outbreak detection with multimodal AI**. The project starts on **July 1, 2026**.
+
 - **February 2026**: New paper published as last author in *Expert Review of Anti-infective Therapy*: “How ready are we to use artificial intelligence in our fight against Antimicrobial resistance? An ESGAID and EAAS perspective.” [Read it here](https://doi.org/10.1080/14787210.2026.2625382).
 
 - **ESCMID 2026**: Two oral presentations — see you in Munich!
@@ -30,7 +32,7 @@ I hold a Ph.D. with honors (cum laude) from Universidad Carlos III de Madrid (UC
 
 Short Bio
 ------
-* Postdoctoral researcher at the [Institute for Medical Microbiology](https://appliedmicrobiologyresearch.net) at [University of Zurich (UZH)](https://www.imm.uzh.ch), Zurich, Switzerland, July 2025 - currently here!
+* Postdoctoral researcher in Prof. Adrian Egli’s group at the [Institute for Medical Microbiology](https://appliedmicrobiologyresearch.net), [University of Zurich (UZH)](https://www.imm.uzh.ch), Zurich, Switzerland. July 2025 – June 2026; Marie Skłodowska‑Curie Postdoctoral Fellow from July 2026 – present.
 * Visiting professor at [Signal Theory and Communications](https://www.tsc.uc3m.es/index.php), [UC3M](https://www.uc3m.es/Inicio), Madrid, Spain. 2024 - June 2025
 * Postdoctoral researcher at the [Bioengineering and Optoelectronics Group](http://www.byo.upm.es/BYO), UPM, Madrid, Spain. 2023-2024
 * Ph.D. candidate at [Signal Processing Group](http://gts.tsc.uc3m.es), UC3M, and predoctoral researcher at [Gregorio Marañón Health Research Institute](https://www.iisgm.com), Madrid, Spain. 2020-2023

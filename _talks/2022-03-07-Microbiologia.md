@@ -3,6 +3,7 @@ title: "Application of Machine Learning for the prediction of antimicrobial resi
 mechanisms: a semi-supervised heterogeneous approach"
 collection: talks
 type: "Seminar presentation"
+invited: false
 permalink: /talks/2022-03-07-Microbiologia
 venue: "Servicio de Microbiología"
 date: 2022-03-07
