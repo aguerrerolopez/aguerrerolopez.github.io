@@ -675,31 +675,144 @@ Workshops
     return text.replace(/\s+/g, ' ').trim();
   }
 
-  function addPdfLinkTargets(clone) {
-    toArray(clone.querySelectorAll('a[href]')).forEach(function (link) {
-      var href = link.getAttribute('href');
-      var text = cleanText(link.textContent);
-
-      if (!href || href.charAt(0) === '#' || !text) {
-        return;
-      }
-
-      if (href.indexOf('http') !== 0 && href.indexOf('mailto:') !== 0) {
-        return;
-      }
-
-      if (normalizeText(text).indexOf(normalizeText(href)) === -1) {
-        link.textContent = text + ' (' + href + ')';
-      }
-    });
+  function isPdfLinkHref(href) {
+    return href && href.charAt(0) !== '#' && (href.indexOf('http') === 0 || href.indexOf('mailto:') === 0);
   }
 
-  function getElementOwnText(element) {
-    var clone = element.cloneNode(true);
+  function appendPdfRun(runs, text, href) {
+    if (!text) {
+      return;
+    }
 
-    toArray(clone.querySelectorAll('ul, ol')).forEach(removeElement);
+    text = text.replace(/\s+/g, ' ');
 
-    return cleanText(clone.textContent);
+    if (!text) {
+      return;
+    }
+
+    if (runs.length && runs[runs.length - 1].href === href) {
+      runs[runs.length - 1].text += text;
+    } else {
+      runs.push({ text: text, href: href || null });
+    }
+  }
+
+  function extractPdfRuns(element, options) {
+    var runs = [];
+    var skipNestedLists = options && options.skipNestedLists;
+
+    function visit(node, href) {
+      var tag;
+      var nextHref = href;
+      var childNodes;
+
+      if (!node) {
+        return;
+      }
+
+      if (node.nodeType === 3) {
+        appendPdfRun(runs, node.nodeValue || '', href);
+        return;
+      }
+
+      if (!node.tagName) {
+        return;
+      }
+
+      tag = node.tagName.toLowerCase();
+
+      if (skipNestedLists && (tag === 'ul' || tag === 'ol')) {
+        return;
+      }
+
+      if (tag === 'br') {
+        appendPdfRun(runs, ' ', href);
+        return;
+      }
+
+      if (tag === 'a' && isPdfLinkHref(node.getAttribute('href'))) {
+        nextHref = node.getAttribute('href');
+      }
+
+      if (!node.childNodes && node._text) {
+        appendPdfRun(runs, node._text, nextHref);
+      }
+
+      childNodes = node.childNodes ? toArray(node.childNodes) : toArray(node.children);
+      childNodes.forEach(function (child) {
+        visit(child, nextHref);
+      });
+
+      if (['p', 'li', 'h1', 'h2', 'h3', 'div', 'article'].indexOf(tag) !== -1) {
+        appendPdfRun(runs, ' ', href);
+      }
+    }
+
+    visit(element, null);
+
+    return runs;
+  }
+
+  function normalizePdfRuns(runs) {
+    var text = '';
+    var links = [];
+    var leadingTrim;
+
+    runs.forEach(function (run) {
+      var value = sanitizePdfText(run.text).replace(/\s+/g, ' ');
+      var start;
+      var end;
+      var leadingSpaces;
+      var trailingSpaces;
+
+      if (!value) {
+        return;
+      }
+
+      if (!text) {
+        value = value.replace(/^ +/, '');
+      } else if (text.charAt(text.length - 1) === ' ' && value.charAt(0) === ' ') {
+        value = value.replace(/^ +/, '');
+      }
+
+      if (!value) {
+        return;
+      }
+
+      start = text.length;
+      text += value;
+      end = text.length;
+
+      if (run.href) {
+        leadingSpaces = value.match(/^ */)[0].length;
+        trailingSpaces = value.match(/ *$/)[0].length;
+
+        if (start + leadingSpaces < end - trailingSpaces) {
+          links.push({
+            start: start + leadingSpaces,
+            end: end - trailingSpaces,
+            href: run.href
+          });
+        }
+      }
+    });
+
+    leadingTrim = text.length - text.replace(/^ +/, '').length;
+    text = text.trim();
+
+    if (leadingTrim) {
+      links = links.map(function (link) {
+        return {
+          start: Math.max(0, link.start - leadingTrim),
+          end: Math.max(0, link.end - leadingTrim),
+          href: link.href
+        };
+      }).filter(function (link) {
+        return link.end > link.start;
+      });
+    }
+
+    return { text: text, links: links };
   }
 
   function extractPdfBlocks(root) {
@@ -707,7 +820,7 @@ Workshops
 
     function visit(element, depth) {
       var tag;
-      var text;
+      var blockContent;
 
       if (!element || !element.tagName) {
         return;
@@ -716,20 +829,20 @@ Workshops
       tag = element.tagName.toLowerCase();
 
       if (tag === 'h1' || tag === 'h2' || tag === 'h3') {
-        text = cleanText(element.textContent);
+        blockContent = normalizePdfRuns(extractPdfRuns(element));
 
-        if (text) {
-          blocks.push({ type: tag, text: text, depth: depth });
+        if (blockContent.text) {
+          blocks.push({ type: tag, text: blockContent.text, links: blockContent.links, depth: depth });
         }
 
         return;
       }
 
       if (tag === 'li') {
-        text = getElementOwnText(element);
+        blockContent = normalizePdfRuns(extractPdfRuns(element, { skipNestedLists: true }));
 
-        if (text) {
-          blocks.push({ type: 'li', text: text, depth: depth });
+        if (blockContent.text) {
+          blocks.push({ type: 'li', text: blockContent.text, links: blockContent.links, depth: depth });
         }
 
         toArray(element.children).forEach(function (child) {
@@ -742,10 +855,10 @@ Workshops
       }
 
       if (tag === 'p') {
-        text = cleanText(element.textContent);
+        blockContent = normalizePdfRuns(extractPdfRuns(element));
 
-        if (text) {
-          blocks.push({ type: 'p', text: text, depth: depth });
+        if (blockContent.text) {
+          blocks.push({ type: 'p', text: blockContent.text, links: blockContent.links, depth: depth });
         }
 
         return;
@@ -797,42 +910,59 @@ Workshops
       .replace(/\)/g, '\\)');
   }
 
-  function wrapPdfText(text, maxWidth, fontSize) {
+  function wrapPdfBlock(block, maxWidth, fontSize) {
     var averageCharacterWidth = fontSize * 0.52;
     var maxCharacters = Math.max(16, Math.floor(maxWidth / averageCharacterWidth));
-    var words = sanitizePdfText(text).split(/\s+/);
+    var text = sanitizePdfText(block.text);
     var lines = [];
-    var line = '';
+    var position = 0;
 
-    words.forEach(function (word) {
-      var remaining = word;
+    function getLineLinks(start, end, leadingTrim) {
+      return (block.links || []).map(function (link) {
+        var linkStart = Math.max(link.start, start);
+        var linkEnd = Math.min(link.end, end);
 
-      while (remaining.length > maxCharacters) {
-        if (line) {
-          lines.push(line);
-          line = '';
+        if (linkEnd <= linkStart) {
+          return null;
         }
 
-        lines.push(remaining.slice(0, maxCharacters - 1) + '-');
-        remaining = remaining.slice(maxCharacters - 1);
+        return {
+          start: Math.max(0, linkStart - start - leadingTrim),
+          end: Math.max(0, linkEnd - start - leadingTrim),
+          href: link.href
+        };
+      }).filter(function (link) {
+        return link && link.end > link.start;
+      });
+    }
+
+    while (position < text.length) {
+      var end = Math.min(text.length, position + maxCharacters);
+      var breakAt;
+      var rawLine;
+      var leadingTrim;
+
+      if (end < text.length) {
+        breakAt = text.lastIndexOf(' ', end);
+
+        if (breakAt > position + Math.floor(maxCharacters * 0.45)) {
+          end = breakAt;
+        }
       }
 
-      if (!remaining) {
-        return;
-      }
+      rawLine = text.slice(position, end);
+      leadingTrim = rawLine.length - rawLine.replace(/^ +/, '').length;
 
-      if (!line) {
-        line = remaining;
-      } else if ((line + ' ' + remaining).length <= maxCharacters) {
-        line += ' ' + remaining;
-      } else {
-        lines.push(line);
-        line = remaining;
-      }
-    });
+      lines.push({
+        text: rawLine.trim(),
+        links: getLineLinks(position, end, leadingTrim)
+      });
 
-    if (line) {
-      lines.push(line);
+      position = end;
+
+      while (text.charAt(position) === ' ') {
+        position += 1;
+      }
     }
 
     return lines;
@@ -869,13 +999,13 @@ Workshops
     var marginRight = 42;
     var marginTop = 44;
     var marginBottom = 44;
-    var pages = [[]];
+    var pages = [{ lines: [], annotations: [] }];
     var y = pageHeight - marginTop;
     var hasContent = false;
     var blocks;
 
     function addPage() {
-      pages.push([]);
+      pages.push({ lines: [], annotations: [] });
       y = pageHeight - marginTop;
     }
 
@@ -891,19 +1021,33 @@ Workshops
       }
     }
 
-    function addLine(text, style, extraIndent) {
+    function addLine(text, style, links, extraIndent) {
       var lineHeight = style.size * 1.28;
+      var x = marginLeft + style.indent + (extraIndent || 0);
+      var averageCharacterWidth = style.size * 0.52;
 
       if (y - lineHeight < marginBottom) {
         addPage();
       }
 
-      pages[pages.length - 1].push({
+      pages[pages.length - 1].lines.push({
         text: text,
         font: style.font,
         size: style.size,
-        x: marginLeft + style.indent + (extraIndent || 0),
+        x: x,
         y: y
+      });
+
+      (links || []).forEach(function (link) {
+        pages[pages.length - 1].annotations.push({
+          href: link.href,
+          rect: [
+            x + link.start * averageCharacterWidth,
+            y - 2,
+            x + link.end * averageCharacterWidth,
+            y + style.size
+          ]
+        });
       });
 
       y -= lineHeight;
@@ -915,7 +1059,6 @@ Workshops
       clone.textContent = 'CV';
     }
 
-    addPdfLinkTargets(clone);
     blocks = extractPdfBlocks(clone);
 
     blocks.forEach(function (block) {
@@ -930,9 +1073,18 @@ Workshops
 
       addSpace(style.gapBefore);
 
-      lines = wrapPdfText(block.text, wrapWidth - (bullet ? 12 : 0), style.size);
+      lines = wrapPdfBlock(block, wrapWidth - (bullet ? 12 : 0), style.size);
       lines.forEach(function (line, index) {
-        addLine((index === 0 ? bullet : '  ') + line, style, 0);
+        var prefix = index === 0 ? bullet : '  ';
+        var links = line.links.map(function (link) {
+          return {
+            start: link.start + prefix.length,
+            end: link.end + prefix.length,
+            href: link.href
+          };
+        });
+
+        addLine(prefix + line.text, style, links, 0);
       });
 
       addSpace(style.gapAfter);
@@ -946,6 +1098,8 @@ Workshops
     var offsets = [];
     var pdf = '%PDF-1.4\n';
     var kids = [];
+    var pageData = [];
+    var nextObjectId = 5;
     var objectCount;
     var xrefOffset;
 
@@ -963,24 +1117,73 @@ Workshops
       ].join('\n');
     }
 
+    function annotationUnderlineToPdf(annotation) {
+      var x1 = annotation.rect[0];
+      var y = annotation.rect[1] + 1;
+      var x2 = annotation.rect[2];
+
+      return [
+        '0 0 1 RG',
+        '0.5 w',
+        formatPdfNumber(x1) + ' ' + formatPdfNumber(y) + ' m',
+        formatPdfNumber(x2) + ' ' + formatPdfNumber(y) + ' l',
+        'S',
+        '0 0 0 RG'
+      ].join('\n');
+    }
+
     addObject(1, '<< /Type /Catalog /Pages 2 0 R >>');
     addObject(3, '<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>');
     addObject(4, '<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>');
 
-    pages.forEach(function (pageLines, index) {
-      var pageId = 5 + index * 2;
-      var contentId = pageId + 1;
-      var stream = pageLines.map(lineToPdf).join('\n');
+    pages.forEach(function (page) {
+      var pageId = nextObjectId;
+      var contentId = nextObjectId + 1;
+      var annotationIds = [];
 
+      nextObjectId += 2;
+
+      page.annotations.forEach(function () {
+        annotationIds.push(nextObjectId);
+        nextObjectId += 1;
+      });
+
+      pageData.push({
+        pageId: pageId,
+        contentId: contentId,
+        annotationIds: annotationIds,
+        page: page
+      });
       kids.push(pageId + ' 0 R');
-      addObject(pageId, [
+    });
+
+    pageData.forEach(function (data) {
+      var stream = data.page.lines.map(lineToPdf).concat(data.page.annotations.map(annotationUnderlineToPdf)).join('\n');
+      var annotations = data.annotationIds.length ? '/Annots [' + data.annotationIds.map(function (id) {
+        return id + ' 0 R';
+      }).join(' ') + ']' : '';
+
+      addObject(data.pageId, [
         '<< /Type /Page /Parent 2 0 R',
         '/MediaBox [0 0 ' + formatPdfNumber(pageWidth) + ' ' + formatPdfNumber(pageHeight) + ']',
         '/Resources << /Font << /F1 3 0 R /F2 4 0 R >> >>',
-        '/Contents ' + contentId + ' 0 R',
+        '/Contents ' + data.contentId + ' 0 R',
+        annotations,
         '>>'
       ].join(' '));
-      addObject(contentId, '<< /Length ' + stream.length + ' >>\nstream\n' + stream + '\nendstream');
+      addObject(data.contentId, '<< /Length ' + stream.length + ' >>\nstream\n' + stream + '\nendstream');
+
+      data.page.annotations.forEach(function (annotation, index) {
+        var rect = annotation.rect.map(formatPdfNumber).join(' ');
+
+        addObject(data.annotationIds[index], [
+          '<< /Type /Annot /Subtype /Link',
+          '/Rect [' + rect + ']',
+          '/Border [0 0 0]',
+          '/A << /S /URI /URI (' + escapePdfText(annotation.href) + ') >>',
+          '>>'
+        ].join(' '));
+      });
     });
 
     addObject(2, '<< /Type /Pages /Kids [' + kids.join(' ') + '] /Count ' + pages.length + ' >>');
