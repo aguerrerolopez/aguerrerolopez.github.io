@@ -1,15 +1,18 @@
 # main links links
 main:
+  - title: "Research"
+    url: /research/
+
   - title: "Publications"
     url: /publications/
     
-  - title: "Open Access"
-    url: /openaccess/
+  - title: "Software & Data"
+    url: /software-data/
     
   - title: "Talks"
     url: /talks/    
 
-  - title: "Teaching"
+  - title: "Teaching & Mentoring"
     url: /teaching/    
     
   - title: "CV"

@@ -2,7 +2,7 @@
 title: "NeuroVoz: a Castillian Spanish corpus of parkinsonian speech"
 collection: publications
 permalink: /publication/2024-03-04-Mendes-Laureano-et-al
-excerpt: ''
+excerpt: 'An open Castilian Spanish speech corpus designed to support Parkinson-related speech analysis and digital biomarker research.'
 date: 2024-03-04
 venue: 'Zenodo'
 category: "Datasets"

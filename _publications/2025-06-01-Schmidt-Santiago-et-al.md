@@ -2,7 +2,7 @@
 title: "MARISMa: a routine MALDI-TOF MS database from 2018 to 2024"
 collection: publications
 permalink: /publication/2025-06-01-Schmidt-Santiago-et-al
-excerpt: ''
+excerpt: 'A large open MALDI-TOF MS resource created to support clinical microbiology machine learning, benchmarking, and translational data-driven applications.'
 date: 2025-06-01
 category: "Preprints"
 venue: 'bioRxiv'

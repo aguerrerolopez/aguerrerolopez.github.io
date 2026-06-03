@@ -2,7 +2,7 @@
 title: "Exploring the Power of Photoplethysmogram Matrix for Atrial Fibrillation Detection with Integrated Explainability"
 collection: publications
 permalink: /publication/2024-03-21-Fuster-Barcelo-et-al
-excerpt: ''
+excerpt: 'Explainable deep learning for atrial fibrillation detection from PPG-derived matrix representations.'
 date: 2024-03-21
 category: "Peer-review Journals"
 venue: 'Engineering Applications of Artificial Intelligence'

@@ -32,12 +32,12 @@ Work experience
 * 2020-present: Ph.D. Candidate
   * __Company__: Universidad Carlos III de Madrid, Signal Theory and Communications Department
   * __Field__: Bayesian Machine Learning.
-  * __Supervisors__: [Dr. Pablo M. Olmos](https://www.tsc.uc3m.es/~olmos/) and [Dr. Vanessa Gómez-Verdejo](https://vanessa.webs.tsc.uc3m.es)
+  * __Supervisors__: [Prof. Pablo M. Olmos](https://www.tsc.uc3m.es/~olmos/) and [Dr. Vanessa Gómez-Verdejo](https://vanessa.webs.tsc.uc3m.es)
 
 * 2019-2020: Research Assistant
   * __Company__: Universidad Carlos III de Madrid, Signal Theory and Communications Department
   * __Field__: Baeysian Machine Learning
-  * __Supervisor__: [Dr. Pablo M. Olmos](https://www.tsc.uc3m.es/~olmos/)
+  * __Supervisor__: [Prof. Pablo M. Olmos](https://www.tsc.uc3m.es/~olmos/)
   
 * 2018-2019: Telecommunication Engineer
   * __Company__: [ALCORT S.L.](https://alcort.net/sobre-nosotros/)

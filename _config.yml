@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Alejandro Guerrero-López"
 title_separator          : "-"
 name                     : &name "Alejandro Guerrero-López"
-description              : &description "Postdoctoral researcher a the IMM, UZH, Switzerland."
+description              : &description "Applied machine learning for healthcare and medical data science. Building trustworthy AI, multimodal decision-support tools, and open-source resources for biomedicine."
 url                      : "https://aguerrerolopez.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "aguerrerolopez/aguerrerolopez.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Alejandro Guerrero-López"
   avatar           : "profile.png"
-  bio              : "Postdoctoral researcher at the IMM, UZH, Switzerland."
+  bio              : "Applied ML for healthcare and medical data science. Trustworthy AI, multimodal decision-support, and open-source tools."
   location         : "Zurich, Switzerland."
   employer         : "University of Zurich"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/alexjorguer27/"
+  linkedin         : "alexjorguer27"
   orcid            : "https://orcid.org/0000-0001-8869-3363"
   pinterest        :
   soundcloud       :

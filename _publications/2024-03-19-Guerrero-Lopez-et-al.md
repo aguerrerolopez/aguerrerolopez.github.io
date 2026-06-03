@@ -2,7 +2,7 @@
 title: "MARTA: a model for the automatic phonemic grouping of the parkinsonian speech"
 collection: publications
 permalink: /publication/2024-03-19-Guerrero-Lopez-et-al
-excerpt: ''
+excerpt: 'A model for automatic phonemic grouping in parkinsonian speech, aimed at robust speech-based digital biomarkers.'
 date: 2024-03-19
 category: "Preprints"
 venue: 'techRxiv'

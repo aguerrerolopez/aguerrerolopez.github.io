@@ -1,12 +1,16 @@
 ---
 layout: archive
-title: "OpenAccess"
-permalink: /openaccess/
+title: "Software & Data"
+permalink: /software-data/
 author_profile: true
 ---
 
 
 {% include base_path %}
+
+This page gathers my open-source software, public datasets, and reusable teaching resources. These projects are part of a broader goal: making machine learning more useful and accessible for health and biomedical research.
+
+I am especially interested in resources that help clinicians, microbiologists, and biomedical researchers work with AI in a more practical, transparent, and reproducible way. Some entries are research prototypes, while others are designed as reusable community-facing tools and data assets.
 
 {% assign categories_order = "Datasets,Software,Teaching,Misc" | split: "," %}
 

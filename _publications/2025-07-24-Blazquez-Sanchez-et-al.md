@@ -2,7 +2,7 @@
 title: "Automated web-based typing of Clostridioides difficile ribotypes via MALDI-TOF MS"
 collection: publications
 permalink: /publication/2025-07-24-Blazquez-Sanchez-et-al
-excerpt: ''
+excerpt: 'A web-based translational tool for automated Clostridioides difficile ribotype typing from MALDI-TOF MS data.'
 date: 2025-07-24
 category: "Peer-review Journals"
 venue: 'BMC Bioinformatics'

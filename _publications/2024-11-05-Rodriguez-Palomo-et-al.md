@@ -2,7 +2,7 @@
 title: "Automatic surveillance of Escherichia coli bacteriological strains within clinical settings"
 collection: publications
 permalink: /publication/2024-11-05-Rodriguez-Palomo-et-al
-excerpt: ''
+excerpt: 'A machine learning approach for automated strain surveillance of Escherichia coli in clinical settings.'
 date: 2024-11-05
 category: "Preprints"
 venue: 'bioRxiv'

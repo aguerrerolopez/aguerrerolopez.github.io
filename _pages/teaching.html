@@ -1,11 +1,22 @@
 ---
 layout: archive
-title: "Teaching"
+title: "Teaching & Mentoring"
 permalink: /teaching/
 author_profile: true
 ---
 
 {% include base_path %}
+
+{% assign undergrad_courses = site.teaching | where: "type", "Undergraduate course" | size %}
+{% assign master_courses = site.teaching | where: "type", "Master course" | size %}
+{% assign corporate_training = site.teaching | where: "type", "Corporate training" | size %}
+{% assign taught_courses = undergrad_courses | plus: master_courses | plus: corporate_training %}
+{% assign bachelor_theses = site.teaching | where: "type", "Bachelor Thesis" | size %}
+{% assign master_theses = site.teaching | where: "type", "Master Thesis" | size %}
+
+I see teaching as part of training the next generation of researchers and practitioners in AI for healthcare. My teaching has focused on machine learning, deep learning, and applied health data science across undergraduate, master's, and professional settings.
+
+To date, I have contributed to **{{ taught_courses }} taught courses**, supervised **{{ bachelor_theses }} BSc thesis** and **{{ master_theses }} MSc theses**, and I currently **co-supervise 4 PhD students**.
 
 <script>
 function toggleSection(sectionId) {
@@ -49,7 +60,7 @@ function toggleSection(sectionId) {
 </div>
 
 <!-- Bachelor Theses -->
-<h2 class="section-toggle" onclick="toggleSection('bt-section')">Bachelor Theses <span id="toggle-icon-corporate-section" class="toggle-icon">+</span></h2>
+<h2 class="section-toggle" onclick="toggleSection('bt-section')">Bachelor Theses <span id="toggle-icon-bt-section" class="toggle-icon">+</span></h2>
 <div id="bt-section" class="section-content">
   {% for post in site.teaching %}
     {% if post.type == "Bachelor Thesis" %}
@@ -69,10 +80,20 @@ function toggleSection(sectionId) {
 </div>
 
 <!-- Master Theses -->
-<h2 class="section-toggle" onclick="toggleSection('mt-section')">Master Theses <span id="toggle-icon-corporate-section" class="toggle-icon">+</span></h2>
+<h2 class="section-toggle" onclick="toggleSection('mt-section')">Master Theses <span id="toggle-icon-mt-section" class="toggle-icon">+</span></h2>
 <div id="mt-section" class="section-content">
   {% for post in site.teaching %}
     {% if post.type == "Master Thesis" %}
+      {% include archive-single.html %}
+    {% endif %}
+  {% endfor %}
+</div>
+
+<!-- PhD Co-supervision -->
+<h2 class="section-toggle" onclick="toggleSection('phd-section')">PhD Co-supervision <span id="toggle-icon-phd-section" class="toggle-icon">+</span></h2>
+<div id="phd-section" class="section-content">
+  {% for post in site.teaching %}
+    {% if post.type == "PhD co-supervision" %}
       {% include archive-single.html %}
     {% endif %}
   {% endfor %}
