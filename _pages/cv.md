@@ -136,7 +136,7 @@ Teaching
 {% assign taught_courses = undergrad_courses | plus: master_courses | plus: corporate_training %}
 {% assign thesis_bsc = site.teaching | where: "type", "Bachelor Thesis" | size %}
 {% assign thesis_msc = site.teaching | where: "type", "Master Thesis" | size %}
-I have contributed to {{ taught_courses }} taught courses, supervised {{ thesis_bsc }} BSc theses and {{ thesis_msc }} MSc theses, and I currently co-supervise 4 PhD students.
+I have contributed to {{ taught_courses }} taught courses, supervised {{ thesis_bsc }} BSc theses and {{ thesis_msc }} MSc theses, and I currently co-supervise 3 PhD students.
 
 Selected ongoing PhD co-supervision (in progress)
 -------------------------------------------------
