@@ -31,7 +31,7 @@ Selected Outputs
 Funding, Leadership, and Current Activities
 ------
 - **MSCA PF awardee (2026-2028).** I was awarded a Marie Skłodowska-Curie Postdoctoral Fellowship for **OUTBRAID**, focused on AI-driven outbreak detection with multimodal microbiology data.
-- **Supervision and mentoring.** I have supervised **1 BSc thesis**, **8 MSc theses**, and I currently **co-supervise 4 PhD students**.
+- **Supervision and mentoring.** I have supervised **3 BSc theses**, **8 MSc theses**, and I currently **co-supervise 4 PhD students**.
 - **Teaching and training.** I have contributed to undergraduate, master's, and professional training in machine learning and health data science, and I currently participate as faculty in the **ESCMID AI and Machine Learning in Medical Microbiology Diagnostics** course.
 - **Scientific community engagement.** My recent activities include invited talks, participation in international workshops, and contributions to community-facing open science efforts in biomedical AI.
 - **Open-source translational development.** I am currently developing an **AST application** to turn AI models into a practical, reusable tool for microbiology workflows.

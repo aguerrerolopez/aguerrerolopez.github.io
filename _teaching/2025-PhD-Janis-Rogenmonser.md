@@ -8,9 +8,13 @@ venue: "Institute of Medical Microbiology, University of Zurich"
 date: 2025-09-01
 location: "Zurich, Switzerland"
 student: "Janis Rogenmonser"
+main_supervisor: "Prof. Adrian Egli"
+co_supervisor: "Alejandro Guerrero-López"
 status: "Ongoing"
 ---
 
-Co-supervising Janis Rogenmonser's PhD project on antimicrobial resistance prediction from whole-genome sequencing.
+Co-supervising Janis Rogenmonser's PhD project on advancing antimicrobial resistance prediction from whole-genome sequencing.
 
-Started September 2025; co-supervising since then.
+Main supervisor: Prof. Adrian Egli. Co-supervisor: Alejandro Guerrero-López.
+
+Started September 2025; co-supervising since September 2025.

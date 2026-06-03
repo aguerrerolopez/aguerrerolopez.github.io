@@ -129,14 +129,14 @@ Teaching
 {% assign taught_courses = undergrad_courses | plus: master_courses | plus: corporate_training %}
 {% assign thesis_bsc = site.teaching | where: "type", "Bachelor Thesis" | size %}
 {% assign thesis_msc = site.teaching | where: "type", "Master Thesis" | size %}
-I have contributed to {{ taught_courses }} taught courses, supervised {{ thesis_bsc }} BSc thesis and {{ thesis_msc }} MSc theses, and I currently co-supervise 4 PhD students.
+I have contributed to {{ taught_courses }} taught courses, supervised {{ thesis_bsc }} BSc theses and {{ thesis_msc }} MSc theses, and I currently co-supervise 4 PhD students.
 
 Selected ongoing PhD co-supervision (in progress)
 -------------------------------------------------
 
-* Yukino Gütlin — Predicting antimicrobial resistance (AMR), virulence, and invasiveness from MALDI-TOF MS data to support clinicians’ decisions on the usage of antimicrobials. Started 2024; co-supervising since July 2025. Supervisor: Prof. Adrian Egli. Co-supervisor: Alejandro Guerrero-López
-* Eline Meijer — Boosting resolution of MALDI-TOF mass spectra using transformer-based machine learning. Started January 2025; co-supervising since July 2025. Supervisor: Prof. Adrian Egli. Co-supervisor: Alejandro Guerrero-López
-* Janis Rogenmonser — Advancing antimicrobial resistance prediction from whole-genome sequencing. Started September 2025; co-supervising since September 2025. Co-supervisor: Alejandro Guerrero-López
+* Yukino Gütlin — Predicting antimicrobial resistance, virulence, and invasiveness from MALDI-TOF MS data. Main supervisor: Prof. Adrian Egli. Co-supervisor: Alejandro Guerrero-López. Started 2024; co-supervising since July 2025.
+* Eline Meijer — Boosting the resolution of MALDI-TOF mass spectra using transformer-based machine learning. Main supervisor: Prof. Adrian Egli. Co-supervisor: Alejandro Guerrero-López. Started January 2025; co-supervising since July 2025.
+* Janis Rogenmonser — Advancing antimicrobial resistance prediction from whole-genome sequencing. Main supervisor: Prof. Adrian Egli. Co-supervisor: Alejandro Guerrero-López. Started September 2025; co-supervising since September 2025.
 
 <!-- Undergraduate Courses -->
 
