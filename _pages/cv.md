@@ -14,6 +14,13 @@ My profile combines competitive funding, collaborative translational research, s
 
 <div id="cv-export-controls" class="cv-export-controls" aria-label="CV download options">
   <button type="button" id="cv-download-button" class="btn cv-export__button"><i class="fa fa-download" aria-hidden="true"></i> Download CV</button>
+  <label class="cv-export__format" for="cv-export-format">
+    <span>Format</span>
+    <select id="cv-export-format">
+      <option value="pdf" selected>PDF</option>
+      <option value="html">HTML</option>
+    </select>
+  </label>
   <details class="cv-export__details">
     <summary>Sections</summary>
     <div class="cv-export__menu" role="group" aria-label="Optional CV sections">
@@ -320,6 +327,24 @@ Workshops
   margin-right: 0.35rem;
 }
 
+.cv-export__format {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  min-height: 2.25rem;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.cv-export__format select {
+  min-height: 2.25rem;
+  padding: 0 0.55rem;
+  border: 1px solid #c8cfd6;
+  border-radius: 4px;
+  background: #fff;
+  font: inherit;
+}
+
 .cv-export__details {
   position: relative;
   min-width: 12rem;
@@ -419,6 +444,11 @@ Workshops
   }
 
   .cv-export__details {
+    margin-top: 0.5rem;
+  }
+
+  .cv-export__format {
+    display: flex;
     margin-top: 0.5rem;
   }
 
@@ -555,12 +585,12 @@ Workshops
     }
   }
 
-  function prepareExportContent() {
+  function prepareExportClone() {
     var source = document.querySelector('.archive');
     var clone;
 
     if (!source) {
-      return '';
+      return null;
     }
 
     clone = source.cloneNode(true);
@@ -589,7 +619,13 @@ Workshops
       image.setAttribute('src', image.src);
     });
 
-    return clone.innerHTML;
+    return clone;
+  }
+
+  function prepareExportContent() {
+    var clone = prepareExportClone();
+
+    return clone ? clone.innerHTML : '';
   }
 
   function escapeHtml(text) {
@@ -635,11 +671,351 @@ Workshops
     ].join('\n');
   }
 
+  function cleanText(text) {
+    return text.replace(/\s+/g, ' ').trim();
+  }
+
+  function addPdfLinkTargets(clone) {
+    toArray(clone.querySelectorAll('a[href]')).forEach(function (link) {
+      var href = link.getAttribute('href');
+      var text = cleanText(link.textContent);
+
+      if (!href || href.charAt(0) === '#' || !text) {
+        return;
+      }
+
+      if (href.indexOf('http') !== 0 && href.indexOf('mailto:') !== 0) {
+        return;
+      }
+
+      if (normalizeText(text).indexOf(normalizeText(href)) === -1) {
+        link.textContent = text + ' (' + href + ')';
+      }
+    });
+  }
+
+  function getElementOwnText(element) {
+    var clone = element.cloneNode(true);
+
+    toArray(clone.querySelectorAll('ul, ol')).forEach(removeElement);
+
+    return cleanText(clone.textContent);
+  }
+
+  function extractPdfBlocks(root) {
+    var blocks = [];
+
+    function visit(element, depth) {
+      var tag;
+      var text;
+
+      if (!element || !element.tagName) {
+        return;
+      }
+
+      tag = element.tagName.toLowerCase();
+
+      if (tag === 'h1' || tag === 'h2' || tag === 'h3') {
+        text = cleanText(element.textContent);
+
+        if (text) {
+          blocks.push({ type: tag, text: text, depth: depth });
+        }
+
+        return;
+      }
+
+      if (tag === 'li') {
+        text = getElementOwnText(element);
+
+        if (text) {
+          blocks.push({ type: 'li', text: text, depth: depth });
+        }
+
+        toArray(element.children).forEach(function (child) {
+          if (child.tagName && ['ul', 'ol'].indexOf(child.tagName.toLowerCase()) !== -1) {
+            visit(child, depth + 1);
+          }
+        });
+
+        return;
+      }
+
+      if (tag === 'p') {
+        text = cleanText(element.textContent);
+
+        if (text) {
+          blocks.push({ type: 'p', text: text, depth: depth });
+        }
+
+        return;
+      }
+
+      toArray(element.children).forEach(function (child) {
+        visit(child, depth + (tag === 'ul' || tag === 'ol' ? 1 : 0));
+      });
+    }
+
+    visit(root, 0);
+
+    return blocks;
+  }
+
+  function sanitizePdfText(text) {
+    var replacements = {
+      '\u00a0': ' ',
+      '\u2010': '-',
+      '\u2011': '-',
+      '\u2012': '-',
+      '\u2013': '-',
+      '\u2014': '-',
+      '\u2018': "'",
+      '\u2019': "'",
+      '\u201c': '"',
+      '\u201d': '"',
+      '\u2026': '...',
+      '\u2212': '-',
+      '\u0141': 'L',
+      '\u0142': 'l'
+    };
+
+    text = text.replace(/[\u00a0\u2010-\u2014\u2018\u2019\u201c\u201d\u2026\u2212\u0141\u0142]/g, function (character) {
+      return replacements[character] || '';
+    });
+
+    if (text.normalize) {
+      text = text.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    }
+
+    return text.replace(/[^\x20-\x7E]/g, '');
+  }
+
+  function escapePdfText(text) {
+    return sanitizePdfText(text)
+      .replace(/\\/g, '\\\\')
+      .replace(/\(/g, '\\(')
+      .replace(/\)/g, '\\)');
+  }
+
+  function wrapPdfText(text, maxWidth, fontSize) {
+    var averageCharacterWidth = fontSize * 0.52;
+    var maxCharacters = Math.max(16, Math.floor(maxWidth / averageCharacterWidth));
+    var words = sanitizePdfText(text).split(/\s+/);
+    var lines = [];
+    var line = '';
+
+    words.forEach(function (word) {
+      var remaining = word;
+
+      while (remaining.length > maxCharacters) {
+        if (line) {
+          lines.push(line);
+          line = '';
+        }
+
+        lines.push(remaining.slice(0, maxCharacters - 1) + '-');
+        remaining = remaining.slice(maxCharacters - 1);
+      }
+
+      if (!remaining) {
+        return;
+      }
+
+      if (!line) {
+        line = remaining;
+      } else if ((line + ' ' + remaining).length <= maxCharacters) {
+        line += ' ' + remaining;
+      } else {
+        lines.push(line);
+        line = remaining;
+      }
+    });
+
+    if (line) {
+      lines.push(line);
+    }
+
+    return lines;
+  }
+
+  function getPdfBlockStyle(block) {
+    if (block.type === 'h1') {
+      return { font: 'F2', size: 16, indent: 0, gapBefore: 12, gapAfter: 5 };
+    }
+
+    if (block.type === 'h2') {
+      return { font: 'F2', size: 12, indent: 0, gapBefore: 9, gapAfter: 3 };
+    }
+
+    if (block.type === 'h3') {
+      return { font: 'F2', size: 10.5, indent: 0, gapBefore: 7, gapAfter: 2 };
+    }
+
+    if (block.type === 'li') {
+      return { font: 'F1', size: 9.5, indent: Math.max(0, block.depth - 1) * 10, gapBefore: 1, gapAfter: 1 };
+    }
+
+    return { font: 'F1', size: 9.5, indent: 0, gapBefore: 2, gapAfter: 3 };
+  }
+
+  function formatPdfNumber(number) {
+    return String(Math.round(number * 100) / 100);
+  }
+
+  function buildPdfDocument(clone) {
+    var pageWidth = 595.28;
+    var pageHeight = 841.89;
+    var marginLeft = 42;
+    var marginRight = 42;
+    var marginTop = 44;
+    var marginBottom = 44;
+    var pages = [[]];
+    var y = pageHeight - marginTop;
+    var hasContent = false;
+    var blocks;
+
+    function addPage() {
+      pages.push([]);
+      y = pageHeight - marginTop;
+    }
+
+    function addSpace(points) {
+      if (!hasContent) {
+        return;
+      }
+
+      if (y - points < marginBottom) {
+        addPage();
+      } else {
+        y -= points;
+      }
+    }
+
+    function addLine(text, style, extraIndent) {
+      var lineHeight = style.size * 1.28;
+
+      if (y - lineHeight < marginBottom) {
+        addPage();
+      }
+
+      pages[pages.length - 1].push({
+        text: text,
+        font: style.font,
+        size: style.size,
+        x: marginLeft + style.indent + (extraIndent || 0),
+        y: y
+      });
+
+      y -= lineHeight;
+      hasContent = true;
+    }
+
+    if (!clone) {
+      clone = document.createElement('div');
+      clone.textContent = 'CV';
+    }
+
+    addPdfLinkTargets(clone);
+    blocks = extractPdfBlocks(clone);
+
+    blocks.forEach(function (block) {
+      var style = getPdfBlockStyle(block);
+      var bullet = block.type === 'li' ? '- ' : '';
+      var wrapWidth = pageWidth - marginLeft - marginRight - style.indent;
+      var lines;
+
+      if (!block.text) {
+        return;
+      }
+
+      addSpace(style.gapBefore);
+
+      lines = wrapPdfText(block.text, wrapWidth - (bullet ? 12 : 0), style.size);
+      lines.forEach(function (line, index) {
+        addLine((index === 0 ? bullet : '  ') + line, style, 0);
+      });
+
+      addSpace(style.gapAfter);
+    });
+
+    return writePdf(pages, pageWidth, pageHeight);
+  }
+
+  function writePdf(pages, pageWidth, pageHeight) {
+    var objects = [];
+    var offsets = [];
+    var pdf = '%PDF-1.4\n';
+    var kids = [];
+    var objectCount;
+    var xrefOffset;
+
+    function addObject(id, body) {
+      objects[id] = body;
+    }
+
+    function lineToPdf(line) {
+      return [
+        'BT',
+        '/' + line.font + ' ' + formatPdfNumber(line.size) + ' Tf',
+        '1 0 0 1 ' + formatPdfNumber(line.x) + ' ' + formatPdfNumber(line.y) + ' Tm',
+        '(' + escapePdfText(line.text) + ') Tj',
+        'ET'
+      ].join('\n');
+    }
+
+    addObject(1, '<< /Type /Catalog /Pages 2 0 R >>');
+    addObject(3, '<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>');
+    addObject(4, '<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>');
+
+    pages.forEach(function (pageLines, index) {
+      var pageId = 5 + index * 2;
+      var contentId = pageId + 1;
+      var stream = pageLines.map(lineToPdf).join('\n');
+
+      kids.push(pageId + ' 0 R');
+      addObject(pageId, [
+        '<< /Type /Page /Parent 2 0 R',
+        '/MediaBox [0 0 ' + formatPdfNumber(pageWidth) + ' ' + formatPdfNumber(pageHeight) + ']',
+        '/Resources << /Font << /F1 3 0 R /F2 4 0 R >> >>',
+        '/Contents ' + contentId + ' 0 R',
+        '>>'
+      ].join(' '));
+      addObject(contentId, '<< /Length ' + stream.length + ' >>\nstream\n' + stream + '\nendstream');
+    });
+
+    addObject(2, '<< /Type /Pages /Kids [' + kids.join(' ') + '] /Count ' + pages.length + ' >>');
+
+    objectCount = objects.length - 1;
+
+    for (var id = 1; id <= objectCount; id++) {
+      offsets[id] = pdf.length;
+      pdf += id + ' 0 obj\n' + objects[id] + '\nendobj\n';
+    }
+
+    xrefOffset = pdf.length;
+    pdf += 'xref\n0 ' + (objectCount + 1) + '\n';
+    pdf += '0000000000 65535 f \n';
+
+    for (var objectId = 1; objectId <= objectCount; objectId++) {
+      pdf += ('0000000000' + offsets[objectId]).slice(-10) + ' 00000 n \n';
+    }
+
+    pdf += [
+      'trailer',
+      '<< /Size ' + (objectCount + 1) + ' /Root 1 0 R >>',
+      'startxref',
+      xrefOffset,
+      '%%EOF'
+    ].join('\n');
+
+    return pdf;
+  }
+
   function padDatePart(number) {
     return String(number).length === 1 ? '0' + number : String(number);
   }
 
-  function getExportFilename() {
+  function getExportFilename(extension) {
     var today = new Date();
     var stamp = [
       today.getFullYear(),
@@ -647,17 +1023,15 @@ Workshops
       padDatePart(today.getDate())
     ].join('-');
 
-    return 'alejandro-guerrero-lopez-cv-' + stamp + '.html';
+    return 'alejandro-guerrero-lopez-cv-' + stamp + '.' + extension;
   }
 
-  function downloadCv() {
-    var html = buildExportDocument(prepareExportContent());
-    var blob = new Blob([html], { type: 'text/html;charset=utf-8' });
+  function downloadBlob(blob, filename) {
     var url = URL.createObjectURL(blob);
     var link = document.createElement('a');
 
     link.href = url;
-    link.download = getExportFilename();
+    link.download = filename;
     document.body.appendChild(link);
     link.click();
 
@@ -665,6 +1039,24 @@ Workshops
       URL.revokeObjectURL(url);
       removeElement(link);
     }, 1000);
+  }
+
+  function downloadCv() {
+    var formatSelect = document.getElementById('cv-export-format');
+    var format = formatSelect ? formatSelect.value : 'pdf';
+    var clone;
+    var html;
+    var pdf;
+
+    if (format === 'html') {
+      html = buildExportDocument(prepareExportContent());
+      downloadBlob(new Blob([html], { type: 'text/html;charset=utf-8' }), getExportFilename('html'));
+      return;
+    }
+
+    clone = prepareExportClone();
+    pdf = buildPdfDocument(clone);
+    downloadBlob(new Blob([pdf], { type: 'application/pdf' }), getExportFilename('pdf'));
   }
 
   toArray(document.querySelectorAll(toggleSelector)).forEach(initToggle);
