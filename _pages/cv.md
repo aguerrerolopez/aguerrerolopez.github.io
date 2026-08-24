@@ -76,8 +76,8 @@ Academic experience
 
   * __Company__: University of Zurich, [Institute for Medical Microbiology](https://www.imm.uzh.ch), [Applied  Microbiology  Research (AMR) lab](https://appliedmicrobiologyresearch.net)
   * __Field__: Applied ML to Microbiology
-  * 07/2025–06/2026: Postdoctoral researcher
   * 07/2026–: **Marie Skłodowska‑Curie Postdoctoral Fellow (MSCA PF)**
+  * 07/2025–06/2026: Postdoctoral researcher
 * 2024-2025: Visiting professor in Data science
 
   * __Company__: UC3M, Signal Theory and Communications Department
@@ -156,21 +156,22 @@ Teaching
 {% assign taught_courses = undergrad_courses | plus: master_courses | plus: corporate_training %}
 {% assign thesis_bsc = site.teaching | where: "type", "Bachelor Thesis" | size %}
 {% assign thesis_msc = site.teaching | where: "type", "Master Thesis" | size %}
+{% assign teaching_newest_first = site.teaching | sort: "date" | reverse %}
 I have contributed to {{ taught_courses }} taught courses, supervised {{ thesis_bsc }} BSc theses and {{ thesis_msc }} MSc theses, and I currently co-supervise 3 PhD students.
 
 Selected ongoing PhD co-supervision (in progress)
 -------------------------------------------------
 
-* Yukino Gütlin — Predicting antimicrobial resistance, virulence, and invasiveness from MALDI-TOF MS data. Main supervisor: Prof. Adrian Egli. Co-supervisor: Alejandro Guerrero-López. Started 2024; co-supervising since July 2025.
-* Eline Meijer — Boosting the resolution of MALDI-TOF mass spectra using transformer-based machine learning. Main supervisor: Prof. Adrian Egli. Co-supervisor: Alejandro Guerrero-López. Started January 2025; co-supervising since July 2025.
 * Janis Rogenmonser — Advancing antimicrobial resistance prediction from whole-genome sequencing. Main supervisor: Prof. Adrian Egli. Co-supervisor: Alejandro Guerrero-López. Started September 2025; co-supervising since September 2025.
+* Eline Meijer — Boosting the resolution of MALDI-TOF mass spectra using transformer-based machine learning. Main supervisor: Prof. Adrian Egli. Co-supervisor: Alejandro Guerrero-López. Started January 2025; co-supervising since July 2025.
+* Yukino Gütlin — Predicting antimicrobial resistance, virulence, and invasiveness from MALDI-TOF MS data. Main supervisor: Prof. Adrian Egli. Co-supervisor: Alejandro Guerrero-López. Started 2024; co-supervising since July 2025.
 
 <!-- Undergraduate Courses -->
 
 <h3 class="section-toggle">Undergraduate Courses <span id="toggle-icon-undergraduate-section" class="toggle-icon">+</span></h3>
 <div id="undergraduate-section" class="section-content">
   <ul class="cv-list">
-  {% for post in site.teaching %}
+  {% for post in teaching_newest_first %}
     {% if post.type == "Undergraduate course" %}
       {% include archive-single-cv.html %}
     {% endif %}
@@ -183,7 +184,7 @@ Selected ongoing PhD co-supervision (in progress)
 <h3 class="section-toggle">Bachelor Theses <span id="toggle-icon-bt-section" class="toggle-icon">+</span></h3>
 <div id="bt-section" class="section-content">
   <ul class="cv-list">
-  {% for post in site.teaching %}
+  {% for post in teaching_newest_first %}
     {% if post.type == "Bachelor Thesis" %}
       {% include archive-single-cv.html %}
     {% endif %}
@@ -196,7 +197,7 @@ Selected ongoing PhD co-supervision (in progress)
 <h3 class="section-toggle">Master Programs <span id="toggle-icon-master-section" class="toggle-icon">+</span></h3>
 <div id="master-section" class="section-content">
   <ul class="cv-list">
-  {% for post in site.teaching %}
+  {% for post in teaching_newest_first %}
     {% if post.type == "Master course" %}
       {% include archive-single-cv.html %}
     {% endif %}
@@ -209,7 +210,7 @@ Selected ongoing PhD co-supervision (in progress)
 <h3 class="section-toggle">Master Theses <span id="toggle-icon-mt-section" class="toggle-icon">+</span></h3>
 <div id="mt-section" class="section-content">
   <ul class="cv-list">
-  {% for post in site.teaching %}
+  {% for post in teaching_newest_first %}
     {% if post.type == "Master Thesis" %}
       {% include archive-single-cv.html %}
     {% endif %}
@@ -222,7 +223,7 @@ Selected ongoing PhD co-supervision (in progress)
 <h3 class="section-toggle">Corporate Training <span id="toggle-icon-corporate-section" class="toggle-icon">+</span></h3>
 <div id="corporate-section" class="section-content">
   <ul class="cv-list">
-  {% for post in site.teaching %}
+  {% for post in teaching_newest_first %}
     {% if post.type == "Corporate training" %}
       {% include archive-single-cv.html %}
     {% endif %}
@@ -313,8 +314,8 @@ Reviewing
 Training & Professional Development
 ===================================
 
-* Project management for postdocs, University of Zurich Graduate Campus, 18/09/2025–19/09/2025 (Instructor: Dr. Carine Galli Marxer)
 * Grant writing workshop for postdocs, University of Zurich Graduate Campus, 04/02/2026–13/02/2026 (Instructor: PhD Ingo Hebach)
+* Project management for postdocs, University of Zurich Graduate Campus, 18/09/2025–19/09/2025 (Instructor: Dr. Carine Galli Marxer)
 * [Cambridge Ellis Machine Learning Summer School](http://www.ellis.eng.cam.ac.uk/summerschool/), University of Cambridge, Cambridge, United Kingdom, 2022
 * Digital Health, the regulatory landscape, [Medidee](https://medidee.com), Laussane, Switzerland, 2022
 * Teaching trainee at [DEMOTEC](https://eps.uib.cat/demotec/), UIB, Palma, Spain, 2016
