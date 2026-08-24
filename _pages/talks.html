@@ -39,8 +39,9 @@ yearToggles.forEach(function(toggle) {
   toggle.addEventListener('click', function() {
     var yearContent = this.nextElementSibling;
     var toggleIcon = this.querySelector('.toggle-icon');
+    var isCollapsed = window.getComputedStyle(yearContent).display === 'none';
 
-    if (yearContent.style.display === 'none') {
+    if (isCollapsed) {
       yearContent.style.display = 'block';
       toggleIcon.innerHTML = '-';
     } else {

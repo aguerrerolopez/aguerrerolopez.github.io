@@ -1,0 +1,37 @@
+name: Update Google Scholar metrics
+
+on:
+  schedule:
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-scholar-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the website
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+
+      - name: Read Google Scholar metrics
+        run: ruby scripts/update_scholar_metrics.rb
+
+      - name: Commit updated metrics
+        run: |
+          if git diff --quiet -- _data/scholar_metrics.yml; then
+            echo "No metric changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/scholar_metrics.yml
+          git commit -m "Update Google Scholar metrics"
+          git push

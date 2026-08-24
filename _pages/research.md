@@ -49,6 +49,7 @@ An important part of my work is turning research outputs into reusable resources
 Representative resources:
 
 - [Software & Data](/software-data/)
+- [Predicting negative blood cultures from EHR using Orange Data Mining](https://doi.org/10.5281/zenodo.21738591): open-access, CC BY 4.0 teaching materials for a hands-on clinical machine-learning workshop delivered at BioMET '26
 - [NeuroVoz dataset](/portfolio/neurovoz_db/)
 - [CT-SCOPE dataset](/portfolio/ct_db/)
 - [KSSHIBA tailored for MALDI-TOF data](/portfolio/sshiba-maldi/)

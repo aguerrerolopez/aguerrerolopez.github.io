@@ -18,5 +18,10 @@ var addressPoints = [
     "University of Cambridge, Cambridge, United Kingdom",
     52.2006233,
     0.1104744
+  ],
+  [
+    "Vellore, Tamil Nadu, India",
+    12.918404625095159,
+    79.13254737854004
   ]
 ];

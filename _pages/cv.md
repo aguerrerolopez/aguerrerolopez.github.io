@@ -8,9 +8,27 @@ redirect_from:
 ---
 {% include base_path %}
 
+{% assign peer_reviewed = site.publications | where: "category", "Peer-review Journals" %}
+{% assign under_review = site.publications | where: "category", "Preprints" %}
+{% assign scholarly_outputs = peer_reviewed | concat: under_review %}
+{% assign first_or_cofirst_count = 0 %}
+{% assign senior_or_last_count = 0 %}
+{% for publication in scholarly_outputs %}
+  {% assign citation_lead = publication.citation | strip | slice: 0, 8 %}
+  {% if citation_lead == "<strong>" or publication.citation contains "</strong>*" %}
+    {% assign first_or_cofirst_count = first_or_cofirst_count | plus: 1 %}
+  {% endif %}
+  {% if publication.citation contains "& <strong>Guerrero-López, A.</strong> (" %}
+    {% assign senior_or_last_count = senior_or_last_count | plus: 1 %}
+  {% endif %}
+{% endfor %}
+{% assign scholar_metrics = site.data.scholar_metrics %}
+
 Applied machine learning researcher working in **healthcare and medical data science**, with current emphasis on **clinical microbiology**, **trustworthy biomedical AI**, and **open-source translational software**. My long-term goal is to build an independent research group focused on clinically grounded AI systems that help health professionals and biomedical researchers solve real problems with multimodal data.
 
 My profile combines competitive funding, collaborative translational research, supervision, and open science. I was awarded a **Marie Sklodowska-Curie Postdoctoral Fellowship (MSCA PF)** for **OUTBRAID**, and my work spans microbiology, speech, cardiology, and medical imaging under a common agenda of applied AI for health.
+
+I have **{{ scholarly_outputs.size }} scholarly paper outputs** (**{{ peer_reviewed.size }} peer-reviewed** and **{{ under_review.size }} under review**), including **{{ first_or_cofirst_count }} first/co-first-author** and **{{ senior_or_last_count }} senior/last-author papers**. My [Google Scholar profile]({{ site.author.googlescholar }}) currently reports an **h-index of {{ scholar_metrics.h_index }}** and **{{ scholar_metrics.citations }} citations** (updated {{ scholar_metrics.updated_on | date: "%B %-d, %Y" }}).
 
 <div id="cv-export-controls" class="cv-export-controls" aria-label="CV download options">
   <button type="button" id="cv-download-button" class="btn cv-export__button"><i class="fa fa-download" aria-hidden="true"></i> Download CV</button>
@@ -25,6 +43,7 @@ My profile combines competitive funding, collaborative translational research, s
     <summary>Sections</summary>
     <div class="cv-export__menu" role="group" aria-label="Optional CV sections">
       <label><input type="checkbox" value="Grants obtained" data-cv-section checked> Grants obtained</label>
+      <label><input type="checkbox" value="Research visits & collaborations" data-cv-section checked> Research visits & collaborations</label>
       <label><input type="checkbox" value="Publications" data-cv-section checked> Publications</label>
       <label><input type="checkbox" value="Teaching" data-cv-section checked> Teaching</label>
       <label><input type="checkbox" value="Invited Talks" data-cv-section checked> Invited Talks</label>
@@ -93,6 +112,11 @@ Industry experience
   * __Field__: Fiber to the Home
   * __Supervisors__: [Alejandro Cortés](https://www.linkedin.com/in/alejandro-cort%C3%A9s-956a063/) and [Teresa Reus](https://www.linkedin.com/in/teresareusgelabert/)
 
+Research visits & collaborations
+================================
+
+* 30 July-3 August 2026: Invited research visit to the [Department of Clinical Microbiology](https://www.cmch-vellore.edu/microbiology/), Christian Medical College (CMC) Vellore, India. Project meetings and collaborative work on applications of artificial intelligence in clinical microbiology.
+
 Grants obtained
 ===============
 
@@ -103,10 +127,6 @@ Grants obtained
 
 Publications
 ============
-
-{% assign peer_reviewed = site.publications | where: "category", "Peer-review Journals" %}
-{% assign under_review = site.publications | where: "category", "Preprints" %}
-I published a total of {{ peer_reviewed.size }} papers, and {{ under_review.size }} are currently under review.
 
 {% assign categories_order = "Peer-review Journals,Preprints,Conference Proceedings,Conference Abstracts,Datasets,Misc" | split: "," %}
 
@@ -254,7 +274,7 @@ Invited Talks
 Talks
 =====
 
-{% assign noninvited_talks = site.talks | where_exp: "t", "t.invited != true" | sort: 'date' | reverse %}
+{% assign noninvited_talks = site.talks | where_exp: "t", "t.invited != true" | where_exp: "t", "t.workshop != true" | sort: 'date' | reverse %}
 {% assign last_year = "" %}
 
 <div class="cv-container">
@@ -302,6 +322,13 @@ Training & Professional Development
 
 Workshops
 =========
+
+{% assign workshop_talks = site.talks | where: "workshop", true | sort: 'date' | reverse %}
+<div class="cv-container">
+  {% for post in workshop_talks %}
+    {% include archive-single-talk-cv.html %}
+  {% endfor %}
+</div>
 
 * Local organising committee of the 2nd Automatic Assessment of Parkinsonian Speech Workshop (AAPS'24) hosted by the Massachusetts Institute of Technology (MIT).
 * Instructor at the ESCMID Workshop on Artificial Intelligence and Machine Learning in Medical Microbiology Diagnostics. More than 150+ participants.
@@ -817,10 +844,12 @@ Workshops
 
   function extractPdfBlocks(root) {
     var blocks = [];
+    var nextGroupId = 0;
 
-    function visit(element, depth) {
+    function visit(element, depth, groupId) {
       var tag;
       var blockContent;
+      var activeGroupId = groupId;
 
       if (!element || !element.tagName) {
         return;
@@ -828,11 +857,16 @@ Workshops
 
       tag = element.tagName.toLowerCase();
 
+      if (tag === 'article' && element.classList.contains('archive__item')) {
+        nextGroupId += 1;
+        activeGroupId = nextGroupId;
+      }
+
       if (tag === 'h1' || tag === 'h2' || tag === 'h3') {
         blockContent = normalizePdfRuns(extractPdfRuns(element));
 
         if (blockContent.text) {
-          blocks.push({ type: tag, text: blockContent.text, links: blockContent.links, depth: depth });
+          blocks.push({ type: tag, text: blockContent.text, links: blockContent.links, depth: depth, groupId: activeGroupId });
         }
 
         return;
@@ -842,12 +876,12 @@ Workshops
         blockContent = normalizePdfRuns(extractPdfRuns(element, { skipNestedLists: true }));
 
         if (blockContent.text) {
-          blocks.push({ type: 'li', text: blockContent.text, links: blockContent.links, depth: depth });
+          blocks.push({ type: 'li', text: blockContent.text, links: blockContent.links, depth: depth, groupId: activeGroupId });
         }
 
         toArray(element.children).forEach(function (child) {
           if (child.tagName && ['ul', 'ol'].indexOf(child.tagName.toLowerCase()) !== -1) {
-            visit(child, depth + 1);
+            visit(child, depth + 1, activeGroupId);
           }
         });
 
@@ -858,18 +892,18 @@ Workshops
         blockContent = normalizePdfRuns(extractPdfRuns(element));
 
         if (blockContent.text) {
-          blocks.push({ type: 'p', text: blockContent.text, links: blockContent.links, depth: depth });
+          blocks.push({ type: 'p', text: blockContent.text, links: blockContent.links, depth: depth, groupId: activeGroupId });
         }
 
         return;
       }
 
       toArray(element.children).forEach(function (child) {
-        visit(child, depth + (tag === 'ul' || tag === 'ol' ? 1 : 0));
+        visit(child, depth + (tag === 'ul' || tag === 'ol' ? 1 : 0), activeGroupId);
       });
     }
 
-    visit(root, 0);
+    visit(root, 0, null);
 
     return blocks;
   }
@@ -1003,6 +1037,7 @@ Workshops
     var y = pageHeight - marginTop;
     var hasContent = false;
     var blocks;
+    var startedGroups = {};
 
     function addPage() {
       pages.push({ lines: [], annotations: [] });
@@ -1061,7 +1096,48 @@ Workshops
 
     blocks = extractPdfBlocks(clone);
 
-    blocks.forEach(function (block) {
+    function estimateBlockHeight(block) {
+      var style = getPdfBlockStyle(block);
+      var bullet = block.type === 'li' ? '- ' : '';
+      var wrapWidth = pageWidth - marginLeft - marginRight - style.indent;
+      var lines = wrapPdfBlock(block, wrapWidth - (bullet ? 12 : 0), style.size);
+
+      return style.gapBefore + (lines.length * style.size * 1.28) + style.gapAfter;
+    }
+
+    function estimateGroupHeight(groupId) {
+      return blocks.reduce(function (total, candidate) {
+        return candidate.groupId === groupId ? total + estimateBlockHeight(candidate) : total;
+      }, 0);
+    }
+
+    function estimateHeadingKeepHeight(index) {
+      var height = estimateBlockHeight(blocks[index]);
+      var cursor = index + 1;
+      var inspected = 0;
+
+      while (cursor < blocks.length && inspected < 4) {
+        var candidate = blocks[cursor];
+
+        if (candidate.groupId) {
+          height += estimateGroupHeight(candidate.groupId);
+          break;
+        }
+
+        height += estimateBlockHeight(candidate);
+        inspected += 1;
+
+        if (candidate.type !== 'h1' && candidate.type !== 'h2' && candidate.type !== 'h3') {
+          break;
+        }
+
+        cursor += 1;
+      }
+
+      return height;
+    }
+
+    blocks.forEach(function (block, blockIndex) {
       var style = getPdfBlockStyle(block);
       var bullet = block.type === 'li' ? '- ' : '';
       var wrapWidth = pageWidth - marginLeft - marginRight - style.indent;
@@ -1069,6 +1145,28 @@ Workshops
 
       if (!block.text) {
         return;
+      }
+
+      if (!block.groupId && (block.type === 'h1' || block.type === 'h2' || block.type === 'h3')) {
+        var headingKeepHeight = estimateHeadingKeepHeight(blockIndex);
+        var headingAvailableHeight = y - marginBottom;
+        var headingPrintableHeight = pageHeight - marginTop - marginBottom;
+
+        if (hasContent && headingKeepHeight <= headingPrintableHeight && headingKeepHeight > headingAvailableHeight) {
+          addPage();
+        }
+      }
+
+      if (block.groupId && !startedGroups[block.groupId]) {
+        var groupHeight = estimateGroupHeight(block.groupId);
+        var availableHeight = y - marginBottom;
+        var printableHeight = pageHeight - marginTop - marginBottom;
+
+        if (hasContent && groupHeight <= printableHeight && groupHeight > availableHeight) {
+          addPage();
+        }
+
+        startedGroups[block.groupId] = true;
       }
 
       addSpace(style.gapBefore);
