@@ -330,9 +330,6 @@ Workshops
   {% endfor %}
 </div>
 
-* Local organising committee of the 2nd Automatic Assessment of Parkinsonian Speech Workshop (AAPS'24) hosted by the Massachusetts Institute of Technology (MIT).
-* Instructor at the ESCMID Workshop on Artificial Intelligence and Machine Learning in Medical Microbiology Diagnostics. More than 150+ participants.
-
 <style>
 .cv-export-controls {
   display: flex;
