@@ -13,11 +13,12 @@ author_profile: true
 {% assign taught_courses = undergrad_courses | plus: master_courses | plus: corporate_training %}
 {% assign bachelor_theses = site.teaching | where: "type", "Bachelor Thesis" | size %}
 {% assign master_theses = site.teaching | where: "type", "Master Thesis" | size %}
+{% assign phd_cosupervisions = site.teaching | where: "type", "PhD co-supervision" | size %}
 {% assign teaching_newest_first = site.teaching | sort: "date" | reverse %}
 
 I see teaching as part of training the next generation of researchers and practitioners in AI for healthcare. My teaching has focused on machine learning, deep learning, and applied health data science across undergraduate, master's, and professional settings.
 
-To date, I have contributed to **{{ taught_courses }} taught courses**, supervised **{{ bachelor_theses }} BSc theses** and **{{ master_theses }} MSc theses**, and I currently **co-supervise 4 PhD students**.
+To date, I have contributed to **{{ taught_courses }} taught courses**, supervised **{{ bachelor_theses }} BSc theses** and **{{ master_theses }} MSc theses**, and I currently **co-supervise {{ phd_cosupervisions }} PhD students**.
 
 <script>
 function toggleSection(sectionId) {

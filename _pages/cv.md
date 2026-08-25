@@ -156,12 +156,14 @@ Teaching
 {% assign taught_courses = undergrad_courses | plus: master_courses | plus: corporate_training %}
 {% assign thesis_bsc = site.teaching | where: "type", "Bachelor Thesis" | size %}
 {% assign thesis_msc = site.teaching | where: "type", "Master Thesis" | size %}
+{% assign phd_cosupervisions = site.teaching | where: "type", "PhD co-supervision" | size %}
 {% assign teaching_newest_first = site.teaching | sort: "date" | reverse %}
-I have contributed to {{ taught_courses }} taught courses, supervised {{ thesis_bsc }} BSc theses and {{ thesis_msc }} MSc theses, and I currently co-supervise 3 PhD students.
+I have contributed to {{ taught_courses }} taught courses, supervised {{ thesis_bsc }} BSc theses and {{ thesis_msc }} MSc theses, and I currently co-supervise {{ phd_cosupervisions }} PhD students.
 
 Ongoing PhD co-supervision (in progress)
 ----------------------------------------
 
+* Luis Fuertes Pina — Development of machine learning models applied to FTIR and MALDI-TOF for improving microbiological diagnosis. Universidad Complutense de Madrid (UCM). Supervisors: Rafael María Cantón Moreno, José Avendaño Ortiz, and Alejandro Guerrero-López. Ongoing.
 * Janis Rogenmonser — Advancing antimicrobial resistance prediction from whole-genome sequencing. Main supervisor: Prof. Adrian Egli. Co-supervisor: Alejandro Guerrero-López. Started September 2025; co-supervising since September 2025.
 * Eline Meijer — Boosting the resolution of MALDI-TOF mass spectra using transformer-based machine learning. Main supervisor: Prof. Adrian Egli. Co-supervisor: Alejandro Guerrero-López. Started January 2025; co-supervising since July 2025.
 * Yukino Gütlin — Predicting antimicrobial resistance, virulence, and invasiveness from MALDI-TOF MS data. Main supervisor: Prof. Adrian Egli. Co-supervisor: Alejandro Guerrero-López. Started 2024; co-supervising since July 2025.
