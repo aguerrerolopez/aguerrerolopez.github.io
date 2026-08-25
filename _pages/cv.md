@@ -24,11 +24,11 @@ redirect_from:
 {% endfor %}
 {% assign scholar_metrics = site.data.scholar_metrics %}
 
-Applied machine learning researcher working in **healthcare and medical data science**, with current emphasis on **clinical microbiology**, **trustworthy biomedical AI**, and **open-source translational software**. My long-term goal is to build an independent research group focused on clinically grounded AI systems that help health professionals and biomedical researchers solve real problems with multimodal data.
+Applied machine learning researcher working in **healthcare and medical data science**, with current emphasis on **clinical microbiology**, **trustworthy biomedical AI**, and **open-source translational software**. My long-term goal is to build an independent research group focused on clinical AI systems that help health professionals and biomedical researchers solve real problems with multimodal data.
 
-My profile combines competitive funding, collaborative translational research, supervision, and open science. I was awarded a **Marie Sklodowska-Curie Postdoctoral Fellowship (MSCA PF)** for **OUTBRAID**, and my work spans microbiology, speech, cardiology, and medical imaging under a common agenda of applied AI for health.
+My profile combines competitive funding, collaborative translational research, supervision, and open science. I hold a **Marie Skłodowska-Curie Postdoctoral Fellowship (MSCA PF)**, and my work spans microbiology, speech, cardiology, and medical imaging under a common agenda of applied AI for health.
 
-I have **{{ scholarly_outputs.size }} scholarly paper outputs** (**{{ peer_reviewed.size }} peer-reviewed** and **{{ under_review.size }} under review**), including **{{ first_or_cofirst_count }} first/co-first-author** and **{{ senior_or_last_count }} senior/last-author papers**. My [Google Scholar profile]({{ site.author.googlescholar }}) currently reports an **h-index of {{ scholar_metrics.h_index }}** and **{{ scholar_metrics.citations }} citations** (updated {{ scholar_metrics.updated_on | date: "%B %-d, %Y" }}).
+I have **{{ scholarly_outputs.size }} papers** (**{{ peer_reviewed.size }} peer-reviewed** and **{{ under_review.size }} under review**), including **{{ first_or_cofirst_count }} first/co-first-author** and **{{ senior_or_last_count }} senior/last-author papers**. My [Google Scholar profile]({{ site.author.googlescholar }}) reports an **h-index of {{ scholar_metrics.h_index }}** and **{{ scholar_metrics.citations }} citations** (updated {{ scholar_metrics.updated_on | date: "%B %-d, %Y" }}).
 
 <div id="cv-export-controls" class="cv-export-controls" aria-label="CV download options">
   <button type="button" id="cv-download-button" class="btn cv-export__button"><i class="fa fa-download" aria-hidden="true"></i> Download CV</button>
@@ -159,8 +159,8 @@ Teaching
 {% assign teaching_newest_first = site.teaching | sort: "date" | reverse %}
 I have contributed to {{ taught_courses }} taught courses, supervised {{ thesis_bsc }} BSc theses and {{ thesis_msc }} MSc theses, and I currently co-supervise 3 PhD students.
 
-Selected ongoing PhD co-supervision (in progress)
--------------------------------------------------
+Ongoing PhD co-supervision (in progress)
+----------------------------------------
 
 * Janis Rogenmonser — Advancing antimicrobial resistance prediction from whole-genome sequencing. Main supervisor: Prof. Adrian Egli. Co-supervisor: Alejandro Guerrero-López. Started September 2025; co-supervising since September 2025.
 * Eline Meijer — Boosting the resolution of MALDI-TOF mass spectra using transformer-based machine learning. Main supervisor: Prof. Adrian Egli. Co-supervisor: Alejandro Guerrero-López. Started January 2025; co-supervising since July 2025.
@@ -325,6 +325,7 @@ Workshops
 =========
 
 {% assign workshop_talks = site.talks | where: "workshop", true | sort: 'date' | reverse %}
+
 <div class="cv-container">
   {% for post in workshop_talks %}
     {% include archive-single-talk-cv.html %}
