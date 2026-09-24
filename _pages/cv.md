@@ -87,6 +87,7 @@ Academic experience
   * __Company__: [Universidad Politécnica de Madrid (UPM)](https://www.upm.es), [Bioengineering and Optoelectronics Group](http://www.byo.upm.es/BYO/research)
   * __Field__: Bayesian ML applied to speech
   * __Supervisor__: [Prof. Juan Ignacio Godino Llorente](http://www.byo.upm.es/BYO/people/juan-ignacio-godino-llorente)
+  * __Research output__: First-author MARTA paper, [A model for the automatic phonemic grouping of Parkinsonian speech](/publication/2024-03-19-Guerrero-Lopez-et-al/), accepted in *Engineering Applications of Artificial Intelligence* (2026).
 * 2020-2023: Ph.D. Candidate
 
   * __Company__: UC3M, Signal Theory and Communications Department and [Gregorio Marañon Health Research Institute](https://www.iisgm.com/), Microbiology and Infectious Diseases Department

@@ -21,6 +21,11 @@ Research program
 - **Trustworthy biomedical AI.** I am interested in interpretable, reliable, and clinically useful AI systems that can be understood and evaluated by the professionals who use them.
 - **Open-source software and data resources.** I build reusable tools, applications, and public datasets that lower the barrier for applying AI in real health workflows.
 
+Recent news
+-----------
+
+- **September 2026:** My first-author paper [A model for the automatic phonemic grouping of Parkinsonian speech (MARTA)](/publication/2024-03-19-Guerrero-Lopez-et-al/), from my UPM postdoc, has been accepted in *Engineering Applications of Artificial Intelligence*.
+
 Funding and current activities
 ------------------------------
 

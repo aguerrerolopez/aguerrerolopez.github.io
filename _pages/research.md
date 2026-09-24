@@ -36,7 +36,7 @@ I work on applied machine learning across multiple health domains, including mic
 
 Representative outputs:
 
-- [MARTA: a model for the automatic phonemic grouping of the parkinsonian speech](/publication/2024-03-19-Guerrero-Lopez-et-al/)
+- [MARTA: A model for the automatic phonemic grouping of Parkinsonian speech](/publication/2024-03-19-Guerrero-Lopez-et-al/) — first-author work from my UPM postdoc, accepted in *Engineering Applications of Artificial Intelligence* (2026).
 - [Exploring the Power of Photoplethysmogram Matrix for Atrial Fibrillation Detection with Integrated Explainability](/publication/2024-03-21-Fuster-Barcelo-et-al/)
 - [Automatic semantic segmentation of the osseous structures of the paranasal sinuses](/publication/2025-05-01-Sun-et-al/)
 - [Bayesian automatic screening of pneumonia and lung lesions localization from CT scans](/publication/2025-09-01-Moure-Prado-et-al/)
