@@ -19,4 +19,4 @@ citation: 'Santiago, L. S., López-Mareca, I., Blázquez-Sánchez, M., Moreno, J
 
 The MARISMa resource contains routine MALDI-TOF MS spectra collected between 2018 and 2024.
 
-The earlier [bioRxiv preprint](https://doi.org/10.1101/2025.05.31.657186) is titled “MARISMa: a routine MALDI-TOF MS database from 2018 to 2024”. This DOI identifies the preprint, not the journal article. The associated [open dataset](/publication/2025-06-02-Schmidt-Santiago-et-al-dataset/) remains available on Zenodo.
+The earlier [bioRxiv preprint](https://doi.org/10.1101/2025.05.31.657186) is titled “MARISMa: a routine MALDI-TOF MS database from 2018 to 2024”. This DOI identifies the preprint, not the journal article. The associated [open dataset](/publication/2025-06-02-Schmidt-Santiago-et-al-dataset) remains available on Zenodo.

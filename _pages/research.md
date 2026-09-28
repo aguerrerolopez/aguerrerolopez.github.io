@@ -23,7 +23,7 @@ My current work in microbiology focuses on using machine learning to support sur
 
 Representative outputs:
 
-- [MARISMa: MALDI-TOF MS spectra database from a Spanish University General Hospital (2018-2024)](/publication/2025-06-01-Schmidt-Santiago-et-al/) — last-author paper accepted in *Scientific Data* (2026), with the associated [public dataset](/publication/2025-06-02-Schmidt-Santiago-et-al-dataset/)
+- [MARISMa: MALDI-TOF MS spectra database from a Spanish University General Hospital (2018-2024)](/publication/2025-06-01-Schmidt-Santiago-et-al) — last-author paper accepted in *Scientific Data* (2026), with the associated [public dataset](/publication/2025-06-02-Schmidt-Santiago-et-al-dataset)
 - [Automatic antibiotic resistance prediction in *Klebsiella pneumoniae* based on MALDI-TOF mass spectra](/publication/2023-02-01-Guerrero-Lopez-et-al/)
 - [Automatic Discrimination of Species within the *Enterobacter cloacae* Complex Using MALDI-TOF MS and Supervised Algorithms](/publication/2023-04-01-Enterobacters/)
 - [Automated web-based typing of *Clostridioides difficile* ribotypes via MALDI-TOF MS](/publication/2025-07-24-Blazquez-Sanchez-et-al/)
