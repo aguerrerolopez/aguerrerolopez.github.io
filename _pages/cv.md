@@ -28,7 +28,9 @@ Applied machine learning researcher working in **healthcare and medical data sci
 
 My profile combines competitive funding, collaborative translational research, supervision, and open science. I hold a **Marie Skłodowska-Curie Postdoctoral Fellowship (MSCA PF)**, and my work spans microbiology, speech, cardiology, and medical imaging under a common agenda of applied AI for health.
 
-I have **{{ scholarly_outputs.size }} papers** (**{{ peer_reviewed.size }} peer-reviewed** and **{{ under_review.size }} under review**), including **{{ first_or_cofirst_count }} first/co-first-author** and **{{ senior_or_last_count }} senior/last-author papers**. My [Google Scholar profile]({{ site.author.googlescholar }}) reports an **h-index of {{ scholar_metrics.h_index }}** and **{{ scholar_metrics.citations }} citations** (updated {{ scholar_metrics.updated_on | date: "%B %-d, %Y" }}).
+I have **{{ scholarly_outputs.size }} papers** (**{{ peer_reviewed.size }} published or accepted in peer-reviewed journals** and **{{ under_review.size }} under review**), including **{{ first_or_cofirst_count }} first/co-first-author** and **{{ senior_or_last_count }} senior/last-author papers**. My [Google Scholar profile]({{ site.author.googlescholar }}) reports an **h-index of {{ scholar_metrics.h_index }}** and **{{ scholar_metrics.citations }} citations** (updated {{ scholar_metrics.updated_on | date: "%B %-d, %Y" }}).
+
+**Recent acceptance:** [MARISMa](/publication/2025-06-01-Schmidt-Santiago-et-al/) — accepted in *Scientific Data* (2026); **last author**.
 
 <div id="cv-export-controls" class="cv-export-controls" aria-label="CV download options">
   <button type="button" id="cv-download-button" class="btn cv-export__button"><i class="fa fa-download" aria-hidden="true"></i> Download CV</button>

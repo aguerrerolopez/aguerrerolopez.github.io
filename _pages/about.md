@@ -24,6 +24,7 @@ Research program
 Recent news
 -----------
 
+- **September 2026:** Our [MARISMa paper](/publication/2025-06-01-Schmidt-Santiago-et-al/), “MALDI-TOF MS spectra database from a Spanish University General Hospital (2018-2024)”, has been accepted in *Scientific Data*. I am the **last author**.
 - **September 2026:** My first-author paper [A model for the automatic phonemic grouping of Parkinsonian speech (MARTA)](/publication/2024-03-19-Guerrero-Lopez-et-al/), from my UPM postdoc, has been accepted in *Engineering Applications of Artificial Intelligence*.
 
 Funding and current activities
