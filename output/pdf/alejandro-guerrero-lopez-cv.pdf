@@ -1,0 +1,4351 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 28 0 R 39 0 R 57 0 R 75 0 R 91 0 R 110 0 R 125 0 R 146 0 R 156 0 R 179 0 R] /Count 11 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R /Annots [7 0 R 8 0 R 9 0 R 10 0 R 11 0 R 12 0 R 13 0 R 14 0 R 15 0 R 16 0 R 17 0 R 18 0 R 19 0 R 20 0 R 21 0 R 22 0 R 23 0 R 24 0 R 25 0 R 26 0 R 27 0 R] >>
+endobj
+6 0 obj
+<< /Length 6310 >>
+stream
+
+BT
+/F2 16 Tf
+1 0 0 1 42 797.89 Tm
+(CV) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 770.41 Tm
+(Applied machine learning researcher working in healthcare and medical data science, with current) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 758.25 Tm
+(  emphasis on clinical microbiology, trustworthy biomedical AI, and open-source translational software.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 746.09 Tm
+(  My long-term goal is to build an independent research group focused on clinical AI systems that help) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 733.93 Tm
+(  health professionals and biomedical researchers solve real problems with multimodal data.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 716.77 Tm
+(My profile combines competitive funding, collaborative translational research, supervision, and open) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 704.61 Tm
+(  science. I hold a Marie Sklodowska-Curie Postdoctoral Fellowship \(MSCA PF\), and my work spans) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 692.45 Tm
+(  microbiology, speech, cardiology, and medical imaging under a common agenda of applied AI for health.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 675.29 Tm
+(I have 24 papers \(19 published or accepted in peer-reviewed journals and 5 under review\), including 6) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 663.13 Tm
+(  first/co-first-author and 2 senior/last-author papers. My Google Scholar profile reports an h-index of) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 650.97 Tm
+(  9 and 263 citations \(updated August 31, 2026\).) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 633.81 Tm
+(Recent acceptance: MARISMa - accepted in Scientific Data \(2026\); last author.) Tj
+ET
+
+BT
+/F2 16 Tf
+1 0 0 1 42 606.65 Tm
+(Academic background) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 580.17 Tm
+(- Ph.D. in Bayesian Machine Learning applied to Personalised Medicine, Universidad Carlos III de) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 568.01 Tm
+(  Madrid, May 2023) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 553.85 Tm
+(- M.Sc. in Information Health Engineering, Universidad Carlos III de Madrid, June 2020) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 539.69 Tm
+(- B.Sc. in Telematic Engineering, Universitat de les Illes Balears, June 2019) Tj
+ET
+
+BT
+/F2 16 Tf
+1 0 0 1 42 514.53 Tm
+(Professional history) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 480.05 Tm
+(Academic experience) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 460.69 Tm
+(- 07/2025-: Postdoctoral researcher \(Prof. Adrian Egli's group\)) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 62 446.53 Tm
+(- Company: University of Zurich, Institute for Medical Microbiology, Applied Microbiology Research) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 62 434.37 Tm
+(  \(AMR\) lab) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 62 420.21 Tm
+(- Field: Applied ML to Microbiology) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 62 406.05 Tm
+(- 07/2026-: Marie Sklodowska-Curie Postdoctoral Fellow \(MSCA PF\)) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 62 391.89 Tm
+(- 07/2025-06/2026: Postdoctoral researcher) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 377.73 Tm
+(- 2024-2025: Visiting professor in Data science) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 62 363.57 Tm
+(- Company: UC3M, Signal Theory and Communications Department) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 62 349.41 Tm
+(- Field: Bayesian ML) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 335.25 Tm
+(- 2023-2024: Postdoctoral researcher) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 62 321.09 Tm
+(- Company: Universidad Polit\351cnica de Madrid \(UPM\), Bioengineering and Optoelectronics Group) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 62 306.93 Tm
+(- Field: Bayesian ML applied to speech) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 62 292.77 Tm
+(- Supervisor: Prof. Juan Ignacio Godino Llorente) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 62 278.61 Tm
+(- Research output: First-author MARTA paper, A model for the automatic phonemic grouping of) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 62 266.45 Tm
+(  Parkinsonian speech, accepted in Engineering Applications of Artificial Intelligence \(2026\).) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 252.29 Tm
+(- 2020-2023: Ph.D. Candidate) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 62 238.13 Tm
+(- Company: UC3M, Signal Theory and Communications Department and Gregorio Mara\361on Health Research) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 62 225.97 Tm
+(  Institute, Microbiology and Infectious Diseases Department) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 62 211.81 Tm
+(- Field: Bayesian ML and its application to microbiology) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 62 197.65 Tm
+(- Supervisors: Prof. Pablo M. Olmos and Dr. Vanessa G\363mez-Verdejo at the university and Dr. Bel\351n) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 62 185.49 Tm
+(  Rodr\355guez-S\341nchez at the hospital.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 171.33 Tm
+(- 2019-2020: Research Assistant) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 62 157.17 Tm
+(- Company: Universidad Carlos III de Madrid \(UC3M\), Signal Theory and Communications Department) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 62 143.01 Tm
+(- Field: Bayesian ML) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 62 128.85 Tm
+(- Supervisor: Prof. Pablo M. Olmos) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 114.69 Tm
+(- 2017-2018: Research Assistant) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 62 100.53 Tm
+(- Company: Universitat de les Illes Balears, UGIVIA group) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 62 86.37 Tm
+(- Field: Computer Vision) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 62 72.21 Tm
+(- Supervisors: Prof. Francisco J. Perales and Dr. Silvia Ramis) Tj
+ET
+0 0 1 RG
+0.5 w
+338.4 662.13 m
+447.08 662.13 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+392.74 579.17 m
+516.24 579.17 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 567.01 m
+81.52 567.01 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+254.42 552.85 m
+412.5 552.85 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+209.96 538.69 m
+368.04 538.69 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+225.02 445.53 m
+392.98 445.53 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+402.86 445.53 m
+546.12 445.53 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+71.88 433.37 m
+116.34 433.37 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+116.34 320.09 m
+309 320.09 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+318.88 320.09 m
+516.48 320.09 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+131.16 291.77 m
+299.12 291.77 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+383.1 237.13 m
+541.18 237.13 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+71.88 224.97 m
+116.34 224.97 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+136.1 196.65 m
+234.9 196.65 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+259.6 196.65 m
+383.1 196.65 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+496.72 196.65 m
+541.18 196.65 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+71.88 184.49 m
+155.86 184.49 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+131.16 127.85 m
+229.96 127.85 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+284.3 99.53 m
+313.94 99.53 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+136.1 71.21 m
+264.54 71.21 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+289.24 71.21 m
+368.28 71.21 l
+S
+0 0 0 RG
+endstream
+endobj
+7 0 obj
+<< /Type /Annot /Subtype /Link /Rect [338.4 661.13 447.08 672.63] /Border [0 0 0] /A << /S /URI /URI (https://scholar.google.com/citations?user=z1Cqb6AAAAAJ&hl=es) >> >>
+endobj
+8 0 obj
+<< /Type /Annot /Subtype /Link /Rect [392.74 578.17 516.24 589.67] /Border [0 0 0] /A << /S /URI /URI (https://www.uc3m.es/Home) >> >>
+endobj
+9 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 566.01 81.52 577.51] /Border [0 0 0] /A << /S /URI /URI (https://www.uc3m.es/Home) >> >>
+endobj
+10 0 obj
+<< /Type /Annot /Subtype /Link /Rect [254.42 551.85 412.5 563.35] /Border [0 0 0] /A << /S /URI /URI (https://www.uc3m.es/Home) >> >>
+endobj
+11 0 obj
+<< /Type /Annot /Subtype /Link /Rect [209.96 537.69 368.04 549.19] /Border [0 0 0] /A << /S /URI /URI (https://www.uib.es/es/) >> >>
+endobj
+12 0 obj
+<< /Type /Annot /Subtype /Link /Rect [225.02 444.53 392.98 456.03] /Border [0 0 0] /A << /S /URI /URI (https://www.imm.uzh.ch/) >> >>
+endobj
+13 0 obj
+<< /Type /Annot /Subtype /Link /Rect [402.86 444.53 546.12 456.03] /Border [0 0 0] /A << /S /URI /URI (https://appliedmicrobiologyresearch.net/) >> >>
+endobj
+14 0 obj
+<< /Type /Annot /Subtype /Link /Rect [71.88 432.37 116.34 443.87] /Border [0 0 0] /A << /S /URI /URI (https://appliedmicrobiologyresearch.net/) >> >>
+endobj
+15 0 obj
+<< /Type /Annot /Subtype /Link /Rect [116.34 319.09 309 330.59] /Border [0 0 0] /A << /S /URI /URI (https://www.upm.es/) >> >>
+endobj
+16 0 obj
+<< /Type /Annot /Subtype /Link /Rect [318.88 319.09 516.48 330.59] /Border [0 0 0] /A << /S /URI /URI (http://www.byo.upm.es/BYO/research) >> >>
+endobj
+17 0 obj
+<< /Type /Annot /Subtype /Link /Rect [131.16 290.77 299.12 302.27] /Border [0 0 0] /A << /S /URI /URI (http://www.byo.upm.es/BYO/people/juan-ignacio-godino-llorente) >> >>
+endobj
+18 0 obj
+<< /Type /Annot /Subtype /Link /Rect [383.1 236.13 541.18 247.63] /Border [0 0 0] /A << /S /URI /URI (https://www.iisgm.com/) >> >>
+endobj
+19 0 obj
+<< /Type /Annot /Subtype /Link /Rect [71.88 223.97 116.34 235.47] /Border [0 0 0] /A << /S /URI /URI (https://www.iisgm.com/) >> >>
+endobj
+20 0 obj
+<< /Type /Annot /Subtype /Link /Rect [136.1 195.65 234.9 207.15] /Border [0 0 0] /A << /S /URI /URI (https://www.tsc.uc3m.es/~olmos/) >> >>
+endobj
+21 0 obj
+<< /Type /Annot /Subtype /Link /Rect [259.6 195.65 383.1 207.15] /Border [0 0 0] /A << /S /URI /URI (https://vanessa.webs.tsc.uc3m.es/) >> >>
+endobj
+22 0 obj
+<< /Type /Annot /Subtype /Link /Rect [496.72 195.65 541.18 207.15] /Border [0 0 0] /A << /S /URI /URI (https://scholar.google.es/citations?user=W9sZbBoAAAAJ&hl=es) >> >>
+endobj
+23 0 obj
+<< /Type /Annot /Subtype /Link /Rect [71.88 183.49 155.86 194.99] /Border [0 0 0] /A << /S /URI /URI (https://scholar.google.es/citations?user=W9sZbBoAAAAJ&hl=es) >> >>
+endobj
+24 0 obj
+<< /Type /Annot /Subtype /Link /Rect [131.16 126.85 229.96 138.35] /Border [0 0 0] /A << /S /URI /URI (https://www.tsc.uc3m.es/~olmos/) >> >>
+endobj
+25 0 obj
+<< /Type /Annot /Subtype /Link /Rect [284.3 98.53 313.94 110.03] /Border [0 0 0] /A << /S /URI /URI (http://ugivia.uib.es/membres/) >> >>
+endobj
+26 0 obj
+<< /Type /Annot /Subtype /Link /Rect [136.1 70.21 264.54 81.71] /Border [0 0 0] /A << /S /URI /URI (https://www.uib.es/es/personal/ABDMyNjY/) >> >>
+endobj
+27 0 obj
+<< /Type /Annot /Subtype /Link /Rect [289.24 70.21 368.28 81.71] /Border [0 0 0] /A << /S /URI /URI (https://www.uib.cat/personal/ABjExMTI3OA/) >> >>
+endobj
+28 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 29 0 R /Annots [30 0 R 31 0 R 32 0 R 33 0 R 34 0 R 35 0 R 36 0 R 37 0 R 38 0 R] >>
+endobj
+29 0 obj
+<< /Length 5180 >>
+stream
+
+BT
+/F2 12 Tf
+1 0 0 1 42 788.89 Tm
+(Industry experience) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 769.53 Tm
+(- 2018-2019: Telecommunication Engineer) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 62 755.37 Tm
+(- Company: ALCORT S.L.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 62 741.21 Tm
+(- Field: Fiber to the Home) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 62 727.05 Tm
+(- Supervisors: Alejandro Cort\351s and Teresa Reus) Tj
+ET
+
+BT
+/F2 16 Tf
+1 0 0 1 42 701.89 Tm
+(Research visits & collaborations) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 675.41 Tm
+(- 30 July-3 August 2026: Invited research visit to the Department of Clinical Microbiology, Christian) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 663.25 Tm
+(  Medical College \(CMC\) Vellore, India. Project meetings and collaborative work on applications of) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 651.09 Tm
+(  artificial intelligence in clinical microbiology.) Tj
+ET
+
+BT
+/F2 16 Tf
+1 0 0 1 42 625.93 Tm
+(Grants obtained) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 599.45 Tm
+(- Marie Sklodowska-Curie Postdoctoral Fellowship \(European Commission\) 01/07/2026 - 30/06/2028) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 62 585.29 Tm
+(- Project: OUTBRAID - OUTBreak AI-driven Detection: Enhancing MALDI-TOF outbreak detection with) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 62 573.13 Tm
+(  multimodal AI) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 62 558.97 Tm
+(- Supervisor: Prof. Adrian Egli \(University of Zurich\)) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 62 544.81 Tm
+(- Highly competitive: 17,066 applicants, 1,610 funded \(9.6% success rate\)) Tj
+ET
+
+BT
+/F2 16 Tf
+1 0 0 1 42 519.65 Tm
+(Publications) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 485.17 Tm
+(Peer-review journals) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 457.81 Tm
+(MALDI-TOF MS spectra database from a Spanish University General Hospital) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 442.45 Tm
+(  \(2018-2024\)) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 422.09 Tm
+(Accepted for publication in Scientific Data, 2026) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 404.93 Tm
+(MARISMa: an open MALDI-TOF MS resource. Last-author paper accepted for publication in Scientific Data;) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 392.77 Tm
+(  final publication details forthcoming.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 375.61 Tm
+(Recommended citation: Santiago, L. S., L\363pez-Mareca, I., Bl\341zquez-S\341nchez, M., Moreno, J. M.,) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 363.45 Tm
+(  Sevilla-Salcedo, C., G\363mez-Verdejo, V., Rodr\355guez-S\341nchez, B., Rodr\355guez-Temporal, D., &) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 351.29 Tm
+(  Guerrero-L\363pez, A. \(2026\). MALDI-TOF MS spectra database from a Spanish University General Hospital) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 339.13 Tm
+(  \(2018-2024\). Scientific Data. Accepted for publication.) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 314.97 Tm
+(A model for the automatic phonemic grouping of Parkinsonian speech) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 294.61 Tm
+(Accepted for publication in Engineering Applications of Artificial Intelligence, 2026) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 277.45 Tm
+(MARTA, developed during my postdoctoral research at UPM. First-author paper accepted in Engineering) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 265.29 Tm
+(  Applications of Artificial Intelligence; final publication details forthcoming.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 248.13 Tm
+(Recommended citation: Guerrero-L\363pez, A., Arias-Londo\361o, J. D., Shattuck-Hufnagel, S., &) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 235.97 Tm
+(  Godino-Llorente, J. I. \(2026\). A model for the automatic phonemic grouping of Parkinsonian speech.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 223.81 Tm
+(  Engineering Applications of Artificial Intelligence. Accepted for publication.) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 199.65 Tm
+(State-of-the-art in automated image-based species identification systems) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 179.29 Tm
+(Accepted for publication in Frontiers in Cellular and Infection Microbiology, 2026 \267 Review article) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 162.13 Tm
+(Review article \(Mini Review\) on AI-based analysis of culture-plate images for microbial identification) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 149.97 Tm
+(  and laboratory workflows. Accepted 7 September 2026; the final formatted article is forthcoming.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 132.81 Tm
+(Recommended citation: Weber, L., Hussen, M. M., Veeraraghavan, B., Meijer, E., G\374tlin, Y.,) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 120.65 Tm
+(  Guerrero-L\363pez, A., Br\374ningk, S., Nolte, O., Jutzeler, C., & Egli, A. \(2026\). State-of-the-art in) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 108.49 Tm
+(  automated image-based species identification systems. Frontiers in Cellular and Infection Microbiology.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 96.33 Tm
+(  Mini Review, accepted for publication. https://doi.org/10.3389/fcimb.2026.1818023) Tj
+ET
+0 0 1 RG
+0.5 w
+116.34 754.37 m
+170.68 754.37 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+136.1 726.05 m
+215.14 726.05 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+239.84 726.05 m
+294.18 726.05 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+313.7 674.41 m
+486.6 674.41 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+42 456.81 m
+491.28 456.81 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+54.48 441.45 m
+123.12 441.45 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+42 313.97 m
+453.84 313.97 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+42 198.65 m
+491.28 198.65 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+244.54 95.33 m
+452.02 95.33 l
+S
+0 0 0 RG
+endstream
+endobj
+30 0 obj
+<< /Type /Annot /Subtype /Link /Rect [116.34 753.37 170.68 764.87] /Border [0 0 0] /A << /S /URI /URI (https://alcort.net/sobre-nosotros/) >> >>
+endobj
+31 0 obj
+<< /Type /Annot /Subtype /Link /Rect [136.1 725.05 215.14 736.55] /Border [0 0 0] /A << /S /URI /URI (https://www.linkedin.com/in/alejandro-cort%C3%A9s-956a063/) >> >>
+endobj
+32 0 obj
+<< /Type /Annot /Subtype /Link /Rect [239.84 725.05 294.18 736.55] /Border [0 0 0] /A << /S /URI /URI (https://www.linkedin.com/in/teresareusgelabert/) >> >>
+endobj
+33 0 obj
+<< /Type /Annot /Subtype /Link /Rect [313.7 673.41 486.6 684.91] /Border [0 0 0] /A << /S /URI /URI (https://www.cmch-vellore.edu/microbiology/) >> >>
+endobj
+34 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 455.81 491.28 469.81] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2025-06-01-Schmidt-Santiago-et-al) >> >>
+endobj
+35 0 obj
+<< /Type /Annot /Subtype /Link /Rect [54.48 440.45 123.12 454.45] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2025-06-01-Schmidt-Santiago-et-al) >> >>
+endobj
+36 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 312.97 453.84 326.97] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2024-03-19-Guerrero-Lopez-et-al) >> >>
+endobj
+37 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 197.65 491.28 211.65] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2026-09-07-Weber-et-al) >> >>
+endobj
+38 0 obj
+<< /Type /Annot /Subtype /Link /Rect [244.54 94.33 452.02 105.83] /Border [0 0 0] /A << /S /URI /URI (https://doi.org/10.3389/fcimb.2026.1818023) >> >>
+endobj
+39 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 40 0 R /Annots [41 0 R 42 0 R 43 0 R 44 0 R 45 0 R 46 0 R 47 0 R 48 0 R 49 0 R 50 0 R 51 0 R 52 0 R 53 0 R 54 0 R 55 0 R 56 0 R] >>
+endobj
+40 0 obj
+<< /Length 5802 >>
+stream
+
+BT
+/F2 12 Tf
+1 0 0 1 42 788.89 Tm
+(A systematic review of machine learning on clinical MALDI-TOF MS) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 768.53 Tm
+(Published in Briefings in Bioinformatics, 2026) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 751.37 Tm
+(Recommended citation: Schmidt-Santiago, L., Guerrero-L\363pez, A., Sevilla-Salcedo, C.,) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 739.21 Tm
+(  Rodr\355guez-Temporal, D., Rodr\355guez-S\341nchez, B., & G\363mez-Verdejo, V. \(2026\). A systematic review of) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 727.05 Tm
+(  machine learning on clinical MALDI-TOF MS. Briefings in Bioinformatics, 27\(3\), bbag208.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 714.89 Tm
+(  https://doi.org/10.1093/bib/bbag208) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 690.73 Tm
+(How ready are we to use artificial intelligence in our fight against) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 675.37 Tm
+(  antimicrobial resistance? An ESGAID and EAAS perspective) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 655.01 Tm
+(Published in Expert Review of Anti-infective Therapy, 2026 \267 Perspective) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 637.85 Tm
+(Published perspective from ESGAID and EAAS on AI for antimicrobial resistance. Last individual author.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 620.69 Tm
+(Recommended citation: Giacobbe, D. R., Ahmad, R., Akilli, F. M., Ascandari, A., Eyre, D. W.,) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 608.53 Tm
+(  Gallardo-Pizarro, A., ... & Guerrero-L\363pez, A., on behalf of ESGAID and EAAS. \(2026\). How ready are we) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 596.37 Tm
+(  to use artificial intelligence in our fight against antimicrobial resistance? An ESGAID and EAAS) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 584.21 Tm
+(  perspective. Expert Review of Anti-infective Therapy, 24\(1\), 39-61.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 572.05 Tm
+(  https://doi.org/10.1080/14787210.2026.2625382) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 547.89 Tm
+(Transformer Vibration Forecasting for Advancing Rail Safety and Maintenance 4.0) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 527.53 Tm
+(Published in IEEE Open Journal of Intelligent Transportation Systems, 2025) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 510.37 Tm
+(Recommended citation: Larese, D. C., Cerrada, A. B., Tomei, G. D., Guerrero-L\363pez, A., Olmos, P. M., &) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 498.21 Tm
+(  G\363mez Garc\355a, M. J. \(2025\). Transformer Vibration Forecasting for Advancing Rail Safety and Maintenance) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 486.05 Tm
+(  4.0. IEEE Open Journal of Intelligent Transportation Systems, 6, 1612-1624.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 473.89 Tm
+(  https://doi.org/10.1109/OJITS.2025.3638611) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 449.73 Tm
+(ESCMID workshop: Artificial intelligence and machine learning in medical) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 434.37 Tm
+(  microbiology diagnostics) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 414.01 Tm
+(Published in Microbes and Infection, 2025) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 396.85 Tm
+(Recommended citation: Greutmann, M., Borgwardt, K., Br\374ningk, S., Franzeck, F., Giske, C. G., Green, A.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 384.69 Tm
+(  G., ... & Egli, A. \(2025\). ESCMID workshop: Artificial Intelligence and Machine Learning in Medical) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 372.53 Tm
+(  Microbiology Diagnostics. Microbes and Infection, 105562. https://doi.org/10.1016/j.micinf.2025.105562) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 348.37 Tm
+(CT-SCOPE: annotated dataset of CT SCans for the automatic semantic segmentation) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 333.01 Tm
+(  of the Osseous structures of the Paranasal sinusEs) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 312.65 Tm
+(Published in Data in Brief, 2025) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 295.49 Tm
+(Recommended citation: Sun, Y., Guerrero-L\363pez, A., Arias-Londo\361o, J. D., & Godino-Llorente, J. I.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 283.33 Tm
+(  \(2025\). CT-SCOPE: annotated dataset of CT SCans for the automatic semantic segmentation of the Osseous) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 271.17 Tm
+(  structures of the Paranasal sinusEs. Data in Brief, 111962. https://doi.org/10.1016/j.dib.2025.111962) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 247.01 Tm
+(Bayesian automatic screening of pneumonia and lung lesions localization from CT) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 231.65 Tm
+(  scans. A combined method toward a more user-centred and explainable approach) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 211.29 Tm
+(Published in IEEE Access, 2025) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 194.13 Tm
+(Recommended citation: Moure Prado, \301., Guerrero-L\363pez, A., Arias-Londo\361o, J. D., & Godino-Llorente, J.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 181.97 Tm
+(  I. \(2025\). Bayesian automatic screening of pneumonia and lung lesions localization from CT scans. A) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 169.81 Tm
+(  combined method toward a more user-centred and explainable approach. IEEE Access, 13, 3607282.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 157.65 Tm
+(  https://doi.org/10.1109/ACCESS.2025.3607282) Tj
+ET
+0 0 1 RG
+0.5 w
+42 787.89 m
+441.36 787.89 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 713.89 m
+224.78 713.89 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+42 689.73 m
+466.32 689.73 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+54.48 674.37 m
+403.92 674.37 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 571.05 m
+274.18 571.05 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+42 546.89 m
+534.96 546.89 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 472.89 m
+259.36 472.89 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+42 448.73 m
+491.28 448.73 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+54.48 433.37 m
+204.24 433.37 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+338.4 371.53 m
+555.76 371.53 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+42 347.37 m
+534.96 347.37 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+54.48 332.01 m
+366.48 332.01 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+348.28 270.17 m
+550.82 270.17 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+42 246.01 m
+534.96 246.01 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+54.48 230.65 m
+528.72 230.65 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 156.65 m
+264.3 156.65 l
+S
+0 0 0 RG
+endstream
+endobj
+41 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 786.89 441.36 800.89] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2025-05-01-Schmidt-Santiago-et-al) >> >>
+endobj
+42 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 712.89 224.78 724.39] /Border [0 0 0] /A << /S /URI /URI (https://doi.org/10.1093/bib/bbag208) >> >>
+endobj
+43 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 688.73 466.32 702.73] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2026-02-04-Giacobbe-et-al) >> >>
+endobj
+44 0 obj
+<< /Type /Annot /Subtype /Link /Rect [54.48 673.37 403.92 687.37] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2026-02-04-Giacobbe-et-al) >> >>
+endobj
+45 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 570.05 274.18 581.55] /Border [0 0 0] /A << /S /URI /URI (https://doi.org/10.1080/14787210.2026.2625382) >> >>
+endobj
+46 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 545.89 534.96 559.89] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2025-12-04-Larese-et-al) >> >>
+endobj
+47 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 471.89 259.36 483.39] /Border [0 0 0] /A << /S /URI /URI (https://doi.org/10.1109/OJITS.2025.3638611) >> >>
+endobj
+48 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 447.73 491.28 461.73] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2025-09-02-Greutmann-et-al) >> >>
+endobj
+49 0 obj
+<< /Type /Annot /Subtype /Link /Rect [54.48 432.37 204.24 446.37] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2025-09-02-Greutmann-et-al) >> >>
+endobj
+50 0 obj
+<< /Type /Annot /Subtype /Link /Rect [338.4 370.53 555.76 382.03] /Border [0 0 0] /A << /S /URI /URI (https://doi.org/10.1016/j.micinf.2025.105562) >> >>
+endobj
+51 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 346.37 534.96 360.37] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2025-09-01-Sun-et-al-dataset) >> >>
+endobj
+52 0 obj
+<< /Type /Annot /Subtype /Link /Rect [54.48 331.01 366.48 345.01] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2025-09-01-Sun-et-al-dataset) >> >>
+endobj
+53 0 obj
+<< /Type /Annot /Subtype /Link /Rect [348.28 269.17 550.82 280.67] /Border [0 0 0] /A << /S /URI /URI (https://doi.org/10.1016/j.dib.2025.111962) >> >>
+endobj
+54 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 245.01 534.96 259.01] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2025-09-01-Moure-Prado-et-al) >> >>
+endobj
+55 0 obj
+<< /Type /Annot /Subtype /Link /Rect [54.48 229.65 528.72 243.65] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2025-09-01-Moure-Prado-et-al) >> >>
+endobj
+56 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 155.65 264.3 167.15] /Border [0 0 0] /A << /S /URI /URI (https://doi.org/10.1109/ACCESS.2025.3607282) >> >>
+endobj
+57 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 58 0 R /Annots [59 0 R 60 0 R 61 0 R 62 0 R 63 0 R 64 0 R 65 0 R 66 0 R 67 0 R 68 0 R 69 0 R 70 0 R 71 0 R 72 0 R 73 0 R 74 0 R] >>
+endobj
+58 0 obj
+<< /Length 5787 >>
+stream
+
+BT
+/F2 12 Tf
+1 0 0 1 42 788.89 Tm
+(Automated web-based typing of Clostridioides difficile ribotypes via MALDI-TOF MS) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 768.53 Tm
+(Published in BMC Bioinformatics, 2025) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 751.37 Tm
+(A web-based translational tool for automated Clostridioides difficile ribotype typing from MALDI-TOF MS) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 739.21 Tm
+(  data.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 722.05 Tm
+(Recommended citation: Bl\341zquez-S\341nchez, M.*, Guerrero-L\363pez, A.*, Candela, A., Belenguer-Llorens, A.,) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 709.89 Tm
+(  Moreno, J. M., Sevilla-Salcedo, C., ... & Rodr\355guez-S\341nchez, B. \(2025\). Automated web-based typing of) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 697.73 Tm
+(  Clostridioides difficile ribotypes via MALDI-TOF MS. BMC Bioinformatics, 26\(1\), 181.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 685.57 Tm
+(  https://doi.org/10.1186/s12859-025-06200-6) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 661.41 Tm
+(Automatic semantic segmentation of the osseous structures of the paranasal) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 646.05 Tm
+(  sinuses) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 625.69 Tm
+(Published in Computerized Medical Imaging and Graphics, 2025) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 608.53 Tm
+(Medical image segmentation of paranasal sinus osseous structures for clinically relevant CT analysis.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 591.37 Tm
+(Recommended citation: Sun, Y., Guerrero-L\363pez, A., Arias-Londo\361o, J. D., & Godino-Llorente, J. I.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 579.21 Tm
+(  \(2025\). Automatic semantic segmentation of the osseous structures of the paranasal sinuses.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 567.05 Tm
+(  Computerized Medical Imaging and Graphics, 123, 102541.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 554.89 Tm
+(  https://doi.org/10.1016/j.compmedimag.2025.102541) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 530.73 Tm
+(NeuroVoz: a Castillian Spanish corpus of parkinsonian speech) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 510.37 Tm
+(Published in Scientific Data, 2024) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 493.21 Tm
+(Recommended citation: Mendes-Laureano, J., G\363mez-Garc\355a, J. A., Guerrero-L\363pez, A., et al. \(2024\).) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 481.05 Tm
+(  NeuroVoz: a Castillian Spanish corpus of parkinsonian speech. Scientific Data, 11, 1367.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 468.89 Tm
+(  https://doi.org/10.1038/s41597-024-04186-z) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 444.73 Tm
+(A voice and speech corpus of patients who underwent upper airway surgery in pre-) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 429.37 Tm
+(  and post-operative states) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 409.01 Tm
+(Published in Scientific Data, 2024) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 391.85 Tm
+(Recommended citation: Hern\341ndez-Garc\355a, E., Guerrero-L\363pez, A., Arias-Londo\361o, J. D., et al. \(2024\). A) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 379.69 Tm
+(  voice and speech corpus of patients who underwent upper airway surgery in pre- and post-operative) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 367.53 Tm
+(  states. Scientific Data, 11, 746. https://doi.org/10.1038/s41597-024-03540-5) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 343.37 Tm
+(Exploring the Power of Photoplethysmogram Matrix for Atrial Fibrillation) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 328.01 Tm
+(  Detection with Integrated Explainability) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 307.65 Tm
+(Published in Engineering Applications of Artificial Intelligence, 2024) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 290.49 Tm
+(Explainable deep learning for atrial fibrillation detection from PPG-derived matrix representations.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 273.33 Tm
+(Recommended citation: Fuster-Barcel\363, C., Guerrero-L\363pez, A., Camara, C., & Peris-Lopez, P. \(2024\).) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 261.17 Tm
+(  Exploring the Power of PPG Matrix for Atrial Fibrillation Detection with Integrated Explainability.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 249.01 Tm
+(  Engineering Applications of Artificial Intelligence, 133, 108325.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 236.85 Tm
+(  https://doi.org/10.1016/j.engappai.2024.108325) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 212.69 Tm
+(Detecting train driveshaft damages using accelerometer signals and Differential) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 197.33 Tm
+(  Convolutional Neural Networks) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 176.97 Tm
+(Published in Engineering Applications of Artificial Intelligence, 2023) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 159.81 Tm
+(Recommended citation: L\363pez, A., Guerrero-L\363pez, A., Olmos, P. M., & G\363mez, M. J. \(2023\). Detecting) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 147.65 Tm
+(  train driveshaft damages using accelerometer signals and Differential Convolutional Neural Networks.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 135.49 Tm
+(  Engineering Applications of Artificial Intelligence, 126, 106840.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 123.33 Tm
+(  https://doi.org/10.1016/j.engappai.2023.106840) Tj
+ET
+0 0 1 RG
+0.5 w
+42 787.89 m
+547.44 787.89 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 684.57 m
+259.36 684.57 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+42 660.41 m
+503.76 660.41 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+54.48 645.05 m
+98.16 645.05 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 553.89 m
+293.94 553.89 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+42 529.73 m
+416.4 529.73 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 467.89 m
+259.36 467.89 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+42 443.73 m
+541.2 443.73 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+54.48 428.37 m
+210.48 428.37 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+219.84 366.53 m
+427.32 366.53 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+42 342.37 m
+491.28 342.37 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+54.48 327.01 m
+304.08 327.01 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 235.85 m
+279.12 235.85 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+42 211.69 m
+534.96 211.69 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+54.48 196.33 m
+235.44 196.33 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 122.33 m
+279.12 122.33 l
+S
+0 0 0 RG
+endstream
+endobj
+59 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 786.89 547.44 800.89] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2025-07-24-Blazquez-Sanchez-et-al) >> >>
+endobj
+60 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 683.57 259.36 695.07] /Border [0 0 0] /A << /S /URI /URI (https://doi.org/10.1186/s12859-025-06200-6) >> >>
+endobj
+61 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 659.41 503.76 673.41] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2025-05-01-Sun-et-al) >> >>
+endobj
+62 0 obj
+<< /Type /Annot /Subtype /Link /Rect [54.48 644.05 98.16 658.05] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2025-05-01-Sun-et-al) >> >>
+endobj
+63 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 552.89 293.94 564.39] /Border [0 0 0] /A << /S /URI /URI (https://doi.org/10.1016/j.compmedimag.2025.102541) >> >>
+endobj
+64 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 528.73 416.4 542.73] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2024-12-03-Mendes-Laureano-et-al) >> >>
+endobj
+65 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 466.89 259.36 478.39] /Border [0 0 0] /A << /S /URI /URI (https://doi.org/10.1038/s41597-024-04186-z) >> >>
+endobj
+66 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 442.73 541.2 456.73] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2024-07-09-Hernandez-Garcia-et-al) >> >>
+endobj
+67 0 obj
+<< /Type /Annot /Subtype /Link /Rect [54.48 427.37 210.48 441.37] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2024-07-09-Hernandez-Garcia-et-al) >> >>
+endobj
+68 0 obj
+<< /Type /Annot /Subtype /Link /Rect [219.84 365.53 427.32 377.03] /Border [0 0 0] /A << /S /URI /URI (https://doi.org/10.1038/s41597-024-03540-5) >> >>
+endobj
+69 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 341.37 491.28 355.37] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2024-03-21-Fuster-Barcelo-et-al) >> >>
+endobj
+70 0 obj
+<< /Type /Annot /Subtype /Link /Rect [54.48 326.01 304.08 340.01] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2024-03-21-Fuster-Barcelo-et-al) >> >>
+endobj
+71 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 234.85 279.12 246.35] /Border [0 0 0] /A << /S /URI /URI (https://doi.org/10.1016/j.engappai.2024.108325) >> >>
+endobj
+72 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 210.69 534.96 224.69] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2023-07-18-Antia) >> >>
+endobj
+73 0 obj
+<< /Type /Annot /Subtype /Link /Rect [54.48 195.33 235.44 209.33] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2023-07-18-Antia) >> >>
+endobj
+74 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 121.33 279.12 132.83] /Border [0 0 0] /A << /S /URI /URI (https://doi.org/10.1016/j.engappai.2023.106840) >> >>
+endobj
+75 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 76 0 R /Annots [77 0 R 78 0 R 79 0 R 80 0 R 81 0 R 82 0 R 83 0 R 84 0 R 85 0 R 86 0 R 87 0 R 88 0 R 89 0 R 90 0 R] >>
+endobj
+76 0 obj
+<< /Length 6010 >>
+stream
+
+BT
+/F2 12 Tf
+1 0 0 1 42 788.89 Tm
+(Automatic Discrimination of Species within the Enterobacter cloacae Complex Using) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 773.53 Tm
+(  Matrix-Assisted Laser Desorption Ionization-Time of Flight Mass Spectrometry and) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 758.17 Tm
+(  Supervised Algorithms) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 737.81 Tm
+(Published in Journal of Clinical Microbiology, 2023) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 720.65 Tm
+(Supervised learning for species-level discrimination within the Enterobacter cloacae complex using) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 708.49 Tm
+(  routine MALDI-TOF measurements.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 691.33 Tm
+(Recommended citation: Candela, A.*, Guerrero-L\363pez, A.*, Mateos, M., G\363mez-Asenjo, A., Arroyo, M. J.,) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 679.17 Tm
+(  Hern\341ndez-Garc\355a, M., del Campo, R., Cercenado, E., Cu\351nod, A., M\351ndez, G., Mancera, L., Caballero, J.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 667.01 Tm
+(  D., Mart\355nez-Garc\355a, L., Gij\363n, D., Morosini, M. I., Ruiz-Garbajosa, P., Egli, A., Cant\363n, R., Mu\361oz,) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 654.85 Tm
+(  P., Rodr\355guez-Temporal, D., & Rodr\355guez-S\341nchez, B. \(2023\). Automatic Discrimination of Species within) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 642.69 Tm
+(  the Enterobacter cloacae Complex Using Matrix-Assisted Laser Desorption Ionization-Time of Flight Mass) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 630.53 Tm
+(  Spectrometry and Supervised Algorithms. Journal of Clinical Microbiology, e01049-22.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 618.37 Tm
+(  https://journals.asm.org/doi/abs/10.1128/jcm.01049-22) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 594.21 Tm
+(Automatic antibiotic resistance prediction in Klebsiella pneumoniae based on) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 578.85 Tm
+(  MALDI-TOF mass spectra) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 558.49 Tm
+(Published in Engineering Applications of Artificial Intelligence, 2023) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 541.33 Tm
+(Machine learning for rapid antibiotic-resistance prediction in Klebsiella pneumoniae directly from) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 529.17 Tm
+(  routine MALDI-TOF mass spectra.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 512.01 Tm
+(Recommended citation: Guerrero-L\363pez, A., Sevilla-Salcedo, C., Candela, A., Hern\341ndez-Garc\355a, M.,) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 499.85 Tm
+(  Cercenado, E., Olmos, P. M., Cant\363n, R., Mu\361oz, P., G\363mez-Verdejo, V., del Campo, R., &) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 487.69 Tm
+(  Rodr\355guez-S\341nchez, B. \(2023\). Automatic antibiotic resistance prediction in Klebsiella pneumoniae based) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 475.53 Tm
+(  on MALDI-TOF mass spectra. Engineering Applications of Artificial Intelligence, 118, 105644.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 463.37 Tm
+(  https://www.sciencedirect.com/science/article/pii/S0952197622006340) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 439.21 Tm
+(Bayesian Sparse Factor Analysis with Kernelized Observations) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 418.85 Tm
+(Published in Neurocomputing, 2022) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 401.69 Tm
+(Recommended citation: Sevilla-Salcedo, C., Guerrero-L\363pez, A., Olmos, P. M., & G\363mez-Verdejo, V.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 389.53 Tm
+(  \(2022\). Bayesian Sparse Factor Analysis with Kernelized Observations. Neurocomputing.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 377.37 Tm
+(  https://doi.org/10.1016/j.neucom.2022.03.024) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 353.21 Tm
+(Evaluation of a VR system for Pain Management using binaural acoustic stimulation) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 332.85 Tm
+(Published in Multimedia Tools and Applications, 78, 2019) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 315.69 Tm
+(Recommended citation: Perales, F. J., Riera, L., Ramis, S., Guerrero-L\363pez, A. \(2019\). Evaluation of a) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 303.53 Tm
+(  VR system for Pain Management using binaural acoustic stimulation. Multimed Tools Appl, 78,) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 291.37 Tm
+(  32869-32890. https://link.springer.com/article/10.1007/s11042-019-07953-y) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 267.21 Tm
+(Preprints) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 239.85 Tm
+(MALDI-ST: A deep learning-based framework for rapid bacterial strain typing using) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 224.49 Tm
+(  MALDI-TOF mass spectra) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 204.13 Tm
+(Published in medRxiv, 2026) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 186.97 Tm
+(A deep learning framework for rapid MALDI-TOF-based strain typing across four clinically important) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 174.81 Tm
+(  bacterial species, including external validation and interpretable spectral signatures.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 157.65 Tm
+(Recommended citation: Nguyen, H.-A., Peleg, A. Y., Song, J., Vezina, B., Egli, A., Guerrero-L\363pez, A.,) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 145.49 Tm
+(  Blakeway, L. V., Wisniewski, J. A., Badoordeen, G. Z., Theegala, R., Doan, N. Q., Dowe, D. L., &) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 133.33 Tm
+(  Macesic, N. \(2026\). MALDI-ST: A deep learning-based framework for rapid bacterial strain typing using) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 121.17 Tm
+(  MALDI-TOF mass spectra. medRxiv. https://doi.org/10.64898/2026.08.08.26359928) Tj
+ET
+0 0 1 RG
+0.5 w
+42 787.89 m
+547.44 787.89 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+54.48 772.53 m
+553.68 772.53 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+54.48 757.17 m
+185.52 757.17 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 617.37 m
+313.7 617.37 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+42 593.21 m
+516.24 593.21 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+54.48 577.85 m
+191.76 577.85 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 462.37 m
+382.86 462.37 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+42 438.21 m
+416.4 438.21 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 376.37 m
+269.24 376.37 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+42 352.21 m
+547.44 352.21 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+116.1 290.37 m
+412.5 290.37 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+42 238.85 m
+547.44 238.85 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+54.48 223.49 m
+191.76 223.49 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+214.9 120.17 m
+432.26 120.17 l
+S
+0 0 0 RG
+endstream
+endobj
+77 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 786.89 547.44 800.89] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2023-04-01-Enterobacters) >> >>
+endobj
+78 0 obj
+<< /Type /Annot /Subtype /Link /Rect [54.48 771.53 553.68 785.53] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2023-04-01-Enterobacters) >> >>
+endobj
+79 0 obj
+<< /Type /Annot /Subtype /Link /Rect [54.48 756.17 185.52 770.17] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2023-04-01-Enterobacters) >> >>
+endobj
+80 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 616.37 313.7 627.87] /Border [0 0 0] /A << /S /URI /URI (https://journals.asm.org/doi/abs/10.1128/jcm.01049-22) >> >>
+endobj
+81 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 592.21 516.24 606.21] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2023-02-01-Guerrero-Lopez-et-al) >> >>
+endobj
+82 0 obj
+<< /Type /Annot /Subtype /Link /Rect [54.48 576.85 191.76 590.85] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2023-02-01-Guerrero-Lopez-et-al) >> >>
+endobj
+83 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 461.37 382.86 472.87] /Border [0 0 0] /A << /S /URI /URI (https://www.sciencedirect.com/science/article/pii/S0952197622006340) >> >>
+endobj
+84 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 437.21 416.4 451.21] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2022-03-21-Sevilla-Salcedo-et-al) >> >>
+endobj
+85 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 375.37 269.24 386.87] /Border [0 0 0] /A << /S /URI /URI (https://doi.org/10.1016/j.neucom.2022.03.024) >> >>
+endobj
+86 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 351.21 547.44 365.21] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2019-09-01-Perales-et-al-1) >> >>
+endobj
+87 0 obj
+<< /Type /Annot /Subtype /Link /Rect [116.1 289.37 412.5 300.87] /Border [0 0 0] /A << /S /URI /URI (https://link.springer.com/article/10.1007/s11042-019-07953-y) >> >>
+endobj
+88 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 237.85 547.44 251.85] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2026-08-10-Nguyen-et-al) >> >>
+endobj
+89 0 obj
+<< /Type /Annot /Subtype /Link /Rect [54.48 222.49 191.76 236.49] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2026-08-10-Nguyen-et-al) >> >>
+endobj
+90 0 obj
+<< /Type /Annot /Subtype /Link /Rect [214.9 119.17 432.26 130.67] /Border [0 0 0] /A << /S /URI /URI (https://doi.org/10.64898/2026.08.08.26359928) >> >>
+endobj
+91 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 92 0 R /Annots [93 0 R 94 0 R 95 0 R 96 0 R 97 0 R 98 0 R 99 0 R 100 0 R 101 0 R 102 0 R 103 0 R 104 0 R 105 0 R 106 0 R 107 0 R 108 0 R 109 0 R] >>
+endobj
+92 0 obj
+<< /Length 5873 >>
+stream
+
+BT
+/F2 12 Tf
+1 0 0 1 42 788.89 Tm
+(Development and validation of a LAMP assay for rapid detection of Escherichia) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 773.53 Tm
+(  coli associated UTIs with increased risk of urosepsis) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 753.17 Tm
+(Published in Research Square, 2026) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 736.01 Tm
+(A rapid LAMP-based assay for detecting Escherichia coli and the urosepsis-associated papGII virulence) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 723.85 Tm
+(  factor directly from urine specimens.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 706.69 Tm
+(Recommended citation: Rogenmoser, J., Guerrero-L\363pez, A., Nolte, O., Quiblier, C., Hinic, V.,) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 694.53 Tm
+(  Kolesnik-Goldmann, N., Biggel, M., & Egli, A. \(2026\). Development and validation of a LAMP assay for) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 682.37 Tm
+(  rapid detection of Escherichia coli associated UTIs with increased risk of urosepsis. Research Square.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 670.21 Tm
+(  https://doi.org/10.21203/rs.3.rs-9836245/v1) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 646.05 Tm
+(Automatic surveillance of Escherichia coli bacteriological strains within) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 630.69 Tm
+(  clinical settings) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 610.33 Tm
+(Published in bioRxiv, 2024) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 593.17 Tm
+(A machine learning approach for automated strain surveillance of Escherichia coli in clinical settings.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 576.01 Tm
+(Recommended citation: Rodr\355guez Palomo, R., Guerrero-L\363pez, A., Sevilla-Salcedo, C.,) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 563.85 Tm
+(  Rodr\355guez-Temporal, D., Rodr\355guez-S\341nchez, B., & G\363mez-Verdejo, V. \(2024\). Automatic surveillance of) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 551.69 Tm
+(  Escherichia coli bacteriological strains within clinical settings. bioRxiv.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 539.53 Tm
+(  https://doi.org/10.1101/2024.11.05.622049) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 515.37 Tm
+(Overcoming variability challenges for Clostridioides difficile via data) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 500.01 Tm
+(  augmentation techniques) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 479.65 Tm
+(Published in bioRxiv, 2024) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 462.49 Tm
+(Recommended citation: Guerrero-L\363pez, A., Ant\363n, L. B., Bl\341zquez-S\341nchez, M., Schmidt-Santiago, L.,) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 450.33 Tm
+(  Sevilla-Salcedo, C., Rodr\355guez-Temporal, D., Rodr\355guez-S\341nchez, B., & G\363mez-Verdejo, V. \(2024\).) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 438.17 Tm
+(  Overcoming variability challenges for Clostridioides difficile via data augmentation techniques.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 426.01 Tm
+(  bioRxiv. https://doi.org/10.1101/2024.10.29.620907) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 401.85 Tm
+(Multi-view hierarchical Variational AutoEncoders with Factor Analysis latent) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 386.49 Tm
+(  space) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 366.13 Tm
+(Published in arXiv, 2022) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 348.97 Tm
+(Recommended citation: Guerrero-L\363pez, A., Sevilla-Salcedo, C., G\363mez-Verdejo, V., & Olmos, P. M.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 336.81 Tm
+(  \(2022\). Multi-view hierarchical Variational AutoEncoders with Factor Analysis latent space. arXiv.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 324.65 Tm
+(  https://arxiv.org/abs/2207.09185) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 300.49 Tm
+(Conference proceedings) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 273.13 Tm
+(Interacci\363n basada en robots sociales para la evaluaci\363n de expresiones faciales) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 252.77 Tm
+(Published in Interaccion 2019 at San Sebasti\341n, Spain., 2019) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 235.61 Tm
+(Recommended citation: Ramis, S., Perales, F., Guerrero-L\363pez, A., & Buades Rubio, J. M. \(2019\).) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 223.45 Tm
+(  Interacci\363n basada en robots sociales para la evaluaci\363n de expresiones faciales.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 211.29 Tm
+(  https://www.researchgate.net/publication/334204484_Interaccion_basada_en_robots_sociales_para_la_evalua) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 199.13 Tm
+(  cion_de_expresiones_faciales) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 174.97 Tm
+(Datasets) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 147.61 Tm
+(MARISMa: a routine MALDI-TOF MS database from 2018 to 2024) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 127.25 Tm
+(Published in Zenodo, 2025) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 110.09 Tm
+(Recommended citation: Santiago, L. S., L\363pez-Mareca, I., Bl\341zquez-S\341nchez, M., Moreno, J. M.,) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 97.93 Tm
+(  Sevilla-Salcedo, C., G\363mez-Verdejo, V., Rodr\355guez-S\341nchez, B., Rodr\355guez-Temporal, D., &) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 85.77 Tm
+(  Guerrero-L\363pez, A. \(2025\). MARISMa: a routine MALDI-TOF MS database from 2018 to 2024. Zenodo.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 73.61 Tm
+(  https://zenodo.org/records/14218003) Tj
+ET
+0 0 1 RG
+0.5 w
+42 787.89 m
+522.48 787.89 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+54.48 772.53 m
+385.2 772.53 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 669.21 m
+264.3 669.21 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+42 645.05 m
+497.52 645.05 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+54.48 629.69 m
+160.56 629.69 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 538.53 m
+254.42 538.53 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+42 514.37 m
+485.04 514.37 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+54.48 499.01 m
+198 499.01 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+96.34 425.01 m
+298.88 425.01 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+42 400.85 m
+516.24 400.85 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+54.48 385.49 m
+85.68 385.49 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 323.65 m
+209.96 323.65 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+42 272.13 m
+541.2 272.13 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 210.29 m
+560.7 210.29 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 198.13 m
+190.2 198.13 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+42 146.61 m
+403.92 146.61 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 72.61 m
+224.78 72.61 l
+S
+0 0 0 RG
+endstream
+endobj
+93 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 786.89 522.48 800.89] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2026-06-15-Rogenmoser-et-al) >> >>
+endobj
+94 0 obj
+<< /Type /Annot /Subtype /Link /Rect [54.48 771.53 385.2 785.53] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2026-06-15-Rogenmoser-et-al) >> >>
+endobj
+95 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 668.21 264.3 679.71] /Border [0 0 0] /A << /S /URI /URI (https://doi.org/10.21203/rs.3.rs-9836245/v1) >> >>
+endobj
+96 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 644.05 497.52 658.05] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2024-11-05-Rodriguez-Palomo-et-al) >> >>
+endobj
+97 0 obj
+<< /Type /Annot /Subtype /Link /Rect [54.48 628.69 160.56 642.69] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2024-11-05-Rodriguez-Palomo-et-al) >> >>
+endobj
+98 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 537.53 254.42 549.03] /Border [0 0 0] /A << /S /URI /URI (https://doi.org/10.1101/2024.11.05.622049) >> >>
+endobj
+99 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 513.37 485.04 527.37] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2024-10-29-Guerrero-Lopez-et-al) >> >>
+endobj
+100 0 obj
+<< /Type /Annot /Subtype /Link /Rect [54.48 498.01 198 512.01] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2024-10-29-Guerrero-Lopez-et-al) >> >>
+endobj
+101 0 obj
+<< /Type /Annot /Subtype /Link /Rect [96.34 424.01 298.88 435.51] /Border [0 0 0] /A << /S /URI /URI (https://doi.org/10.1101/2024.10.29.620907) >> >>
+endobj
+102 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 399.85 516.24 413.85] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2022-07-20-FAVAE) >> >>
+endobj
+103 0 obj
+<< /Type /Annot /Subtype /Link /Rect [54.48 384.49 85.68 398.49] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2022-07-20-FAVAE) >> >>
+endobj
+104 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 322.65 209.96 334.15] /Border [0 0 0] /A << /S /URI /URI (https://arxiv.org/abs/2207.09185) >> >>
+endobj
+105 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 271.13 541.2 285.13] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2019-06-01-Ramis-et-al-2) >> >>
+endobj
+106 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 209.29 560.7 220.79] /Border [0 0 0] /A << /S /URI /URI (https://www.researchgate.net/publication/334204484_Interaccion_basada_en_robots_sociales_para_la_evaluacion_de_expresiones_faciales) >> >>
+endobj
+107 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 197.13 190.2 208.63] /Border [0 0 0] /A << /S /URI /URI (https://www.researchgate.net/publication/334204484_Interaccion_basada_en_robots_sociales_para_la_evaluacion_de_expresiones_faciales) >> >>
+endobj
+108 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 145.61 403.92 159.61] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2025-06-02-Schmidt-Santiago-et-al-dataset) >> >>
+endobj
+109 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 71.61 224.78 83.11] /Border [0 0 0] /A << /S /URI /URI (https://zenodo.org/records/14218003) >> >>
+endobj
+110 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 111 0 R /Annots [112 0 R 113 0 R 114 0 R 115 0 R 116 0 R 117 0 R 118 0 R 119 0 R 120 0 R 121 0 R 122 0 R 123 0 R 124 0 R] >>
+endobj
+111 0 obj
+<< /Length 5986 >>
+stream
+
+BT
+/F2 12 Tf
+1 0 0 1 42 788.89 Tm
+(A voice and speech corpus of patients who underwent upper airway surgery in pre-) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 773.53 Tm
+(  and post-operative states) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 753.17 Tm
+(Published in Zenodo, 2024) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 736.01 Tm
+(Recommended citation: Hern\341ndez-Garc\355a, E., Guerrero-L\363pez, A., Arias-Londo\361o, J. D., et al. \(2024\).) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 723.85 Tm
+(  CUCO Database: A voice and speech corpus of patients who underwent upper airway surgery in pre- and) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 711.69 Tm
+(  post-operative states [Data set]. Zenodo. https://doi.org/10.5281/zenodo.10256802) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 687.53 Tm
+(NeuroVoz: a Castillian Spanish corpus of parkinsonian speech) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 667.17 Tm
+(Published in Zenodo, 2024) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 650.01 Tm
+(An open Castilian Spanish speech corpus designed to support Parkinson-related speech analysis and) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 637.85 Tm
+(  digital biomarker research.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 620.69 Tm
+(Recommended citation: Mendes-Laureano, J., G\363mez-Garc\355a, J. A., Guerrero-L\363pez, A., Luque-Buzo, E.,) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 608.53 Tm
+(  Arias-Londo\361o, J. D., Grandas-P\351rez, F. J., & Godino-Llorente, J. I. \(2024\). NeuroVoz: a Castillian) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 596.37 Tm
+(  Spanish corpus of parkinsonian speech \(1.0.0\) [Data set]. Zenodo.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 584.21 Tm
+(  https://doi.org/10.5281/zenodo.10777657) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 560.05 Tm
+(MALDI-TOF spectra of Clostridioides difficile Ribotypes) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 539.69 Tm
+(Published in Zenodo, 2023) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 522.53 Tm
+(Recommended citation: Bl\341zquez-S\341nchez, M., Guerrero-L\363pez, A., Candela, A., S\341nchez-Cueto, M., Mar\355n,) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 510.37 Tm
+(  M., Jim\351nez-Navarro, L., et al. \(2023\). MALDI-TOF spectra of Clostridioides difficile Ribotypes.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 498.21 Tm
+(  Zenodo. https://doi.org/10.5281/zenodo.10370872) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 474.05 Tm
+(Misc) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 446.69 Tm
+(Clinical Microbiology with Multi-view deep probabilistic models) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 426.33 Tm
+(Published in Universidad Carlos III de Madrid, 2023) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 409.17 Tm
+(Recommended citation: Guerrero-L\363pez, A. J. \(2023\). Clinical microbiology with multi-view deep) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 397.01 Tm
+(  probabilistic models. http://aguerrerolopez.github.io/files/Tesis_GuerreroLopez_AlejandroJorge_FormatoW) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 384.85 Tm
+(  eb.pdf) Tj
+ET
+
+BT
+/F2 16 Tf
+1 0 0 1 42 357.69 Tm
+(Teaching) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 330.21 Tm
+(I have contributed to 11 taught courses, supervised 3 BSc theses and 8 MSc theses, and I currently) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 318.05 Tm
+(  co-supervise 4 PhD students.) Tj
+ET
+
+BT
+/F2 12 Tf
+1 0 0 1 42 293.89 Tm
+(Ongoing PhD co-supervision \(in progress\)) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 274.53 Tm
+(- Luis Fuertes Pina - Development of machine learning models applied to FTIR and MALDI-TOF for) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 262.37 Tm
+(  improving microbiological diagnosis. Universidad Complutense de Madrid \(UCM\). Supervisors: Rafael) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 250.21 Tm
+(  Mar\355a Cant\363n Moreno, Jos\351 Avenda\361o Ortiz, and Alejandro Guerrero-L\363pez. Ongoing.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 236.05 Tm
+(- Janis Rogenmonser - Advancing antimicrobial resistance prediction from whole-genome sequencing. Main) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 223.89 Tm
+(  supervisor: Prof. Adrian Egli. Co-supervisor: Alejandro Guerrero-L\363pez. Started September 2025;) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 211.73 Tm
+(  co-supervising since September 2025.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 197.57 Tm
+(- Eline Meijer - Boosting the resolution of MALDI-TOF mass spectra using transformer-based machine) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 185.41 Tm
+(  learning. Main supervisor: Prof. Adrian Egli. Co-supervisor: Alejandro Guerrero-L\363pez. Started) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 173.25 Tm
+(  January 2025; co-supervising since July 2025.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 159.09 Tm
+(- Yukino G\374tlin - Predicting antimicrobial resistance, virulence, and invasiveness from MALDI-TOF MS) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 146.93 Tm
+(  data. Main supervisor: Prof. Adrian Egli. Co-supervisor: Alejandro Guerrero-L\363pez. Started 2024;) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 134.77 Tm
+(  co-supervising since July 2025.) Tj
+ET
+
+BT
+/F2 10.5 Tf
+1 0 0 1 42 114.61 Tm
+(Undergraduate Courses) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 98.17 Tm
+(- BIO296 - Microbial bioinformatics: sequencing technologies to pathogen analysis - University of) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 86.01 Tm
+(  Zurich, BSc Biology block course \(6 ECTS\) \(2026\)) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 71.85 Tm
+(- Neural Networks - Universidad Carlos III de Madrid, Bachelor in Data Science and Engineering \(2025\)) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 57.69 Tm
+(- Machine Learning applications - Universidad Carlos III de Madrid, Bachelor in Data Science and) Tj
+ET
+0 0 1 RG
+0.5 w
+42 787.89 m
+541.2 787.89 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+54.48 772.53 m
+210.48 772.53 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+259.36 710.69 m
+452.02 710.69 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+42 686.53 m
+416.4 686.53 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 583.21 m
+244.54 583.21 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+42 559.05 m
+385.2 559.05 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+91.4 497.21 m
+284.06 497.21 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+42 445.69 m
+435.12 445.69 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+160.56 396.01 m
+560.7 396.01 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 383.85 m
+81.52 383.85 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 97.17 m
+442.14 97.17 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 70.85 m
+125.98 70.85 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 56.69 m
+195.14 56.69 l
+S
+0 0 0 RG
+endstream
+endobj
+112 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 786.89 541.2 800.89] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2024-07-09-Hernandez-Garcia-et-al-dataset) >> >>
+endobj
+113 0 obj
+<< /Type /Annot /Subtype /Link /Rect [54.48 771.53 210.48 785.53] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2024-07-09-Hernandez-Garcia-et-al-dataset) >> >>
+endobj
+114 0 obj
+<< /Type /Annot /Subtype /Link /Rect [259.36 709.69 452.02 721.19] /Border [0 0 0] /A << /S /URI /URI (https://doi.org/10.5281/zenodo.10256802) >> >>
+endobj
+115 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 685.53 416.4 699.53] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2024-03-04-Mendes-Laureano-et-al) >> >>
+endobj
+116 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 582.21 244.54 593.71] /Border [0 0 0] /A << /S /URI /URI (https://doi.org/10.5281/zenodo.10777657) >> >>
+endobj
+117 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 558.05 385.2 572.05] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2023-12-13-Blazquez-Sanchez-et-al) >> >>
+endobj
+118 0 obj
+<< /Type /Annot /Subtype /Link /Rect [91.4 496.21 284.06 507.71] /Border [0 0 0] /A << /S /URI /URI (https://doi.org/10.5281/zenodo.10370872) >> >>
+endobj
+119 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 444.69 435.12 458.69] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publication/2023-05-31-PhD-thesis) >> >>
+endobj
+120 0 obj
+<< /Type /Annot /Subtype /Link /Rect [160.56 395.01 560.7 406.51] /Border [0 0 0] /A << /S /URI /URI (http://aguerrerolopez.github.io/files/Tesis_GuerreroLopez_AlejandroJorge_FormatoWeb.pdf) >> >>
+endobj
+121 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 382.85 81.52 394.35] /Border [0 0 0] /A << /S /URI /URI (http://aguerrerolopez.github.io/files/Tesis_GuerreroLopez_AlejandroJorge_FormatoWeb.pdf) >> >>
+endobj
+122 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 96.17 442.14 107.67] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/teaching/2026-U-BIO296) >> >>
+endobj
+123 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 69.85 125.98 81.35] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/teaching/2025-U-NeuralNets) >> >>
+endobj
+124 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 55.69 195.14 67.19] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/teaching/2025-U-MLApps) >> >>
+endobj
+125 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 126 0 R /Annots [127 0 R 128 0 R 129 0 R 130 0 R 131 0 R 132 0 R 133 0 R 134 0 R 135 0 R 136 0 R 137 0 R 138 0 R 139 0 R 140 0 R 141 0 R 142 0 R 143 0 R 144 0 R 145 0 R] >>
+endobj
+126 0 obj
+<< /Length 7221 >>
+stream
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 797.89 Tm
+(  Engineering \(2025\)) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 783.73 Tm
+(- Linear networks analysis and synthesis - Universidad Carlos III de Madrid, Bachelor in Mobile and) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 771.57 Tm
+(  Space Communications Engineering \(2025\)) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 757.41 Tm
+(- Neural Networks - Carlos III International School, Bachelor in Data Science and Engineering \(2022\)) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 743.25 Tm
+(- Machine Learning Applications - Carlos III International School, Bachelor in Data Science and) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 731.09 Tm
+(  Engineering \(2022\)) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 716.93 Tm
+(- Modern Theory of Detection and Estimation - Universidad Carlos III de Madrid, Signal Theory and) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 704.77 Tm
+(  Communications Department \(2021\)) Tj
+ET
+
+BT
+/F2 10.5 Tf
+1 0 0 1 42 684.61 Tm
+(Bachelor Theses) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 668.17 Tm
+(- Automated measurement of disc diffusion images using object detection - Bachelorstudium) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 656.01 Tm
+(  Medizininformatik, ZHAW School of Engineering \(2026\) Completed. Defended 01 July 2026. Grade: 4.5/6.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 641.85 Tm
+(- Connecting MALDI-TOF MS and whole-genome sequencing data in routine diagnostics - Bachelorstudium) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 629.69 Tm
+(  Medizininformatik, ZHAW School of Engineering \(2026\) Completed. Defended 01 July 2026. Grade: 5.5/6.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 615.53 Tm
+(- Characterizing train driveshaft damages using accelerometers - Bachelor in Data Science and) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 603.37 Tm
+(  Engineering, Universidad Carlos III de Madrid \(2023\)) Tj
+ET
+
+BT
+/F2 10.5 Tf
+1 0 0 1 42 583.21 Tm
+(Master Programs) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 566.77 Tm
+(- Bio-inspired Learning - Universidad Polit\351cnica de Madrid, Master in Theoretical Signal Processing) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 554.61 Tm
+(  \(2024\)) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 540.45 Tm
+(- AI in Health - Universidad Carlos III de Madrid, Master in Applied Artificial Intelligence \(2023\)) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 526.29 Tm
+(- Deep Learning - Universidad Carlos III de Madrid, Master in Applied Artificial Intelligence \(2022\)) Tj
+ET
+
+BT
+/F2 10.5 Tf
+1 0 0 1 42 506.13 Tm
+(Master Theses) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 489.69 Tm
+(- Automatic unsupervised domain adaptation of MALDI-TOF MS - Master in Applied Artificial Intelligence,) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 477.53 Tm
+(  Universidad Carlos III de Madrid \(2025\)) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 463.37 Tm
+(- Fungi automatic classifier using machine learning methods - Master in Applied Artificial) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 451.21 Tm
+(  Intelligence, Universidad Carlos III de Madrid \(2025\)) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 437.05 Tm
+(- Conditional Difussion models for audio generation: from EEG to Speech - Master in Applied Artificial) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 424.89 Tm
+(  Intelligence, Universidad Carlos III de Madrid \(2024\)) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 410.73 Tm
+(- Adversarial Training in Microbiology: testing robustness - Master in Applied Artificial Intelligence,) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 398.57 Tm
+(  Universidad Carlos III de Madrid \(2024\)) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 384.41 Tm
+(- Antibiotic recommender system based on MALDI-TOF and Neural Networks - Master in Applied Artificial) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 372.25 Tm
+(  Intelligence, Universidad Carlos III de Madrid \(2024\)) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 358.09 Tm
+(- Clustering of bacteriological strains using unsupervised learning and mass spectrometry - Master in) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 345.93 Tm
+(  Applied Artificial Intelligence, Universidad Carlos III de Madrid \(2023\)) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 331.77 Tm
+(- Predicting antibiotic-resistant bacteria using mass spectrometry and deep learning - Master in) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 319.61 Tm
+(  Applied Artificial Intelligence, Universidad Carlos III de Madrid \(2023\)) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 305.45 Tm
+(- A machine learning approach to League of Legends pre-game winning team prediction - Master in Big) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 293.29 Tm
+(  Data Analytics, Universidad Carlos III de Madrid \(2023\)) Tj
+ET
+
+BT
+/F2 10.5 Tf
+1 0 0 1 42 273.13 Tm
+(Corporate Training) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 256.69 Tm
+(- Machine Learning Fundamentals - Fundaci\363n Carlos III de Madrid \(2022\)) Tj
+ET
+
+BT
+/F2 10.5 Tf
+1 0 0 1 42 236.53 Tm
+(Teaching innovation projects) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 219.09 Tm
+(Co-coordinator with Alejandro Lancho Serrano of UC3M teaching innovation project No. 25, academic year) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 206.93 Tm
+(  2024-2025: Combinaci\363n de conocimiento en redes neuronales e IA generativa para participar en) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 194.77 Tm
+(  competici\363n real de ingenier\355a de datos \(combining neural networks and generative AI knowledge to) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 182.61 Tm
+(  participate in a real data engineering competition\).) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 165.45 Tm
+(Supported by Universidad Carlos III de Madrid under its 22nd Call for Teaching Innovation Experiences.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 153.29 Tm
+(  Neural Networks course, Department of Signal Theory and Communications. Degree programmes: BSc in Data) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 141.13 Tm
+(  Science and Engineering and the Double Degree in Data Science and Engineering and Telecommunication) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 128.97 Tm
+(  Technologies Engineering. Two participating lecturers; one-semester duration.) Tj
+ET
+
+BT
+/F2 10.5 Tf
+1 0 0 1 42 106.81 Tm
+(Teaching evaluations & Recognitions) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 90.37 Tm
+(- Based on 9 official teaching evaluations, achieved an average score of 4.83 / 5 with a standard) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 78.21 Tm
+(  deviation of 0.29.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 64.05 Tm
+(- Recipient of multiple formal letters of recognition from Universidad Carlos III de Madrid for) Tj
+ET
+0 0 1 RG
+0.5 w
+51.88 782.73 m
+239.6 782.73 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 756.41 m
+125.98 756.41 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 742.25 m
+195.14 742.25 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 715.93 m
+254.42 715.93 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 667.17 m
+392.74 667.17 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 640.85 m
+442.14 640.85 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 614.53 m
+348.28 614.53 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 565.77 m
+155.62 565.77 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 539.45 m
+111.16 539.45 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 525.29 m
+116.1 525.29 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 488.69 m
+328.52 488.69 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 462.37 m
+333.46 462.37 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 436.05 m
+392.74 436.05 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 409.73 m
+328.52 409.73 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 383.41 m
+387.8 383.41 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 357.09 m
+481.66 357.09 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 330.77 m
+456.96 330.77 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 304.45 m
+452.02 304.45 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 255.69 m
+195.14 255.69 l
+S
+0 0 0 RG
+endstream
+endobj
+127 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 781.73 239.6 793.23] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/teaching/2025-U-ADC) >> >>
+endobj
+128 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 755.41 125.98 766.91] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/teaching/2022-U-NeuralNets) >> >>
+endobj
+129 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 741.25 195.14 752.75] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/teaching/2022-U-MLApps) >> >>
+endobj
+130 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 714.93 254.42 726.43] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/teaching/2021-U-MTDE) >> >>
+endobj
+131 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 666.17 392.74 677.67] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/teaching/2026-BSc-disc-diffusion-object-detection) >> >>
+endobj
+132 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 639.85 442.14 651.35] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/teaching/2026-BSc-MALDI-WGS-relational-database) >> >>
+endobj
+133 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 613.53 348.28 625.03] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/teaching/2023-TFG-ABC) >> >>
+endobj
+134 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 564.77 155.62 576.27] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/teaching/2024-M-BIL) >> >>
+endobj
+135 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 538.45 111.16 549.95] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/teaching/2023-M-AIHealth) >> >>
+endobj
+136 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 524.29 116.1 535.79] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/teaching/2023-M-DeepLearning) >> >>
+endobj
+137 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 487.69 328.52 499.19] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/teaching/2025-TFM-SHA) >> >>
+endobj
+138 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 461.37 333.46 472.87] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/teaching/2025-TFM-ATS) >> >>
+endobj
+139 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 435.05 392.74 446.55] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/teaching/2024-TFM-IGVV) >> >>
+endobj
+140 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 408.73 328.52 420.23] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/teaching/2024-TFM-PSCS) >> >>
+endobj
+141 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 382.41 387.8 393.91] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/teaching/2024-TFM-MNB) >> >>
+endobj
+142 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 356.09 481.66 367.59] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/teaching/2023-TFM-RMM) >> >>
+endobj
+143 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 329.77 456.96 341.27] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/teaching/2023-TFM-JLL) >> >>
+endobj
+144 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 303.45 452.02 314.95] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/teaching/2023-TFM-JFJ) >> >>
+endobj
+145 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 254.69 195.14 266.19] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/teaching/2022-C-BBVA) >> >>
+endobj
+146 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 147 0 R /Annots [148 0 R 149 0 R 150 0 R 151 0 R 152 0 R 153 0 R 154 0 R 155 0 R] >>
+endobj
+147 0 obj
+<< /Length 3769 >>
+stream
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 797.89 Tm
+(  outstanding teaching performance.) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 783.73 Tm
+(- Full record of evaluations and recognition letters \(PDF\)) Tj
+ET
+
+BT
+/F2 16 Tf
+1 0 0 1 42 758.57 Tm
+(Invited Talks) Tj
+ET
+
+BT
+/F2 10.5 Tf
+1 0 0 1 42 726.09 Tm
+(2026) Tj
+ET
+
+BT
+/F2 10.5 Tf
+1 0 0 1 42 703.65 Tm
+(AI in diagnostics, MALDI-TOF MS, and image recognition) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 686.21 Tm
+(August 05, 2026) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 669.05 Tm
+(Invited talk at BioMET '26 - International Conference on Biomaterials, Bioengineering, and) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 656.89 Tm
+(  Biotheranostics, Vellore Institute of Technology \(VIT\), Vellore, Tamil Nadu, India) Tj
+ET
+
+BT
+/F2 10.5 Tf
+1 0 0 1 42 634.73 Tm
+(AI applications in clinical microbiology) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 617.29 Tm
+(July 30-August 3, 2026) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 600.13 Tm
+(Invited talk at Department of Clinical Microbiology, Christian Medical College \(CMC\) Vellore, Vellore,) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 587.97 Tm
+(  Tamil Nadu, India) Tj
+ET
+
+BT
+/F2 10.5 Tf
+1 0 0 1 42 565.81 Tm
+(What does an AI scientist actually do in a microbiology institute?) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 548.37 Tm
+(2026) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 531.21 Tm
+(Invited talk at Master program Applied Computational Life Science, ZHAW, ZHAW, Switzerland) Tj
+ET
+
+BT
+/F2 16 Tf
+1 0 0 1 42 504.05 Tm
+(Talks) Tj
+ET
+
+BT
+/F2 10.5 Tf
+1 0 0 1 42 471.57 Tm
+(2026) Tj
+ET
+
+BT
+/F2 10.5 Tf
+1 0 0 1 42 449.13 Tm
+(Democratising MALDI-TOF AMR prediction: from Transformers to simple Neural Networks without) Tj
+ET
+
+BT
+/F2 10.5 Tf
+1 0 0 1 42 435.69 Tm
+(  accuracy loss, reducing energy costs via knowledge distillation) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 418.25 Tm
+(April 21, 2026) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 401.09 Tm
+(Oral abstract presentation at ESCMID Global 2026 - 36th Congress of the European Society of Clinical) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 388.93 Tm
+(  Microbiology and Infectious Diseases, Munich, Germany) Tj
+ET
+
+BT
+/F2 10.5 Tf
+1 0 0 1 42 366.77 Tm
+(Digital AST Annotator: standardising Kirby-Bauer reading with an open-source app) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 349.33 Tm
+(April 20, 2026) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 332.17 Tm
+(Oral abstract and ePoster presentation at ESCMID Global 2026 - 36th Congress of the European Society of) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 320.01 Tm
+(  Clinical Microbiology and Infectious Diseases, Munich, Germany) Tj
+ET
+
+BT
+/F2 10.5 Tf
+1 0 0 1 42 297.85 Tm
+(2023) Tj
+ET
+
+BT
+/F2 10.5 Tf
+1 0 0 1 42 275.41 Tm
+(Clinical microbiology with multi-view deep probabilistic models) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 257.97 Tm
+(May 31, 2023) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 240.81 Tm
+(PhD defense at PhD Defense, Universidad Carlos III de Madrid, Universidad Carlos III de Madrid, Madrid,) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 228.65 Tm
+(  Spain) Tj
+ET
+
+BT
+/F2 10.5 Tf
+1 0 0 1 42 206.49 Tm
+(2022) Tj
+ET
+
+BT
+/F2 10.5 Tf
+1 0 0 1 42 184.05 Tm
+(Multi-view hierarchical Variational AutoEncoders with Factor Analysis latent space) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 166.61 Tm
+(July 16, 2022) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 149.45 Tm
+(Seminar presentation at Cambridge Ellis Machine Learning Summer School, University of Cambridge,) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 137.29 Tm
+(  Cambridge, United Kingdom) Tj
+ET
+0 0 1 RG
+0.5 w
+42 702.65 m
+336.84 702.65 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+42 633.73 m
+260.4 633.73 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+42 564.81 m
+402.36 564.81 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+42 448.13 m
+538.86 448.13 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+52.92 434.69 m
+396.9 434.69 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+42 365.77 m
+478.8 365.77 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+42 274.41 m
+385.98 274.41 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+42 183.05 m
+489.72 183.05 l
+S
+0 0 0 RG
+endstream
+endobj
+148 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 701.65 336.84 714.15] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/talks/2026-08-05-BioMET-AI-diagnostics) >> >>
+endobj
+149 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 632.73 260.4 645.23] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/talks/2026-08-01-CMC-Vellore-clinical-AI) >> >>
+endobj
+150 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 563.81 402.36 576.31] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/talks/2026-ZHAW-AI-scientist-microbiology) >> >>
+endobj
+151 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 447.13 538.86 459.63] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/talks/2026-04-21-ESCMID-malditof-knowledge-distillation) >> >>
+endobj
+152 0 obj
+<< /Type /Annot /Subtype /Link /Rect [52.92 433.69 396.9 446.19] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/talks/2026-04-21-ESCMID-malditof-knowledge-distillation) >> >>
+endobj
+153 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 364.77 478.8 377.27] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/talks/2026-04-20-ESCMID-digital-ast-annotator) >> >>
+endobj
+154 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 273.41 385.98 285.91] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/talks/2023-05-31-PhD) >> >>
+endobj
+155 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 182.05 489.72 194.55] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/talks/2022-07-16-Cambridge) >> >>
+endobj
+156 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 157 0 R /Annots [158 0 R 159 0 R 160 0 R 161 0 R 162 0 R 163 0 R 164 0 R 165 0 R 166 0 R 167 0 R 168 0 R 169 0 R 170 0 R 171 0 R 172 0 R 173 0 R 174 0 R 175 0 R 176 0 R 177 0 R 178 0 R] >>
+endobj
+157 0 obj
+<< /Length 5191 >>
+stream
+
+BT
+/F2 10.5 Tf
+1 0 0 1 42 790.89 Tm
+(Identification of subspecies within Enterobacter Cloacae Complex by MALDI-TOF MS and Machine) Tj
+ET
+
+BT
+/F2 10.5 Tf
+1 0 0 1 42 777.45 Tm
+(  Learning) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 760.01 Tm
+(June 08, 2022) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 742.85 Tm
+(Seminar presentation at 9\252 Jornada de Investigaci\363n e Innovaci\363n IISGM, Hospital General Universitario) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 730.69 Tm
+(  Gregorio Mara\361\363n, Madrid, Spain) Tj
+ET
+
+BT
+/F2 10.5 Tf
+1 0 0 1 42 708.53 Tm
+(Application of Machine Learning for the prediction of antimicrobial resistance mechanisms: a) Tj
+ET
+
+BT
+/F2 10.5 Tf
+1 0 0 1 42 695.09 Tm
+(  semi-supervised heterogeneous approach) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 677.65 Tm
+(March 07, 2022) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 660.49 Tm
+(Seminar presentation at Servicio de Microbiolog\355a, Hospital General Universitario Gregorio Mara\361\363n,) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 648.33 Tm
+(  Madrid, Spain) Tj
+ET
+
+BT
+/F2 10.5 Tf
+1 0 0 1 42 626.17 Tm
+(Application of Machine Learning for the prediction of antimicrobial resistance mechanisms: a) Tj
+ET
+
+BT
+/F2 10.5 Tf
+1 0 0 1 42 612.73 Tm
+(  semi-supervised heterogeneous approach) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 595.29 Tm
+(January 26, 2022) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 578.13 Tm
+(Seminar presentation at Seminarios Alberto Tejedor, Hospital General Universitario Gregorio Mara\361\363n,) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 565.97 Tm
+(  Madrid, Spain) Tj
+ET
+
+BT
+/F2 10.5 Tf
+1 0 0 1 42 543.81 Tm
+(2021) Tj
+ET
+
+BT
+/F2 10.5 Tf
+1 0 0 1 42 521.37 Tm
+(MSACL 2021 EU 7th European Congress) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 503.93 Tm
+(September 13, 2021) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 486.77 Tm
+(Podium presentation at Mass Spectometry & Advances in the Clinical LAB 2021, Salzburg, Austria) Tj
+ET
+
+BT
+/F2 16 Tf
+1 0 0 1 42 459.61 Tm
+(Reviewing) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 433.13 Tm
+(- IEEE JBHI, certificate, IEEE JBHI, 2024 - currently) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 418.97 Tm
+(- mSystems, certificate, mSystems, American Society for Microbiology, 2024) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 404.81 Tm
+(- Engineering Applications of Artificial Intelligence, certificate, EAAI, 2023 - currently) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 390.65 Tm
+(- Artificial Intelligence and Statistics, certificate, AISTATS, 2023 - currently) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 376.49 Tm
+(- Clinical Microbiology and Infection, CMI, 2023 - currently) Tj
+ET
+
+BT
+/F2 16 Tf
+1 0 0 1 42 351.33 Tm
+(Training & Professional Development) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 324.85 Tm
+(- Grant writing workshop for postdocs, University of Zurich Graduate Campus, 04/02/2026-13/02/2026) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 312.69 Tm
+(  \(Instructor: PhD Ingo Hebach\)) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 298.53 Tm
+(- Project management for postdocs, University of Zurich Graduate Campus, 18/09/2025-19/09/2025) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 286.37 Tm
+(  \(Instructor: Dr. Carine Galli Marxer\)) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 272.21 Tm
+(- Cambridge Ellis Machine Learning Summer School, University of Cambridge, Cambridge, United Kingdom,) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 260.05 Tm
+(  2022) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 245.89 Tm
+(- Digital Health, the regulatory landscape, Medidee, Laussane, Switzerland, 2022) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 231.73 Tm
+(- Teaching trainee at DEMOTEC, UIB, Palma, Spain, 2016) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 217.57 Tm
+(- Volunteer instructor at the Science Fair at the UIB , 2015 and 2016) Tj
+ET
+
+BT
+/F2 16 Tf
+1 0 0 1 42 192.41 Tm
+(Workshops) Tj
+ET
+
+BT
+/F2 10.5 Tf
+1 0 0 1 42 159.93 Tm
+(Predicting negative blood cultures from EHR using Orange Data Mining) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 142.49 Tm
+(August 04, 2026) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 125.33 Tm
+(Hands-on workshop at BioMET '26 pre-conference workshop: Clinical AI Transforming Diagnosis, Treatment) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 113.17 Tm
+(  & Beyond, Vellore Institute of Technology \(VIT\), Vellore, Tamil Nadu, India) Tj
+ET
+0 0 1 RG
+0.5 w
+42 789.89 m
+544.32 789.89 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+52.92 776.45 m
+96.6 776.45 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+42 707.53 m
+544.32 707.53 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+52.92 694.09 m
+260.4 694.09 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+42 625.17 m
+544.32 625.17 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+52.92 611.73 m
+260.4 611.73 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+42 520.37 m
+233.1 520.37 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+106.22 432.13 m
+160.56 432.13 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+170.44 432.13 m
+214.9 432.13 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+101.28 417.97 m
+155.62 417.97 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+165.5 417.97 m
+205.02 417.97 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+313.7 403.81 m
+368.04 403.81 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+377.92 403.81 m
+397.68 403.81 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+249.48 389.65 m
+303.82 389.65 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+313.7 389.65 m
+348.28 389.65 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+234.66 375.49 m
+249.48 375.49 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+51.88 271.21 m
+279.12 271.21 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+259.36 244.89 m
+293.94 244.89 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+150.68 230.73 m
+185.26 230.73 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+289 216.57 m
+303.82 216.57 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+42 158.93 m
+413.28 158.93 l
+S
+0 0 0 RG
+endstream
+endobj
+158 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 788.89 544.32 801.39] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/talks/2022-03-07-Microbiologia) >> >>
+endobj
+159 0 obj
+<< /Type /Annot /Subtype /Link /Rect [52.92 775.45 96.6 787.95] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/talks/2022-03-07-Microbiologia) >> >>
+endobj
+160 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 706.53 544.32 719.03] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/talks/2022-03-07-Microbiologia) >> >>
+endobj
+161 0 obj
+<< /Type /Annot /Subtype /Link /Rect [52.92 693.09 260.4 705.59] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/talks/2022-03-07-Microbiologia) >> >>
+endobj
+162 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 624.17 544.32 636.67] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/talks/2022-01-26-Alberto_Tejedor) >> >>
+endobj
+163 0 obj
+<< /Type /Annot /Subtype /Link /Rect [52.92 610.73 260.4 623.23] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/talks/2022-01-26-Alberto_Tejedor) >> >>
+endobj
+164 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 519.37 233.1 531.87] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/talks/2021-09-13-MSACL) >> >>
+endobj
+165 0 obj
+<< /Type /Annot /Subtype /Link /Rect [106.22 431.13 160.56 442.63] /Border [0 0 0] /A << /S /URI /URI (https://publons.com/wos-op/review/author/ELOAqeQL/) >> >>
+endobj
+166 0 obj
+<< /Type /Annot /Subtype /Link /Rect [170.44 431.13 214.9 442.63] /Border [0 0 0] /A << /S /URI /URI (https://www.embs.org/jbhi/) >> >>
+endobj
+167 0 obj
+<< /Type /Annot /Subtype /Link /Rect [101.28 416.97 155.62 428.47] /Border [0 0 0] /A << /S /URI /URI (https://publons.com/wos-op/review/author/BlaEXPKv/) >> >>
+endobj
+168 0 obj
+<< /Type /Annot /Subtype /Link /Rect [165.5 416.97 205.02 428.47] /Border [0 0 0] /A << /S /URI /URI (https://journals.asm.org/journal/msystemsn) >> >>
+endobj
+169 0 obj
+<< /Type /Annot /Subtype /Link /Rect [313.7 402.81 368.04 414.31] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/images/Certificate_EAAI_Recognised.pdf) >> >>
+endobj
+170 0 obj
+<< /Type /Annot /Subtype /Link /Rect [377.92 402.81 397.68 414.31] /Border [0 0 0] /A << /S /URI /URI (https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence) >> >>
+endobj
+171 0 obj
+<< /Type /Annot /Subtype /Link /Rect [249.48 388.65 303.82 400.15] /Border [0 0 0] /A << /S /URI /URI (http://aistats.org/aistats2023/reviewers.html) >> >>
+endobj
+172 0 obj
+<< /Type /Annot /Subtype /Link /Rect [313.7 388.65 348.28 400.15] /Border [0 0 0] /A << /S /URI /URI (http://aistats.org/aistats2023/) >> >>
+endobj
+173 0 obj
+<< /Type /Annot /Subtype /Link /Rect [234.66 374.49 249.48 385.99] /Border [0 0 0] /A << /S /URI /URI (https://www.sciencedirect.com/journal/clinical-microbiology-and-infection) >> >>
+endobj
+174 0 obj
+<< /Type /Annot /Subtype /Link /Rect [51.88 270.21 279.12 281.71] /Border [0 0 0] /A << /S /URI /URI (http://www.ellis.eng.cam.ac.uk/summerschool/) >> >>
+endobj
+175 0 obj
+<< /Type /Annot /Subtype /Link /Rect [259.36 243.89 293.94 255.39] /Border [0 0 0] /A << /S /URI /URI (https://medidee.com/) >> >>
+endobj
+176 0 obj
+<< /Type /Annot /Subtype /Link /Rect [150.68 229.73 185.26 241.23] /Border [0 0 0] /A << /S /URI /URI (https://eps.uib.cat/demotec/) >> >>
+endobj
+177 0 obj
+<< /Type /Annot /Subtype /Link /Rect [289 215.57 303.82 227.07] /Border [0 0 0] /A << /S /URI /URI (https://seras.uib.cat/ciencia/2016/) >> >>
+endobj
+178 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 157.93 413.28 170.43] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/talks/2026-08-04-BioMET-clinical-AI-workshop) >> >>
+endobj
+179 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 180 0 R /Annots [181 0 R 182 0 R 183 0 R] >>
+endobj
+180 0 obj
+<< /Length 1061 >>
+stream
+
+BT
+/F2 10.5 Tf
+1 0 0 1 42 790.89 Tm
+(ESCMID Workshop on Artificial Intelligence and Machine Learning in Medical Microbiology) Tj
+ET
+
+BT
+/F2 10.5 Tf
+1 0 0 1 42 777.45 Tm
+(  Diagnostics) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 760.01 Tm
+(June 2-5, 2025) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 742.85 Tm
+(Instructor at ESCMID course organised by ESGMD and the Swiss Society for Microbiology, University of) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 730.69 Tm
+(  Zurich, Zurich, Switzerland) Tj
+ET
+
+BT
+/F2 10.5 Tf
+1 0 0 1 42 708.53 Tm
+(2nd Automatic Assessment of Parkinsonian Speech Workshop \(AAPS'24\)) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 691.09 Tm
+(November 21-22, 2024) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 673.93 Tm
+(Local organising committee member at Research Laboratory of Electronics \(RLE\), Massachusetts Institute) Tj
+ET
+
+BT
+/F1 9.5 Tf
+1 0 0 1 42 661.77 Tm
+(  of Technology \(MIT\), Cambridge, Massachusetts, USA) Tj
+ET
+0 0 1 RG
+0.5 w
+42 789.89 m
+517.02 789.89 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+52.92 776.45 m
+112.98 776.45 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+42 707.53 m
+402.36 707.53 l
+S
+0 0 0 RG
+endstream
+endobj
+181 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 788.89 517.02 801.39] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/talks/2025-06-02-ESCMID-AI-workshop) >> >>
+endobj
+182 0 obj
+<< /Type /Annot /Subtype /Link /Rect [52.92 775.45 112.98 787.95] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/talks/2025-06-02-ESCMID-AI-workshop) >> >>
+endobj
+183 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 706.53 402.36 719.03] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/talks/2024-11-21-AAPS24-workshop) >> >>
+endobj
+xref
+0 184
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000191 00000 n 
+0000000288 00000 n 
+0000000390 00000 n 
+0000000686 00000 n 
+0000007048 00000 n 
+0000007233 00000 n 
+0000007383 00000 n 
+0000007531 00000 n 
+0000007681 00000 n 
+0000007830 00000 n 
+0000007980 00000 n 
+0000008147 00000 n 
+0000008313 00000 n 
+0000008456 00000 n 
+0000008617 00000 n 
+0000008805 00000 n 
+0000008953 00000 n 
+0000009101 00000 n 
+0000009257 00000 n 
+0000009415 00000 n 
+0000009601 00000 n 
+0000009786 00000 n 
+0000009944 00000 n 
+0000010098 00000 n 
+0000010262 00000 n 
+0000010428 00000 n 
+0000010645 00000 n 
+0000015878 00000 n 
+0000016039 00000 n 
+0000016223 00000 n 
+0000016397 00000 n 
+0000016564 00000 n 
+0000016765 00000 n 
+0000016969 00000 n 
+0000017168 00000 n 
+0000017358 00000 n 
+0000017526 00000 n 
+0000017792 00000 n 
+0000023647 00000 n 
+0000023848 00000 n 
+0000024009 00000 n 
+0000024202 00000 n 
+0000024398 00000 n 
+0000024569 00000 n 
+0000024760 00000 n 
+0000024928 00000 n 
+0000025122 00000 n 
+0000025319 00000 n 
+0000025489 00000 n 
+0000025685 00000 n 
+0000025884 00000 n 
+0000026052 00000 n 
+0000026248 00000 n 
+0000026447 00000 n 
+0000026615 00000 n 
+0000026881 00000 n 
+0000032721 00000 n 
+0000032922 00000 n 
+0000033090 00000 n 
+0000033278 00000 n 
+0000033468 00000 n 
+0000033643 00000 n 
+0000033842 00000 n 
+0000034010 00000 n 
+0000034210 00000 n 
+0000034414 00000 n 
+0000034583 00000 n 
+0000034782 00000 n 
+0000034984 00000 n 
+0000035156 00000 n 
+0000035340 00000 n 
+0000035527 00000 n 
+0000035699 00000 n 
+0000035951 00000 n 
+0000042014 00000 n 
+0000042206 00000 n 
+0000042401 00000 n 
+0000042596 00000 n 
+0000042774 00000 n 
+0000042973 00000 n 
+0000043175 00000 n 
+0000043368 00000 n 
+0000043567 00000 n 
+0000043737 00000 n 
+0000043931 00000 n 
+0000044116 00000 n 
+0000044307 00000 n 
+0000044501 00000 n 
+0000044671 00000 n 
+0000044954 00000 n 
+0000050880 00000 n 
+0000051075 00000 n 
+0000051272 00000 n 
+0000051440 00000 n 
+0000051641 00000 n 
+0000051845 00000 n 
+0000052012 00000 n 
+0000052211 00000 n 
+0000052411 00000 n 
+0000052579 00000 n 
+0000052764 00000 n 
+0000052951 00000 n 
+0000053110 00000 n 
+0000053302 00000 n 
+0000053559 00000 n 
+0000053816 00000 n 
+0000054026 00000 n 
+0000054186 00000 n 
+0000054446 00000 n 
+0000060486 00000 n 
+0000060695 00000 n 
+0000060908 00000 n 
+0000061075 00000 n 
+0000061275 00000 n 
+0000061441 00000 n 
+0000061642 00000 n 
+0000061807 00000 n 
+0000061997 00000 n 
+0000062211 00000 n 
+0000062424 00000 n 
+0000062605 00000 n 
+0000062789 00000 n 
+0000062969 00000 n 
+0000063277 00000 n 
+0000070552 00000 n 
+0000070730 00000 n 
+0000070916 00000 n 
+0000071098 00000 n 
+0000071278 00000 n 
+0000071487 00000 n 
+0000071694 00000 n 
+0000071875 00000 n 
+0000072054 00000 n 
+0000072238 00000 n 
+0000072425 00000 n 
+0000072606 00000 n 
+0000072787 00000 n 
+0000072969 00000 n 
+0000073151 00000 n 
+0000073331 00000 n 
+0000073512 00000 n 
+0000073693 00000 n 
+0000073874 00000 n 
+0000074054 00000 n 
+0000074274 00000 n 
+0000078097 00000 n 
+0000078292 00000 n 
+0000078488 00000 n 
+0000078686 00000 n 
+0000078898 00000 n 
+0000079112 00000 n 
+0000079313 00000 n 
+0000079490 00000 n 
+0000079673 00000 n 
+0000079997 00000 n 
+0000085242 00000 n 
+0000085429 00000 n 
+0000085617 00000 n 
+0000085804 00000 n 
+0000085993 00000 n 
+0000086182 00000 n 
+0000086373 00000 n 
+0000086551 00000 n 
+0000086729 00000 n 
+0000086882 00000 n 
+0000087060 00000 n 
+0000087229 00000 n 
+0000087427 00000 n 
+0000087644 00000 n 
+0000087817 00000 n 
+0000087975 00000 n 
+0000088176 00000 n 
+0000088347 00000 n 
+0000088495 00000 n 
+0000088651 00000 n 
+0000088811 00000 n 
+0000089012 00000 n 
+0000089192 00000 n 
+0000090307 00000 n 
+0000090499 00000 n 
+0000090694 00000 n 
+trailer
+<< /Size 184 /Root 1 0 R >>
+startxref
+90883
+%%EOF

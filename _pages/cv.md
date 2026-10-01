@@ -18,7 +18,7 @@ redirect_from:
   {% if citation_lead == "<strong>" or publication.citation contains "</strong>*" %}
     {% assign first_or_cofirst_count = first_or_cofirst_count | plus: 1 %}
   {% endif %}
-  {% if publication.citation contains "& <strong>Guerrero-López, A.</strong> (" %}
+  {% if publication.my_role == "last author" or publication.citation contains "& <strong>Guerrero-López, A.</strong> (" %}
     {% assign senior_or_last_count = senior_or_last_count | plus: 1 %}
   {% endif %}
 {% endfor %}
@@ -34,6 +34,13 @@ I have **{{ scholarly_outputs.size }} papers** (**{{ peer_reviewed.size }} publi
 
 <div id="cv-export-controls" class="cv-export-controls" aria-label="CV download options">
   <button type="button" id="cv-download-button" class="btn cv-export__button"><i class="fa fa-download" aria-hidden="true"></i> Download CV</button>
+  <label class="cv-export__format" for="cv-export-profile">
+    <span>Version</span>
+    <select id="cv-export-profile" aria-describedby="cv-export-hint">
+      <option value="full" selected>Full</option>
+      <option value="short">Short (CVA)</option>
+    </select>
+  </label>
   <label class="cv-export__format" for="cv-export-format">
     <span>Format</span>
     <select id="cv-export-format">
@@ -59,6 +66,7 @@ I have **{{ scholarly_outputs.size }} papers** (**{{ peer_reviewed.size }} publi
       </div>
     </div>
   </details>
+  <p id="cv-export-hint" class="cv-export__hint" aria-live="polite">Full CV with your selected sections.</p>
 </div>
 
 Academic background
@@ -236,6 +244,9 @@ Ongoing PhD co-supervision (in progress)
   </ul>
 </div>
 
+<h3>Teaching innovation projects</h3>
+{% include teaching-innovation.html %}
+
 <!-- Teaching Evaluations & Recognitions -->
 
 <h3 class="section-toggle">Teaching evaluations & Recognitions <span id="toggle-icon-evaluation-section" class="toggle-icon">+</span></h3>
@@ -337,6 +348,8 @@ Workshops
   {% endfor %}
 </div>
 
+{% include cv-short.html %}
+
 <style>
 .cv-export-controls {
   display: flex;
@@ -349,6 +362,9 @@ Workshops
   border-radius: 4px;
   background: #f8f9fa;
 }
+
+.cv-export__hint { flex-basis: 100%; margin: 0; font-size: 0.85em; color: #555; }
+.cv-export__details[hidden] { display: none; }
 
 .cv-export__button {
   margin: 0;
@@ -616,6 +632,11 @@ Workshops
     }
   }
 
+  function isShortCv() {
+    var select = document.getElementById('cv-export-profile');
+    return select && select.value === 'short';
+  }
+
   function prepareExportClone() {
     var source = document.querySelector('.archive');
     var clone;
@@ -624,9 +645,24 @@ Workshops
       return null;
     }
 
-    clone = source.cloneNode(true);
-    toArray(clone.querySelectorAll('#cv-export-controls, script, style')).forEach(removeElement);
-    removeUnselectedSections(clone);
+    clone = isShortCv()
+      ? document.getElementById('cv-short-template').content.firstElementChild.cloneNode(true)
+      : source.cloneNode(true);
+    toArray(clone.querySelectorAll('#cv-export-controls, template, script, style')).forEach(removeElement);
+    if (!isShortCv()) {
+      removeUnselectedSections(clone);
+    } else {
+      toArray(clone.querySelectorAll('p')).forEach(function (paragraph) {
+        if (!paragraph.querySelector('br')) { return; }
+        paragraph.innerHTML.split(/<br\s*\/?\s*>/i).forEach(function (row) {
+          var line = document.createElement('p');
+          line.className = 'cv-short-row';
+          line.innerHTML = row;
+          paragraph.parentNode.insertBefore(line, paragraph);
+        });
+        removeElement(paragraph);
+      });
+    }
 
     toArray(clone.querySelectorAll(collapseContentSelector)).forEach(function (content) {
       content.style.display = 'block';
@@ -670,7 +706,7 @@ Workshops
 
   function buildExportDocument(content) {
     var titleElement = document.querySelector('.page__title');
-    var title = titleElement ? titleElement.textContent.trim() : 'CV';
+    var title = isShortCv() ? 'Abbreviated curriculum vitae' : (titleElement ? titleElement.textContent.trim() : 'CV');
 
     return [
       '<!doctype html>',
@@ -693,6 +729,7 @@ Workshops
       '.page__meta, .page__date, .archive__item-excerpt { margin: 0.2rem 0 0.6rem; color: #555; }',
       '@page { margin: 18mm; }',
       '@media print { body { max-width: none; margin: 0; padding: 0; } a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.8em; color: #555; } }',
+      isShortCv() ? 'body { max-width: 160mm; font-size: 11pt; line-height: 1.28; } h1 { font-size: 17pt; color: #17344e; } h2 { font-size: 11pt; padding: 6pt; background: #eaf0f4; color: #17344e; border-top: 1pt solid #17344e; } h3 { font-size: 11pt; } p { margin: 0 0 8pt; } .cv-short-row { margin: 0 0 2pt; } .archive__item { break-inside: avoid; } [data-cv-page-break] { break-before: page; } @page { size: A4; margin: 15mm 25mm; } @media print { a[href^="http"]::after { content: none; } }' : '',
       '</style>',
       '</head>',
       '<body>',
@@ -860,6 +897,9 @@ Workshops
       }
 
       tag = element.tagName.toLowerCase();
+      if (element.hasAttribute('data-cv-page-break')) {
+        blocks.push({ type: 'pagebreak' });
+      }
 
       if (tag === 'article' && element.classList.contains('archive__item')) {
         nextGroupId += 1;
@@ -896,7 +936,7 @@ Workshops
         blockContent = normalizePdfRuns(extractPdfRuns(element));
 
         if (blockContent.text) {
-          blocks.push({ type: 'p', text: blockContent.text, links: blockContent.links, depth: depth, groupId: activeGroupId });
+          blocks.push({ type: 'p', text: blockContent.text, links: blockContent.links, depth: depth, groupId: activeGroupId, compact: element.classList.contains('cv-short-row') });
         }
 
         return;
@@ -935,17 +975,29 @@ Workshops
     });
 
     if (text.normalize) {
-      text = text.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+      text = text.normalize('NFC');
     }
 
-    return text.replace(/[^\x20-\x7E]/g, '');
+    return text.replace(/[^\x20-\x7E\xA0-\xFF]/g, '');
   }
 
   function escapePdfText(text) {
     return sanitizePdfText(text)
       .replace(/\\/g, '\\\\')
       .replace(/\(/g, '\\(')
-      .replace(/\)/g, '\\)');
+      .replace(/\)/g, '\\)')
+      .replace(/[\xA0-\xFF]/g, function (character) {
+        return '\\' + ('000' + character.charCodeAt(0).toString(8)).slice(-3);
+      });
+  }
+
+  var pdfMeasureContext;
+  function measurePdfText(text, fontSize, font) {
+    if (!pdfMeasureContext) {
+      pdfMeasureContext = document.createElement('canvas').getContext('2d');
+    }
+    pdfMeasureContext.font = (font === 'F2' ? 'bold ' : '') + fontSize + 'px Arial';
+    return pdfMeasureContext.measureText(text).width;
   }
 
   function wrapPdfBlock(block, maxWidth, fontSize) {
@@ -976,6 +1028,20 @@ Workshops
 
     while (position < text.length) {
       var end = Math.min(text.length, position + maxCharacters);
+      if (isShortCv()) {
+        var low = position + 1;
+        var high = text.length;
+        var font = getPdfBlockStyle(block).font;
+        while (low <= high) {
+          var middle = Math.floor((low + high) / 2);
+          if (measurePdfText(text.slice(position, middle), fontSize, font) <= maxWidth) {
+            end = middle;
+            low = middle + 1;
+          } else {
+            high = middle - 1;
+          }
+        }
+      }
       var breakAt;
       var rawLine;
       var leadingTrim;
@@ -1007,6 +1073,18 @@ Workshops
   }
 
   function getPdfBlockStyle(block) {
+    if (isShortCv()) {
+      if (block.type === 'h1') {
+        return { font: 'F2', size: 17, indent: 0, gapBefore: 0, gapAfter: 8 };
+      }
+      if (block.type === 'h2') {
+        return { font: 'F2', size: 11, indent: 0, gapBefore: 12, gapAfter: 8, band: true };
+      }
+      if (block.type === 'h3') {
+        return { font: 'F2', size: 11, indent: 0, gapBefore: 7, gapAfter: 4 };
+      }
+      return { font: 'F1', size: 11, indent: block.type === 'li' ? 4 : 0, gapBefore: 1, gapAfter: block.compact ? 1 : 6 };
+    }
     if (block.type === 'h1') {
       return { font: 'F2', size: 16, indent: 0, gapBefore: 12, gapAfter: 5 };
     }
@@ -1033,8 +1111,8 @@ Workshops
   function buildPdfDocument(clone) {
     var pageWidth = 595.28;
     var pageHeight = 841.89;
-    var marginLeft = 42;
-    var marginRight = 42;
+    var marginLeft = isShortCv() ? 70.87 : 42;
+    var marginRight = isShortCv() ? 70.87 : 42;
     var marginTop = 44;
     var marginBottom = 44;
     var pages = [{ lines: [], annotations: [] }];
@@ -1073,6 +1151,8 @@ Workshops
         text: text,
         font: style.font,
         size: style.size,
+        band: style.band,
+        bandWidth: pageWidth - marginLeft - marginRight,
         x: x,
         y: y
       });
@@ -1081,9 +1161,9 @@ Workshops
         pages[pages.length - 1].annotations.push({
           href: link.href,
           rect: [
-            x + link.start * averageCharacterWidth,
+            x + (isShortCv() ? measurePdfText(text.slice(0, link.start), style.size, style.font) : link.start * averageCharacterWidth),
             y - 2,
-            x + link.end * averageCharacterWidth,
+            x + (isShortCv() ? measurePdfText(text.slice(0, link.end), style.size, style.font) : link.end * averageCharacterWidth),
             y + style.size
           ]
         });
@@ -1101,6 +1181,7 @@ Workshops
     blocks = extractPdfBlocks(clone);
 
     function estimateBlockHeight(block) {
+      if (block.type === 'pagebreak') { return 0; }
       var style = getPdfBlockStyle(block);
       var bullet = block.type === 'li' ? '- ' : '';
       var wrapWidth = pageWidth - marginLeft - marginRight - style.indent;
@@ -1122,6 +1203,7 @@ Workshops
 
       while (cursor < blocks.length && inspected < 4) {
         var candidate = blocks[cursor];
+        if (candidate.type === 'pagebreak') { break; }
 
         if (candidate.groupId) {
           height += estimateGroupHeight(candidate.groupId);
@@ -1142,6 +1224,10 @@ Workshops
     }
 
     blocks.forEach(function (block, blockIndex) {
+      if (block.type === 'pagebreak') {
+        if (pages[pages.length - 1].lines.length) { addPage(); }
+        return;
+      }
       var style = getPdfBlockStyle(block);
       var bullet = block.type === 'li' ? '- ' : '';
       var wrapWidth = pageWidth - marginLeft - marginRight - style.indent;
@@ -1177,7 +1263,7 @@ Workshops
 
       lines = wrapPdfBlock(block, wrapWidth - (bullet ? 12 : 0), style.size);
       lines.forEach(function (line, index) {
-        var prefix = index === 0 ? bullet : '  ';
+        var prefix = index === 0 ? bullet : (isShortCv() && !bullet ? '' : '  ');
         var links = line.links.map(function (link) {
           return {
             start: link.start + prefix.length,
@@ -1192,6 +1278,12 @@ Workshops
       addSpace(style.gapAfter);
     });
 
+    if (isShortCv()) {
+      pages.forEach(function (page, index) {
+        page.lines.push({ text: 'Alejandro Guerrero-López | Short CV | ' + (index + 1) + ' / ' + pages.length,
+          font: 'F1', size: 9, x: marginLeft, y: 25 });
+      });
+    }
     return writePdf(pages, pageWidth, pageHeight);
   }
 
@@ -1211,6 +1303,7 @@ Workshops
 
     function lineToPdf(line) {
       return [
+        line.band ? 'q 0.92 0.95 0.97 rg ' + formatPdfNumber(line.x - 5) + ' ' + formatPdfNumber(line.y - 4) + ' ' + formatPdfNumber(line.bandWidth + 10) + ' ' + formatPdfNumber(line.size + 10) + ' re f Q' : '',
         'BT',
         '/' + line.font + ' ' + formatPdfNumber(line.size) + ' Tf',
         '1 0 0 1 ' + formatPdfNumber(line.x) + ' ' + formatPdfNumber(line.y) + ' Tm',
@@ -1328,7 +1421,7 @@ Workshops
       padDatePart(today.getDate())
     ].join('-');
 
-    return 'alejandro-guerrero-lopez-cv-' + stamp + '.' + extension;
+    return 'alejandro-guerrero-lopez-' + (isShortCv() ? 'short-cva-' : 'cv-') + stamp + '.' + extension;
   }
 
   function downloadBlob(blob, filename) {
@@ -1374,6 +1467,18 @@ Workshops
       setExpanded(toggle, content, !isExpanded(content));
     }
   };
+
+  var profileSelect = document.getElementById('cv-export-profile');
+  if (profileSelect) {
+    profileSelect.addEventListener('change', function () {
+      var details = document.querySelector('.cv-export__details');
+      details.hidden = isShortCv();
+      details.open = false;
+      document.getElementById('cv-export-hint').textContent = isShortCv()
+        ? 'Concise English CV inspired by the CVA structure: profile, selected publications and academic merits.'
+        : 'Full CV with your selected sections.';
+    });
+  }
 
   var downloadButton = document.getElementById('cv-download-button');
   var selectAllButton = document.getElementById('cv-select-all');

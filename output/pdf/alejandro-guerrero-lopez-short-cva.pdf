@@ -1,0 +1,931 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 10 0 R 20 0 R] /Count 3 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R /Annots [7 0 R 8 0 R 9 0 R] >>
+endobj
+6 0 obj
+<< /Length 4801 >>
+stream
+
+BT
+/F2 17 Tf
+1 0 0 1 70.87 797.89 Tm
+(ABBREVIATED CURRICULUM VITAE) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 767.13 Tm
+(Alejandro Guerrero-L\363pez \267 Updated 01 October 2026) Tj
+ET
+q 0.92 0.95 0.97 rg 65.87 731.05 463.54 21 re f Q
+BT
+/F2 11 Tf
+1 0 0 1 70.87 735.05 Tm
+(PART A. PERSONAL AND PROFESSIONAL INFORMATION) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 711.97 Tm
+(Name: Alejandro Guerrero-L\363pez) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 695.89 Tm
+(Institution: Institute of Medical Microbiology, University of Zurich, Switzerland) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 679.81 Tm
+(Position: Marie Sklodowska-Curie Postdoctoral Fellow \(since July 2026\)) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 663.73 Tm
+(Email: aguerrero@imm.uzh.ch) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 647.65 Tm
+(ORCID: 0000-0001-8869-3363) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 631.57 Tm
+(Full CV: https://aguerrerolopez.github.io/cv/) Tj
+ET
+
+BT
+/F2 11 Tf
+1 0 0 1 70.87 609.49 Tm
+(A.1. Academic qualifications) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 590.41 Tm
+(2023 - PhD in Bayesian Machine Learning applied to Personalised Medicine, Universidad) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 576.33 Tm
+(Carlos III de Madrid \(UC3M\). Thesis: Clinical microbiology with multi-view deep probabilistic) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 562.25 Tm
+(models.) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 546.17 Tm
+(2020 - MSc in Information Health Engineering, UC3M.) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 530.09 Tm
+(2019 - BSc in Telematic Engineering, Universitat de les Illes Balears.) Tj
+ET
+
+BT
+/F2 11 Tf
+1 0 0 1 70.87 508.01 Tm
+(A.2. Research and academic appointments) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 488.93 Tm
+(July 2025-present - Postdoctoral researcher, University of Zurich; MSCA Fellow since July) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 474.85 Tm
+(2026, in Prof. Adrian Egli's group.) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 458.77 Tm
+(2024-2025 - Visiting professor in Data Science, UC3M.) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 442.69 Tm
+(2023-2024 - Postdoctoral researcher, Bioengineering and Optoelectronics Group,) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 428.61 Tm
+(Universidad Polit\351cnica de Madrid.) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 412.53 Tm
+(2020-2023 - Doctoral researcher, UC3M and Gregorio Mara\361\363n Health Research Institute.) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 396.45 Tm
+(2019-2020 - Research assistant, UC3M; 2017-2018 - Research assistant, Universitat de les) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 382.37 Tm
+(Illes Balears.) Tj
+ET
+q 0.92 0.95 0.97 rg 65.87 351.29 463.54 21 re f Q
+BT
+/F2 11 Tf
+1 0 0 1 70.87 355.29 Tm
+(PART B. CURRICULUM SUMMARY) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 332.21 Tm
+(My research focuses on applied machine learning for healthcare, with particular emphasis on) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 318.13 Tm
+(clinical microbiology, Bayesian modelling and multimodal biomedical data. I develop methods) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 304.05 Tm
+(for antimicrobial resistance prediction, bacterial identification and strain typing using routine) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 289.97 Tm
+(MALDI-TOF mass spectra, and work with clinical collaborators to translate these methods) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 275.89 Tm
+(into usable research tools.) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 254.81 Tm
+(My doctoral work connected probabilistic machine learning with hospital microbiology.) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 240.73 Tm
+(Subsequent research at Universidad Polit\351cnica de Madrid extended this approach to) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 226.65 Tm
+(Parkinsonian speech, medical imaging and open biomedical datasets. At the University of) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 212.57 Tm
+(Zurich, my MSCA project OUTBRAID addresses AI-driven outbreak detection using) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 198.49 Tm
+(multimodal data.) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 177.41 Tm
+(My experience combines interdisciplinary research, open science, university teaching,) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 163.33 Tm
+(ongoing doctoral co-supervision and peer review in machine learning and biomedical) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 149.25 Tm
+(journals. These activities support the critical assessment of research methodology, validation,) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 135.17 Tm
+(reproducibility and clinical relevance.) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 114.09 Tm
+(Research record: 16 published journal articles, 3 accepted journal articles and 5 preprints) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 100.01 Tm
+(listed in the full CV. Google Scholar: 263 citations; h-index 9 \(31 August 2026\).) Tj
+ET
+
+BT
+/F1 9 Tf
+1 0 0 1 70.87 25 Tm
+(Alejandro Guerrero-L\363pez | Short CV | 1 / 3) Tj
+ET
+0 0 1 RG
+0.5 w
+104.49 662.73 m
+219.58 662.73 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+112.43 646.65 m
+221.3 646.65 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+112.64 630.57 m
+281.4 630.57 l
+S
+0 0 0 RG
+endstream
+endobj
+7 0 obj
+<< /Type /Annot /Subtype /Link /Rect [104.49 661.73 219.58 674.73] /Border [0 0 0] /A << /S /URI /URI (mailto:aguerrero@imm.uzh.ch) >> >>
+endobj
+8 0 obj
+<< /Type /Annot /Subtype /Link /Rect [112.43 645.65 221.3 658.65] /Border [0 0 0] /A << /S /URI /URI (https://orcid.org/0000-0001-8869-3363) >> >>
+endobj
+9 0 obj
+<< /Type /Annot /Subtype /Link /Rect [112.64 629.57 281.4 642.57] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/cv/) >> >>
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 11 0 R /Annots [12 0 R 13 0 R 14 0 R 15 0 R 16 0 R 17 0 R 18 0 R 19 0 R] >>
+endobj
+11 0 obj
+<< /Length 5790 >>
+stream
+q 0.92 0.95 0.97 rg 65.87 781.89 463.54 21 re f Q
+BT
+/F2 11 Tf
+1 0 0 1 70.87 785.89 Tm
+(PART C. SELECTED RELEVANT MERITS) Tj
+ET
+
+BT
+/F2 11 Tf
+1 0 0 1 70.87 756.81 Tm
+(C.1. Selected publications) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 737.73 Tm
+(Selection spanning clinical microbiology, probabilistic machine learning and biomedical data.) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 723.65 Tm
+(Accepted papers are explicitly identified.) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 702.57 Tm
+(1. Giacobbe, D. R., Ahmad, R., Akilli, F. M., Ascandari, A., Eyre, D. W., Gallardo-Pizarro, A.,) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 688.49 Tm
+(... & Guerrero-L\363pez, A., on behalf of ESGAID and EAAS. \(2026\). How ready are we to use) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 674.41 Tm
+(artificial intelligence in our fight against antimicrobial resistance? An ESGAID and EAAS) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 660.33 Tm
+(perspective. Expert Review of Anti-infective Therapy, 24\(1\), 39-61. Last author. Publication.) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 639.25 Tm
+(2. Guerrero-L\363pez, A., Sevilla-Salcedo, C., Candela, A., Hern\341ndez-Garc\355a, M., Cercenado,) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 625.17 Tm
+(E., Olmos, P. M., Cant\363n, R., Mu\361oz, P., G\363mez-Verdejo, V., del Campo, R., &) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 611.09 Tm
+(Rodr\355guez-S\341nchez, B. \(2023\). Automatic antibiotic resistance prediction in Klebsiella) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 597.01 Tm
+(pneumoniae based on MALDI-TOF mass spectra. Engineering Applications of Artificial) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 582.93 Tm
+(Intelligence, 118, 105644. Publication.) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 561.85 Tm
+(3. Candela, A.*, Guerrero-L\363pez, A.*, Mateos, M., G\363mez-Asenjo, A., Arroyo, M. J.,) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 547.77 Tm
+(Hern\341ndez-Garc\355a, M., del Campo, R., Cercenado, E., Cu\351nod, A., M\351ndez, G., Mancera, L.,) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 533.69 Tm
+(Caballero, J. D., Mart\355nez-Garc\355a, L., Gij\363n, D., Morosini, M. I., Ruiz-Garbajosa, P., Egli, A.,) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 519.61 Tm
+(Cant\363n, R., Mu\361oz, P., Rodr\355guez-Temporal, D., & Rodr\355guez-S\341nchez, B. \(2023\). Automatic) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 505.53 Tm
+(Discrimination of Species within the Enterobacter cloacae Complex Using Matrix-Assisted) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 491.45 Tm
+(Laser Desorption Ionization-Time of Flight Mass Spectrometry and Supervised Algorithms.) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 477.37 Tm
+(Journal of Clinical Microbiology, e01049-22. Publication.) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 456.29 Tm
+(4. Bl\341zquez-S\341nchez, M.*, Guerrero-L\363pez, A.*, Candela, A., Belenguer-Llorens, A.,) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 442.21 Tm
+(Moreno, J. M., Sevilla-Salcedo, C., ... & Rodr\355guez-S\341nchez, B. \(2025\). Automated) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 428.13 Tm
+(web-based typing of Clostridioides difficile ribotypes via MALDI-TOF MS. BMC) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 414.05 Tm
+(Bioinformatics, 26\(1\), 181. Publication.) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 392.97 Tm
+(5. Schmidt-Santiago, L., Guerrero-L\363pez, A., Sevilla-Salcedo, C., Rodr\355guez-Temporal, D.,) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 378.89 Tm
+(Rodr\355guez-S\341nchez, B., & G\363mez-Verdejo, V. \(2026\). A systematic review of machine) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 364.81 Tm
+(learning on clinical MALDI-TOF MS. Briefings in Bioinformatics, 27\(3\), bbag208. Publication.) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 343.73 Tm
+(6. Sevilla-Salcedo, C., Guerrero-L\363pez, A., Olmos, P. M., & G\363mez-Verdejo, V. \(2022\).) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 329.65 Tm
+(Bayesian Sparse Factor Analysis with Kernelized Observations. Neurocomputing.) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 315.57 Tm
+(Publication.) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 294.49 Tm
+(7. Mendes-Laureano, J., G\363mez-Garc\355a, J. A., Guerrero-L\363pez, A., et al. \(2024\). NeuroVoz:) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 280.41 Tm
+(a Castillian Spanish corpus of parkinsonian speech. Scientific Data, 11, 1367. Publication.) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 259.33 Tm
+(8. Guerrero-L\363pez, A., Arias-Londo\361o, J. D., Shattuck-Hufnagel, S., & Godino-Llorente, J. I.) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 245.25 Tm
+(\(2026\). A model for the automatic phonemic grouping of Parkinsonian speech. Engineering) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 231.17 Tm
+(Applications of Artificial Intelligence. Accepted for publication.) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 210.09 Tm
+(9. Santiago, L. S., L\363pez-Mareca, I., Bl\341zquez-S\341nchez, M., Moreno, J. M., Sevilla-Salcedo,) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 196.01 Tm
+(C., G\363mez-Verdejo, V., Rodr\355guez-S\341nchez, B., Rodr\355guez-Temporal, D., & Guerrero-L\363pez,) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 181.93 Tm
+(A. \(2026\). MALDI-TOF MS spectra database from a Spanish University General Hospital) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 167.85 Tm
+(\(2018-2024\). Scientific Data. Accepted for publication. Last author.) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 146.77 Tm
+(* Equal first authorship. Full publication list and supporting links:) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 132.69 Tm
+(https://aguerrerolopez.github.io/publications/.) Tj
+ET
+
+BT
+/F1 9 Tf
+1 0 0 1 70.87 25 Tm
+(Alejandro Guerrero-L\363pez | Short CV | 2 / 3) Tj
+ET
+0 0 1 RG
+0.5 w
+457.69 659.33 m
+511.5 659.33 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+199.1 581.93 m
+252.91 581.93 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+286.5 476.37 m
+340.32 476.37 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+202.32 413.05 m
+256.13 413.05 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+462.56 363.81 m
+516.37 363.81 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+70.87 314.57 m
+124.68 314.57 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+450.39 279.41 m
+504.2 279.41 l
+S
+0 0 0 RG
+0 0 1 RG
+0.5 w
+70.87 131.69 m
+286.73 131.69 l
+S
+0 0 0 RG
+endstream
+endobj
+12 0 obj
+<< /Type /Annot /Subtype /Link /Rect [457.69 658.33 511.5 671.33] /Border [0 0 0] /A << /S /URI /URI (https://doi.org/10.1080/14787210.2026.2625382) >> >>
+endobj
+13 0 obj
+<< /Type /Annot /Subtype /Link /Rect [199.1 580.93 252.91 593.93] /Border [0 0 0] /A << /S /URI /URI (https://www.sciencedirect.com/science/article/pii/S0952197622006340) >> >>
+endobj
+14 0 obj
+<< /Type /Annot /Subtype /Link /Rect [286.5 475.37 340.32 488.37] /Border [0 0 0] /A << /S /URI /URI (https://journals.asm.org/doi/abs/10.1128/jcm.01049-22) >> >>
+endobj
+15 0 obj
+<< /Type /Annot /Subtype /Link /Rect [202.32 412.05 256.13 425.05] /Border [0 0 0] /A << /S /URI /URI (https://doi.org/10.1186/s12859-025-06200-6) >> >>
+endobj
+16 0 obj
+<< /Type /Annot /Subtype /Link /Rect [462.56 362.81 516.37 375.81] /Border [0 0 0] /A << /S /URI /URI (https://doi.org/10.1093/bib/bbag208) >> >>
+endobj
+17 0 obj
+<< /Type /Annot /Subtype /Link /Rect [70.87 313.57 124.68 326.57] /Border [0 0 0] /A << /S /URI /URI (https://doi.org/10.1016/j.neucom.2022.03.024) >> >>
+endobj
+18 0 obj
+<< /Type /Annot /Subtype /Link /Rect [450.39 278.41 504.2 291.41] /Border [0 0 0] /A << /S /URI /URI (https://doi.org/10.1038/s41597-024-04186-z) >> >>
+endobj
+19 0 obj
+<< /Type /Annot /Subtype /Link /Rect [70.87 130.69 286.73 143.69] /Border [0 0 0] /A << /S /URI /URI (https://aguerrerolopez.github.io/publications/) >> >>
+endobj
+20 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 21 0 R /Annots [22 0 R] >>
+endobj
+21 0 obj
+<< /Length 4850 >>
+stream
+q 0.92 0.95 0.97 rg 65.87 781.89 463.54 21 re f Q
+BT
+/F2 11 Tf
+1 0 0 1 70.87 785.89 Tm
+(PART C. SELECTED RELEVANT MERITS \(CONTINUED\)) Tj
+ET
+
+BT
+/F2 11 Tf
+1 0 0 1 70.87 756.81 Tm
+(C.2. Competitive funding) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 737.73 Tm
+(Marie Sklodowska-Curie Postdoctoral Fellowship, European Commission, 1 July 2026-30) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 723.65 Tm
+(June 2028. OUTBRAID - OUTBreak AI-driven Detection: Enhancing MALDI-TOF outbreak) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 709.57 Tm
+(detection with multimodal AI. Host: University of Zurich; supervisor: Prof. Adrian Egli. Role:) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 695.49 Tm
+(funded postdoctoral fellow.) Tj
+ET
+
+BT
+/F2 11 Tf
+1 0 0 1 70.87 668.41 Tm
+(C.3. Doctoral and thesis supervision) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 649.33 Tm
+(Ongoing doctoral co-supervision \(4 projects; not completed doctorates\):) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 74.87 628.25 Tm
+(- Luis Fuertes Pina - Development of machine learning models applied to FTIR and) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 74.87 614.17 Tm
+(  MALDI-TOF for improving microbiological diagnosis. Universidad Complutense de Madrid) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 74.87 600.09 Tm
+(  \(UCM\).) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 74.87 579.01 Tm
+(- Janis Rogenmonser - Advancing antimicrobial resistance prediction from whole-genome) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 74.87 564.93 Tm
+(  sequencing. Institute of Medical Microbiology, University of Zurich.) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 74.87 543.85 Tm
+(- Yukino G\374tlin - Predicting antimicrobial resistance, virulence, and invasiveness from) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 74.87 529.77 Tm
+(  MALDI-TOF MS data. Institute of Medical Microbiology, University of Zurich.) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 74.87 508.69 Tm
+(- Eline Meijer - Boosting the resolution of MALDI-TOF mass spectra using) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 74.87 494.61 Tm
+(  transformer-based machine learning. Institute of Medical Microbiology, University of) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 74.87 480.53 Tm
+(  Zurich.) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 459.45 Tm
+(The full teaching record also lists 8 MSc and 3 BSc thesis supervision projects. Both ZHAW) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 445.37 Tm
+(BSc projects were defended on 1 July 2026: MALDI-TOF/WGS data integration \(5.5/6\) and) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 431.29 Tm
+(disc diffusion image analysis \(4.5/6\).) Tj
+ET
+
+BT
+/F2 11 Tf
+1 0 0 1 70.87 404.21 Tm
+(C.4. Teaching and scientific reviewing) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 385.13 Tm
+(Teaching in neural networks, deep learning, applied machine learning and AI for health at) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 371.05 Tm
+(undergraduate and master's level. Nine official teaching evaluations: mean 4.83/5; multiple) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 356.97 Tm
+(recognition letters from UC3M for teaching performance.) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 335.89 Tm
+(Co-coordinator with Alejandro Lancho Serrano of UC3M teaching innovation project No. 25) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 321.81 Tm
+(\(2024-2025\), integrating neural networks and generative AI in a real data engineering) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 307.73 Tm
+(competition.) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 286.65 Tm
+(Peer review: Engineering Applications of Artificial Intelligence, Clinical Microbiology and) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 272.57 Tm
+(Infection, IEEE Journal of Biomedical and Health Informatics, mSystems, and AISTATS.) Tj
+ET
+
+BT
+/F2 11 Tf
+1 0 0 1 70.87 245.49 Tm
+(C.5. Selected congress presentations and training) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 226.41 Tm
+(ESCMID Global 2026, Munich - Democratising MALDI-TOF AMR prediction: from) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 212.33 Tm
+(Transformers to simple Neural Networks without accuracy loss, reducing energy costs via) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 198.25 Tm
+(knowledge distillation. Oral presentation; presenting author. Abstract 2968/O0970 \(21 April) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 184.17 Tm
+(2026\).) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 163.09 Tm
+(ESCMID Global 2026, Munich - Digital AST Annotator: standardising Kirby-Bauer reading) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 149.01 Tm
+(with an open-source app. Oral and ePoster presentation of one contribution; presenting) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 134.93 Tm
+(author. Abstract 3082/E0842 \(20 April 2026\).) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 113.85 Tm
+(Instructor, ESCMID workshop on Artificial Intelligence and Machine Learning in Medical) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 99.77 Tm
+(Microbiology Diagnostics, University of Zurich, 2-5 June 2025. Model-selection teaching) Tj
+ET
+
+BT
+/F1 11 Tf
+1 0 0 1 70.87 85.69 Tm
+(materials openly available: doi:10.5281/zenodo.15564228.) Tj
+ET
+
+BT
+/F1 9 Tf
+1 0 0 1 70.87 25 Tm
+(Alejandro Guerrero-L\363pez | Short CV | 3 / 3) Tj
+ET
+0 0 1 RG
+0.5 w
+203.55 84.69 m
+352.19 84.69 l
+S
+0 0 0 RG
+endstream
+endobj
+22 0 obj
+<< /Type /Annot /Subtype /Link /Rect [203.55 83.69 352.19 96.69] /Border [0 0 0] /A << /S /URI /URI (https://doi.org/10.5281/zenodo.15564228) >> >>
+endobj
+xref
+0 23
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000129 00000 n 
+0000000226 00000 n 
+0000000328 00000 n 
+0000000498 00000 n 
+0000005351 00000 n 
+0000005504 00000 n 
+0000005666 00000 n 
+0000005827 00000 n 
+0000006037 00000 n 
+0000011880 00000 n 
+0000012051 00000 n 
+0000012244 00000 n 
+0000012423 00000 n 
+0000012592 00000 n 
+0000012754 00000 n 
+0000012924 00000 n 
+0000013092 00000 n 
+0000013264 00000 n 
+0000013425 00000 n 
+0000018328 00000 n 
+trailer
+<< /Size 23 /Root 1 0 R >>
+startxref
+18492
+%%EOF

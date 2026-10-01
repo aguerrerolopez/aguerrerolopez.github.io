@@ -14,4 +14,6 @@
   {% endif %}
   {% if post.venue %} — {{ post.venue }}{% endif %}
   {% if post.date %} ({{ post.date | date: "%Y" }}){% endif %}
+  {% if post.defense_date %}<br>Completed. Defended {{ post.defense_date | date: "%d %B %Y" }}.{% endif %}
+  {% if post.grade %} Grade: {{ post.grade }}.{% endif %}
 </li>

@@ -1,0 +1,64 @@
+{% comment %}Selected CVA-style export. Keep career prose aligned with cv.md; records and counts below come from the collections.{% endcomment %}
+<template id="cv-short-template">
+  <div class="cv-short" lang="en">
+    <h1>ABBREVIATED CURRICULUM VITAE</h1>
+    <p>Alejandro Guerrero-López · Updated {{ site.time | date: "%d %B %Y" }}</p>
+    <h2>PART A. PERSONAL AND PROFESSIONAL INFORMATION</h2>
+    <p><strong>Name:</strong> {{ site.author.name }}<br>
+      <strong>Institution:</strong> Institute of Medical Microbiology, University of Zurich, Switzerland<br>
+      <strong>Position:</strong> Marie Skłodowska-Curie Postdoctoral Fellow (since July 2026)<br>
+      <strong>Email:</strong> <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a><br>
+      <strong>ORCID:</strong> <a href="{{ site.author.orcid }}">{{ site.author.orcid | remove: 'https://orcid.org/' }}</a><br>
+      <strong>Full CV:</strong> <a href="{{ '/cv/' | absolute_url }}">{{ '/cv/' | absolute_url }}</a></p>
+    <h3>A.1. Academic qualifications</h3>
+    <p>2023 — PhD in Bayesian Machine Learning applied to Personalised Medicine, Universidad Carlos III de Madrid (UC3M). Thesis: Clinical microbiology with multi-view deep probabilistic models.<br>
+      2020 — MSc in Information Health Engineering, UC3M.<br>
+      2019 — BSc in Telematic Engineering, Universitat de les Illes Balears.</p>
+    <h3>A.2. Research and academic appointments</h3>
+    <p>July 2025–present — Postdoctoral researcher, University of Zurich; MSCA Fellow since July 2026, in Prof. Adrian Egli's group.<br>
+      2024–2025 — Visiting professor in Data Science, UC3M.<br>
+      2023–2024 — Postdoctoral researcher, Bioengineering and Optoelectronics Group, Universidad Politécnica de Madrid.<br>
+      2020–2023 — Doctoral researcher, UC3M and Gregorio Marañón Health Research Institute.<br>
+      2019–2020 — Research assistant, UC3M; 2017–2018 — Research assistant, Universitat de les Illes Balears.</p>
+    <h2>PART B. CURRICULUM SUMMARY</h2>
+    <p>My research focuses on applied machine learning for healthcare, with particular emphasis on clinical microbiology, Bayesian modelling and multimodal biomedical data. I develop methods for antimicrobial resistance prediction, bacterial identification and strain typing using routine MALDI-TOF mass spectra, and work with clinical collaborators to translate these methods into usable research tools.</p>
+    <p>My doctoral work connected probabilistic machine learning with hospital microbiology. Subsequent research at Universidad Politécnica de Madrid extended this approach to Parkinsonian speech, medical imaging and open biomedical datasets. At the University of Zurich, my MSCA project OUTBRAID addresses AI-driven outbreak detection using multimodal data.</p>
+    <p>My experience combines interdisciplinary research, open science, university teaching, ongoing doctoral co-supervision and peer review in machine learning and biomedical journals. These activities support the critical assessment of research methodology, validation, reproducibility and clinical relevance.</p>
+    {% assign short_accepted = peer_reviewed | where: "status", "accepted" | size %}
+    {% assign short_published = peer_reviewed.size | minus: short_accepted %}
+    <p><strong>Research record:</strong> {{ short_published }} published journal articles, {{ short_accepted }} accepted journal articles and {{ under_review.size }} preprints listed in the full CV. Google Scholar: {{ scholar_metrics.citations }} citations; h-index {{ scholar_metrics.h_index }} ({{ scholar_metrics.updated_on | date: "%d %B %Y" }}).</p>
+
+    <h2 data-cv-page-break>PART C. SELECTED RELEVANT MERITS</h2>
+    <h3>C.1. Selected publications</h3>
+    <p>Selection spanning clinical microbiology, probabilistic machine learning and biomedical data. Accepted papers are explicitly identified.</p>
+    {% assign short_publication_paths = "/publication/2026-02-04-Giacobbe-et-al|/publication/2023-02-01-Guerrero-Lopez-et-al|/publication/2023-04-01-Enterobacters|/publication/2025-07-24-Blazquez-Sanchez-et-al|/publication/2025-05-01-Schmidt-Santiago-et-al|/publication/2022-03-21-Sevilla-Salcedo-et-al|/publication/2024-12-03-Mendes-Laureano-et-al|/publication/2024-03-19-Guerrero-Lopez-et-al|/publication/2025-06-01-Schmidt-Santiago-et-al" | split: "|" %}
+    {% for path in short_publication_paths %}
+      {% assign item = site.publications | where: "permalink", path | first %}
+      {% if item %}
+      <article class="archive__item">
+        <p>{{ forloop.index }}. {{ item.citation }} {% if item.my_role == "last author" %}<strong>Last author.</strong> {% endif %}{% if item.paperurl %}<a href="{{ item.paperurl }}">Publication</a>.{% endif %}</p>
+      </article>
+      {% endif %}
+    {% endfor %}
+    <p>* Equal first authorship. Full publication list and supporting links: <a href="{{ '/publications/' | absolute_url }}">{{ '/publications/' | absolute_url }}</a>.</p>
+
+    <h2 data-cv-page-break>PART C. SELECTED RELEVANT MERITS (CONTINUED)</h2>
+    <h3>C.2. Competitive funding</h3>
+    <p>Marie Skłodowska-Curie Postdoctoral Fellowship, European Commission, 1 July 2026–30 June 2028. OUTBRAID — OUTBreak AI-driven Detection: Enhancing MALDI-TOF outbreak detection with multimodal AI. Host: University of Zurich; supervisor: Prof. Adrian Egli. Role: funded postdoctoral fellow.</p>
+    <h3>C.3. Doctoral and thesis supervision</h3>
+    <p>Ongoing doctoral co-supervision ({{ phd_cosupervisions }} projects; not completed doctorates):</p>
+    {% assign short_phds = site.teaching | where: "type", "PhD co-supervision" | sort: "date" | reverse %}
+    <ul>{% for item in short_phds %}<li>{{ item.student }} — {{ item.title }}. {{ item.venue }}.</li>{% endfor %}</ul>
+    <p>The full teaching record also lists {{ thesis_msc }} MSc and {{ thesis_bsc }} BSc thesis supervision projects. Both ZHAW BSc projects were defended on 1 July 2026: MALDI-TOF/WGS data integration (5.5/6) and disc diffusion image analysis (4.5/6).</p>
+    <h3>C.4. Teaching and scientific reviewing</h3>
+    <p>Teaching in neural networks, deep learning, applied machine learning and AI for health at undergraduate and master's level. Nine official teaching evaluations: mean 4.83/5; multiple recognition letters from UC3M for teaching performance.</p>
+    <p>Co-coordinator with Alejandro Lancho Serrano of UC3M teaching innovation project No. 25 (2024–2025), integrating neural networks and generative AI in a real data engineering competition.</p>
+    <p>Peer review: Engineering Applications of Artificial Intelligence, Clinical Microbiology and Infection, IEEE Journal of Biomedical and Health Informatics, mSystems, and AISTATS.</p>
+    <h3>C.5. Selected congress presentations and training</h3>
+    {% assign short_escmid = site.talks | where: "abstract_number", "2968/O0970" | first %}
+    {% assign short_ast = site.talks | where: "abstract_number", "3082/E0842" | first %}
+    {% if short_escmid %}<p>ESCMID Global 2026, Munich — {{ short_escmid.title }}. Oral presentation; presenting author. Abstract {{ short_escmid.abstract_number }} ({{ short_escmid.date | date: "%d April %Y" }}).</p>{% endif %}
+    {% if short_ast %}<p>ESCMID Global 2026, Munich — {{ short_ast.title }}. Oral and ePoster presentation of one contribution; presenting author. Abstract {{ short_ast.abstract_number }} ({{ short_ast.date | date: "%d April %Y" }}).</p>{% endif %}
+    <p>Instructor, ESCMID workshop on Artificial Intelligence and Machine Learning in Medical Microbiology Diagnostics, University of Zurich, 2–5 June 2025. Model-selection teaching materials openly available: <a href="https://doi.org/10.5281/zenodo.15564228">doi:10.5281/zenodo.15564228</a>.</p>
+  </div>
+</template>

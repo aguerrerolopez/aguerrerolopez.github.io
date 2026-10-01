@@ -1,0 +1,40 @@
+BIBTEX PARA CVN — Alejandro Guerrero-López
+Preparado el 30 de septiembre de 2026. Codificación UTF-8.
+
+ARCHIVOS (alternativas; no importar archivos solapados)
+articulos_revista.bib: 19 entradas (16 publicados y 3 aceptados).
+publicados.bib: solo los 16 artículos publicados.
+aceptados.bib: solo los 3 artículos aceptados.
+preprints.bib: 5 preprints.
+congresos.bib: 1 contribución a congreso.
+todos_articulos.bib: las 25 entradas anteriores reunidas.
+
+ALCANCE Y FUENTES
+Inventario: archivos _publications de la web personal.
+https://aguerrerolopez.github.io/publications/
+Metadatos de los DOI: API pública de Crossref, https://api.crossref.org/works/{doi}
+FAVAE: https://arxiv.org/abs/2207.09185 (título actualizado a Multimodal).
+Congreso: inventario personal y ficha de ResearchGate enlazada en la entrada.
+No incluye la tesis ni los depósitos de datasets en Zenodo.
+Sí incluye los artículos de datos publicados en revistas.
+La exhaustividad se refiere al inventario de la web; no a una búsqueda independiente de toda la producción del autor.
+
+OBSERVACIONES
+Los tres aceptados se conservan según el estado y los autores de la web personal.
+MARTA y MARISMa no tienen DOI editorial en el inventario; no se les ha asignado el DOI del preprint.
+El DOI de Weber figura en la web personal, pero Crossref devolvió 404 durante la consulta; sus datos editoriales finales siguen pendientes de verificación.
+Los metadatos de los otros 16 artículos de revista se recuperaron de Crossref, incluidas listas completas de autores, ISSN, volúmenes, números y páginas o identificadores de artículo disponibles.
+IEEE Access: páginas corregidas a 178160–178175.
+El preprint sobre C. difficile tiene título y orden de autores actualizados conforme a Crossref.
+Se mantienen las formas de nombres depositadas en Crossref; por ejemplo, el artículo de 2019 firma Alejandro Guerrero. Revisar la atribución personal al importar.
+Giacobbe incluye la autoría colectiva depositada en Crossref.
+Los identificadores electrónicos de artículos se incluyen en pages y eid para facilitar la compatibilidad; no son rangos de páginas.
+Las notas de aceptación y la clasificación de los preprints pueden requerir revisión en el importador.
+
+VERIFICACIÓN
+Las 25 entradas se procesaron con BibTeX 0.99e y estilo plain sin errores ni advertencias.
+No se ha probado la importación en una sesión real del CVN.
+Tras importar, revisar especialmente autoría, tipo de aportación y estado de los aceptados. La coautoría principal y los indicadores de calidad no están codificados en estos archivos.
+
+AJUSTE DE COMPATIBILIDAD CVN
+Los cinco preprints utilizan @article para facilitar su reconocimiento por el importador. El campo journal identifica el repositorio seguido de (preprint); type y note también indican Preprint. Esta adaptación no afirma que sean artículos de revista revisados por pares. DOI y año conservados. No se ha comprobado el resultado en el importador.

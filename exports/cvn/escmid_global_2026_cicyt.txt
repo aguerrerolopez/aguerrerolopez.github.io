@@ -1,0 +1,19 @@
+Autores: Guerrero-López, Alejandro; Diversi, Anna; Sosa, Elisa; Monsalve, Ana Gabriela; Egli, Adrian
+Título: Digital AST Annotator: standardising Kirby–Bauer reading with an open-source app
+Tipo de participación: Comunicación oral
+Congreso: ESCMID Global 2026 - 36th Congress of the European Society of Clinical Microbiology and Infectious Diseases
+Lugar celebración: Múnich, Alemania
+Fecha: 17/04/2026 - 21/04/2026
+Entidad organizadora: European Society of Clinical Microbiology and Infectious Diseases (ESCMID)
+Carácter: Internacional
+Observaciones: Abstract 3082/E0842. Presentador: Alejandro Guerrero-López. Sesión: Advances in AMR diagnostics. Presentación oral: 20/04/2026, 17:30 CEST. El mismo trabajo cuenta también con certificado de ePoster; se registra como una única aportación.
+
+Autores: De Ancos Villa, Lúcía; Guerrero-López, Alejandro
+Título: Democratising MALDI-TOF AMR prediction: from Transformers to simple Neural Networks without accuracy loss, reducing energy costs via knowledge distillation
+Tipo de participación: Comunicación oral
+Congreso: ESCMID Global 2026 - 36th Congress of the European Society of Clinical Microbiology and Infectious Diseases
+Lugar celebración: Múnich, Alemania
+Fecha: 17/04/2026 - 21/04/2026
+Entidad organizadora: European Society of Clinical Microbiology and Infectious Diseases (ESCMID)
+Carácter: Internacional
+Observaciones: Abstract 2968/O0970. Presentador: Alejandro Guerrero-López. Sesión: Transforming diagnostic microbiology with AI. Presentación oral: 21/04/2026, 13:30 CEST.
