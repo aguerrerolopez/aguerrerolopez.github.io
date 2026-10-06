@@ -330,6 +330,7 @@ Reviewing
 Training & Professional Development
 ===================================
 
+* Narration and storytelling for persuasive academic presentations, University of Zurich Graduate Campus, 28/09/2026 and 05/10/2026 (Instructor: Dipl. Betr. Oec FH Michael Berndonner). Completed; [certificate of participation](/files/certificates/2026-10-05-uzh-narration-storytelling.pdf).
 * Grant writing workshop for postdocs, University of Zurich Graduate Campus, 04/02/2026–13/02/2026 (Instructor: PhD Ingo Hebach)
 * Project management for postdocs, University of Zurich Graduate Campus, 18/09/2025–19/09/2025 (Instructor: Dr. Carine Galli Marxer)
 * [Cambridge Ellis Machine Learning Summer School](http://www.ellis.eng.cam.ac.uk/summerschool/), University of Cambridge, Cambridge, United Kingdom, 2022
