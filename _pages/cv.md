@@ -52,6 +52,7 @@ I have **{{ scholarly_outputs.size }} papers** (**{{ peer_reviewed.size }} publi
     <summary>Sections</summary>
     <div class="cv-export__menu" role="group" aria-label="Optional CV sections">
       <label><input type="checkbox" value="Grants obtained" data-cv-section checked> Grants obtained</label>
+      <label><input type="checkbox" value="Awards and recognition" data-cv-section checked> Awards and recognition</label>
       <label><input type="checkbox" value="Research visits & collaborations" data-cv-section checked> Research visits & collaborations</label>
       <label><input type="checkbox" value="Publications" data-cv-section checked> Publications</label>
       <label><input type="checkbox" value="Teaching" data-cv-section checked> Teaching</label>
@@ -135,6 +136,11 @@ Grants obtained
   * Project: OUTBRAID — OUTBreak AI-driven Detection: Enhancing MALDI-TOF outbreak detection with multimodal AI
   * Supervisor: Prof. Adrian Egli (University of Zurich)
   * Highly competitive: 17,066 applicants, 1,610 funded (9.6% success rate)
+
+Awards and recognition
+======================
+
+* **2025 — Best Clinical Research Paper Award**, Spanish Society of Otorhinolaryngology and Head and Neck Surgery (SEORL-CCC). Co-author of [“A voice and speech corpus of patients who underwent upper airway surgery in pre- and post-operative states”](/publication/2024-07-09-Hernandez-Garcia-et-al), *Scientific Data* 11, 746 (2024). [Official award results](https://congreso2025.seorl.net/seorl-ccc-2025/?lang=en).
 
 Publications
 ============
