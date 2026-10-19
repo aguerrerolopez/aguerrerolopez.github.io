@@ -140,7 +140,7 @@ Grants obtained
 Awards and recognition
 ======================
 
-* **2025 — Best Clinical Research Paper Award**, Spanish Society of Otorhinolaryngology and Head and Neck Surgery (SEORL-CCC). Co-author of [“A voice and speech corpus of patients who underwent upper airway surgery in pre- and post-operative states”](/publication/2024-07-09-Hernandez-Garcia-et-al), *Scientific Data* 11, 746 (2024). [Official award results](https://congreso2025.seorl.net/seorl-ccc-2025/?lang=en).
+* **2025 — Best Clinical Research Paper Award**, Spanish Society of Otorhinolaryngology and Head and Neck Surgery (SEORL-CCC). Co-author of [“A voice and speech corpus of patients who underwent upper airway surgery in pre- and post-operative states”](/publication/2024-07-09-Hernandez-Garcia-et-al), *Scientific Data* 11, 746 (2024). [Award certificate (PDF)](/files/certificates/2025-seorl-ccc-best-clinical-research-paper.pdf). [Official award results](https://congreso2025.seorl.net/seorl-ccc-2025/?lang=en).
 
 Publications
 ============

@@ -14,4 +14,4 @@ citation: 'Hernández-García, E., <strong>Guerrero-López, A.</strong>, Arias-L
 
 This paper received the **2025 Best Clinical Research Paper Award** from the Spanish Society of Otorhinolaryngology and Head and Neck Surgery (SEORL-CCC), in the category for clinical research papers published online in an international journal. Alejandro Guerrero-López is the second author.
 
-[Official SEORL-CCC award results](https://congreso2025.seorl.net/seorl-ccc-2025/?lang=en).
+[Award certificate (PDF)](/files/certificates/2025-seorl-ccc-best-clinical-research-paper.pdf). [Official SEORL-CCC award results](https://congreso2025.seorl.net/seorl-ccc-2025/?lang=en).
