@@ -35,7 +35,7 @@ I have **{{ scholarly_outputs.size }} papers** (**{{ published_count }} publishe
 
 **Recent publications:** [MARTA](/publication/2024-03-19-Guerrero-Lopez-et-al) in *Engineering Applications of Artificial Intelligence* and our [review of automated image-based species identification](/publication/2026-09-07-Weber-et-al) in *Frontiers in Cellular and Infection Microbiology* (2026).
 
-**Latest MSCA output:** [A synthetic MALDI-TOF MS atlas for microbial classification across hospitals](/publication/2026-10-19-Guerrero-Lopez-et-al-synthetic-maldi) — first and corresponding author; bioRxiv preprint, 19 October 2026. The first major paper from my MSCA Postdoctoral Fellowship.
+**Latest MSCA output:** [A synthetic MALDI-TOF MS atlas for microbial classification across hospitals](/publication/2026-10-19-Guerrero-Lopez-et-al-synthetic-maldi) — first and corresponding author; bioRxiv preprint, 19 October 2026.
 
 **Recent acceptance:** [MARISMa](/publication/2025-06-01-Schmidt-Santiago-et-al) — accepted in *Scientific Data* (2026); **last author**.
 

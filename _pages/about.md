@@ -7,16 +7,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<section class="research-highlight" aria-labelledby="msca-synthetic-maldi-news">
-  <p class="research-highlight__eyebrow">MSCA Postdoctoral Fellowship · New preprint</p>
-  <h2 id="msca-synthetic-maldi-news">Synthetic MALDI-TOF: a major fellowship milestone</h2>
-  <p><strong>My first major paper from the Marie Skłodowska-Curie Postdoctoral Fellowship is now on bioRxiv.</strong></p>
-  <p class="research-highlight__title">A synthetic MALDI-TOF MS atlas for microbial classification across hospitals</p>
-  <p>An open atlas of <strong>4.3 million synthetic spectra spanning 43 bacterial species</strong>, with models evaluated on independent hospital datasets.</p>
-  <p class="research-highlight__date">Posted 19 October 2026 · First and corresponding author · University of Zurich</p>
-  <p class="research-highlight__links"><a class="btn research-highlight__button" href="https://www.biorxiv.org/content/10.64898/2026.10.19.759651v1">Read the preprint</a> <a href="/publication/2026-10-19-Guerrero-Lopez-et-al-synthetic-maldi">Paper details and citation</a></p>
-</section>
-
 Overview
 --------
 
@@ -33,6 +23,10 @@ Research program
 
 Recent news
 -----------
+
+<div class="news-highlight" id="msca-synthetic-maldi-news" markdown="1">
+**October 2026:** Our [synthetic MALDI-TOF atlas preprint](/publication/2026-10-19-Guerrero-Lopez-et-al-synthetic-maldi) is now on bioRxiv. This work forms part of my MSCA Postdoctoral Fellowship.
+</div>
 
 - **October 2026:** Our review [State-of-the-art in automated image-based species identification systems](/publication/2026-09-07-Weber-et-al) is published in *Frontiers in Cellular and Infection Microbiology*, 16, 1818023.
 - **October 2026:** My first-author paper [A model for the automatic phonemic grouping of Parkinsonian speech (MARTA)](/publication/2024-03-19-Guerrero-Lopez-et-al/), from my UPM postdoc, is published online in *Engineering Applications of Artificial Intelligence*, 184, 116378, assigned to the November 2026 issue.

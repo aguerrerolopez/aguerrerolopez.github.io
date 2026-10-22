@@ -2,7 +2,7 @@
 title: "A synthetic MALDI-TOF MS atlas for microbial classification across hospitals"
 collection: publications
 permalink: /publication/2026-10-19-Guerrero-Lopez-et-al-synthetic-maldi
-excerpt: 'First major paper from my MSCA Postdoctoral Fellowship. First- and corresponding-author preprint introducing an open atlas of 4.3 million synthetic MALDI-TOF spectra across 43 bacterial species, evaluated on independent hospital datasets.'
+excerpt: 'Preprint introducing an open atlas of 4.3 million synthetic MALDI-TOF spectra across 43 bacterial species, evaluated on independent hospital datasets. First and corresponding author; MSCA Postdoctoral Fellowship.'
 date: 2026-10-19
 status: preprint
 category: "Preprints"
@@ -16,7 +16,7 @@ citation: '<strong>Guerrero-López, A.</strong>, Meijer, E., Gütlin, Y., Koch, 
 
 **bioRxiv preprint, posted on 19 October 2026 (version 1).**
 
-**My role: first and corresponding author.** This is the first major paper from my Marie Skłodowska-Curie Postdoctoral Fellowship at the University of Zurich, supported by MSCA grant **101278403** (OUTBRAID).
+**My role: first and corresponding author.** This work forms part of my Marie Skłodowska-Curie Postdoctoral Fellowship at the University of Zurich, supported by MSCA grant **101278403** (OUTBRAID).
 
 We created an open atlas of **4.3 million synthetic MALDI-TOF mass spectra covering 43 clinically relevant bacterial species**, using a generative model trained on 179,086 measured spectra. Models trained on the synthetic atlas identified bacteria in independent hospital datasets, and adding synthetic spectra matched or improved performance compared with training on measured data alone.
 
