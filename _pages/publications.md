@@ -5,6 +5,13 @@ permalink: /publications/
 author_profile: true
 ---
 
+{% comment %}
+This publication list and the CV are curated for the author's professional research.
+The PIAS 2024 doctoral financial-strain symposium paper is intentionally excluded
+at the author's request because its topic is unrelated to these research outputs.
+Do not re-add it when reconciling this list with Google Scholar.
+{% endcomment %}
+
 {% if author.googlescholar %}
   You can also find my articles on [my Google Scholar profile]({{author.googlescholar}}).
 {% endif %}
