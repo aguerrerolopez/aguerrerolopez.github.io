@@ -26,7 +26,7 @@
     <p>My experience combines interdisciplinary research, open science, university teaching, ongoing doctoral co-supervision and peer review in machine learning and biomedical journals. These activities support the critical assessment of research methodology, validation, reproducibility and clinical relevance.</p>
     {% assign short_accepted = peer_reviewed | where: "status", "accepted" | size %}
     {% assign short_published = peer_reviewed.size | minus: short_accepted %}
-    <p><strong>Research record:</strong> {{ short_published }} published journal articles, {{ short_accepted }} accepted journal articles and {{ under_review.size }} preprints listed in the full CV. Google Scholar: {{ scholar_metrics.citations }} citations; h-index {{ scholar_metrics.h_index }} ({{ scholar_metrics.updated_on | date: "%d %B %Y" }}).</p>
+    <p><strong>Research record:</strong> {{ short_published }} published journal articles, {{ short_accepted }} accepted journal article{% if short_accepted != 1 %}s{% endif %}, {{ under_review.size }} preprints and {{ conference_papers.size }} conference proceedings contributions listed in the full CV. Google Scholar: {{ scholar_metrics.citations }} citations; h-index {{ scholar_metrics.h_index }} ({{ scholar_metrics.updated_on | date: "%d %B %Y" }}).</p>
 
     <h2 data-cv-page-break>PART C. SELECTED RELEVANT MERITS</h2>
     <h3>C.1. Selected publications</h3>

@@ -42,7 +42,7 @@
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
           {% if post.defense_date %}<p>Completed. Defended {{ post.defense_date | date: "%d %B %Y" }}.{% if post.grade %} Grade: {{ post.grade }}.{% endif %}</p>{% endif %}
         {% elsif post.collection == 'publications' %}
-          <p>{% if post.status == 'accepted' %}Accepted for publication in{% else %}Published in{% endif %} <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}{% if post.article_type %} · {{ post.article_type }}{% endif %} </p>
+          <p>{% if post.status == 'accepted' %}Accepted for publication in{% else %}Published in{% endif %} <i>{{ post.venue }}</i>, {% if post.publication_year %}{{ post.publication_year }}{% else %}{{ post.date | default: "1900-01-01" | date: "%Y" }}{% endif %}{% if post.article_type %} · {{ post.article_type }}{% endif %} </p>
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}

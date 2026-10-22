@@ -10,7 +10,7 @@ my_role: last author
 category: "Peer-review Journals"
 venue: 'Scientific Data'
 preprint_url: 'https://doi.org/10.1101/2025.05.31.657186'
-citation: 'Santiago, L. S., López-Mareca, I., Blázquez-Sánchez, M., Moreno, J. M., Sevilla-Salcedo, C., Gómez-Verdejo, V., Rodríguez-Sánchez, B., Rodríguez-Temporal, D., & <strong>Guerrero-López, A.</strong> (2026). MALDI-TOF MS spectra database from a Spanish University General Hospital (2018-2024). Scientific Data. Accepted for publication.'
+citation: 'Schmidt-Santiago, L., López-Mareca, I., Blázquez-Sánchez, M., Moreno, J. M., Sevilla-Salcedo, C., Gómez-Verdejo, V., Rodríguez-Sánchez, B., Rodríguez-Temporal, D., & <strong>Guerrero-López, A.</strong> (2026). MALDI-TOF MS spectra database from a Spanish University General Hospital (2018-2024). Scientific Data. Accepted for publication.'
 ---
 
 **Accepted for publication in Scientific Data.** Acceptance reported on 28 September 2026; final publication details are forthcoming.

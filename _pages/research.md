@@ -27,6 +27,7 @@ Representative outputs:
 - [Automatic antibiotic resistance prediction in *Klebsiella pneumoniae* based on MALDI-TOF mass spectra](/publication/2023-02-01-Guerrero-Lopez-et-al/)
 - [Automatic Discrimination of Species within the *Enterobacter cloacae* Complex Using MALDI-TOF MS and Supervised Algorithms](/publication/2023-04-01-Enterobacters/)
 - [Automated web-based typing of *Clostridioides difficile* ribotypes via MALDI-TOF MS](/publication/2025-07-24-Blazquez-Sanchez-et-al/)
+- [State-of-the-art in automated image-based species identification systems](/publication/2026-09-07-Weber-et-al) — published review in *Frontiers in Cellular and Infection Microbiology* (2026).
 - [Automatic surveillance of *Escherichia coli* bacteriological strains within clinical settings](/publication/2024-11-05-Rodriguez-Palomo-et-al/)
 
 Trustworthy AI for Biomedical Applications
@@ -36,7 +37,7 @@ I work on applied machine learning across multiple health domains, including mic
 
 Representative outputs:
 
-- [MARTA: A model for the automatic phonemic grouping of Parkinsonian speech](/publication/2024-03-19-Guerrero-Lopez-et-al/) — first-author work from my UPM postdoc, accepted in *Engineering Applications of Artificial Intelligence* (2026).
+- [MARTA: A model for the automatic phonemic grouping of Parkinsonian speech](/publication/2024-03-19-Guerrero-Lopez-et-al/) — first-author work from my UPM postdoc, published in *Engineering Applications of Artificial Intelligence*, 184, 116378 (2026).
 - [Exploring the Power of Photoplethysmogram Matrix for Atrial Fibrillation Detection with Integrated Explainability](/publication/2024-03-21-Fuster-Barcelo-et-al/)
 - [Automatic semantic segmentation of the osseous structures of the paranasal sinuses](/publication/2025-05-01-Sun-et-al/)
 - [Bayesian automatic screening of pneumonia and lung lesions localization from CT scans](/publication/2025-09-01-Moure-Prado-et-al/)

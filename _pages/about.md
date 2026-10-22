@@ -24,9 +24,10 @@ Research program
 Recent news
 -----------
 
+- **October 2026:** Our review [State-of-the-art in automated image-based species identification systems](/publication/2026-09-07-Weber-et-al) is published in *Frontiers in Cellular and Infection Microbiology*, 16, 1818023.
+- **October 2026:** My first-author paper [A model for the automatic phonemic grouping of Parkinsonian speech (MARTA)](/publication/2024-03-19-Guerrero-Lopez-et-al/), from my UPM postdoc, is published online in *Engineering Applications of Artificial Intelligence*, 184, 116378, assigned to the November 2026 issue.
 - **October 2026:** I completed “Narration and storytelling for persuasive academic presentations” at UZH Graduate Campus, with sessions on 28 September and 5 October. [Training and professional development](/cv/#training--professional-development).
 - **September 2026:** Our [MARISMa paper](/publication/2025-06-01-Schmidt-Santiago-et-al), “MALDI-TOF MS spectra database from a Spanish University General Hospital (2018-2024)”, has been accepted in *Scientific Data*. I am the **last author**.
-- **September 2026:** My first-author paper [A model for the automatic phonemic grouping of Parkinsonian speech (MARTA)](/publication/2024-03-19-Guerrero-Lopez-et-al/), from my UPM postdoc, has been accepted in *Engineering Applications of Artificial Intelligence*.
 
 Funding and current activities
 ------------------------------

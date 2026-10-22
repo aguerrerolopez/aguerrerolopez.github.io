@@ -9,8 +9,11 @@ redirect_from:
 {% include base_path %}
 
 {% assign peer_reviewed = site.publications | where: "category", "Peer-review Journals" %}
+{% assign accepted_papers = peer_reviewed | where: "status", "accepted" %}
+{% assign published_count = peer_reviewed.size | minus: accepted_papers.size %}
 {% assign under_review = site.publications | where: "category", "Preprints" %}
-{% assign scholarly_outputs = peer_reviewed | concat: under_review %}
+{% assign conference_papers = site.publications | where: "category", "Conference Proceedings" %}
+{% assign scholarly_outputs = peer_reviewed | concat: under_review | concat: conference_papers %}
 {% assign first_or_cofirst_count = 0 %}
 {% assign senior_or_last_count = 0 %}
 {% for publication in scholarly_outputs %}
@@ -28,7 +31,9 @@ Applied machine learning researcher working in **healthcare and medical data sci
 
 My profile combines competitive funding, collaborative translational research, supervision, and open science. I hold a **Marie Skłodowska-Curie Postdoctoral Fellowship (MSCA PF)**, and my work spans microbiology, speech, cardiology, and medical imaging under a common agenda of applied AI for health.
 
-I have **{{ scholarly_outputs.size }} papers** (**{{ peer_reviewed.size }} published or accepted in peer-reviewed journals** and **{{ under_review.size }} under review**), including **{{ first_or_cofirst_count }} first/co-first-author** and **{{ senior_or_last_count }} senior/last-author papers**. My [Google Scholar profile]({{ site.author.googlescholar }}) reports an **h-index of {{ scholar_metrics.h_index }}** and **{{ scholar_metrics.citations }} citations** (updated {{ scholar_metrics.updated_on | date: "%B %-d, %Y" }}).
+I have **{{ scholarly_outputs.size }} papers** (**{{ published_count }} published journal articles**, **{{ accepted_papers.size }} accepted journal article{% if accepted_papers.size != 1 %}s{% endif %}**, **{{ under_review.size }} preprints**, and **{{ conference_papers.size }} conference proceedings contributions**), including **{{ first_or_cofirst_count }} first/co-first-author** and **{{ senior_or_last_count }} senior/last-author papers**. My [Google Scholar profile]({{ site.author.googlescholar }}) reports an **h-index of {{ scholar_metrics.h_index }}** and **{{ scholar_metrics.citations }} citations** (updated {{ scholar_metrics.updated_on | date: "%B %-d, %Y" }}).
+
+**Recent publications:** [MARTA](/publication/2024-03-19-Guerrero-Lopez-et-al) in *Engineering Applications of Artificial Intelligence* and our [review of automated image-based species identification](/publication/2026-09-07-Weber-et-al) in *Frontiers in Cellular and Infection Microbiology* (2026).
 
 **Recent acceptance:** [MARISMa](/publication/2025-06-01-Schmidt-Santiago-et-al) — accepted in *Scientific Data* (2026); **last author**.
 
@@ -98,7 +103,7 @@ Academic experience
   * __Company__: [Universidad Politécnica de Madrid (UPM)](https://www.upm.es), [Bioengineering and Optoelectronics Group](http://www.byo.upm.es/BYO/research)
   * __Field__: Bayesian ML applied to speech
   * __Supervisor__: [Prof. Juan Ignacio Godino Llorente](http://www.byo.upm.es/BYO/people/juan-ignacio-godino-llorente)
-  * __Research output__: First-author MARTA paper, [A model for the automatic phonemic grouping of Parkinsonian speech](/publication/2024-03-19-Guerrero-Lopez-et-al/), accepted in *Engineering Applications of Artificial Intelligence* (2026).
+  * __Research output__: First-author MARTA paper, [A model for the automatic phonemic grouping of Parkinsonian speech](/publication/2024-03-19-Guerrero-Lopez-et-al/), published in *Engineering Applications of Artificial Intelligence*, 184, 116378 (2026).
 * 2020-2023: Ph.D. Candidate
 
   * __Company__: UC3M, Signal Theory and Communications Department and [Gregorio Marañon Health Research Institute](https://www.iisgm.com/), Microbiology and Infectious Diseases Department
