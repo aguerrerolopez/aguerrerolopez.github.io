@@ -97,3 +97,62 @@
 .notice--danger {
   @include notice($danger-color);
 }
+
+/* Featured research announcement on the homepage. */
+.research-highlight {
+  margin: 0 0 2em;
+  padding: 1.5em;
+  background-color: #eff7fa;
+  border: 1px solid #cbdfe6;
+  border-left: 6px solid #236b80;
+  border-radius: $border-radius;
+
+  h2 {
+    margin: 0.35em 0 0.65em;
+    padding-bottom: 0;
+    border-bottom: 0;
+    font-size: 1.5em;
+    line-height: 1.25;
+    color: #234553;
+  }
+
+  &__eyebrow {
+    margin: 0;
+    color: #236b80;
+    font-size: 0.75em;
+    font-weight: bold;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  &__title {
+    font-size: 1.1em;
+    font-weight: bold;
+    line-height: 1.4;
+  }
+
+  &__date {
+    font-size: 0.8em;
+    color: #4b626d;
+  }
+
+  &__links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75em 1em;
+    margin-bottom: 0;
+    font-size: 0.9em;
+  }
+
+  &__button {
+    margin-bottom: 0;
+    font-size: 1em;
+    background-color: #236b80;
+
+    &:hover,
+    &:focus {
+      background-color: #194e5e;
+    }
+  }
+}

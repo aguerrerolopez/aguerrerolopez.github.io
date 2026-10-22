@@ -30,13 +30,13 @@
 
     <h2 data-cv-page-break>PART C. SELECTED RELEVANT MERITS</h2>
     <h3>C.1. Selected publications</h3>
-    <p>Selection spanning clinical microbiology, probabilistic machine learning and biomedical data. Accepted papers are explicitly identified.</p>
-    {% assign short_publication_paths = "/publication/2026-02-04-Giacobbe-et-al|/publication/2023-02-01-Guerrero-Lopez-et-al|/publication/2023-04-01-Enterobacters|/publication/2025-07-24-Blazquez-Sanchez-et-al|/publication/2025-05-01-Schmidt-Santiago-et-al|/publication/2022-03-21-Sevilla-Salcedo-et-al|/publication/2024-12-03-Mendes-Laureano-et-al|/publication/2024-03-19-Guerrero-Lopez-et-al|/publication/2025-06-01-Schmidt-Santiago-et-al" | split: "|" %}
+    <p>Selection spanning clinical microbiology, probabilistic machine learning and biomedical data. Preprints and accepted papers are explicitly identified.</p>
+    {% assign short_publication_paths = "/publication/2026-10-19-Guerrero-Lopez-et-al-synthetic-maldi|/publication/2026-02-04-Giacobbe-et-al|/publication/2023-02-01-Guerrero-Lopez-et-al|/publication/2023-04-01-Enterobacters|/publication/2025-07-24-Blazquez-Sanchez-et-al|/publication/2025-05-01-Schmidt-Santiago-et-al|/publication/2024-12-03-Mendes-Laureano-et-al|/publication/2024-03-19-Guerrero-Lopez-et-al|/publication/2025-06-01-Schmidt-Santiago-et-al" | split: "|" %}
     {% for path in short_publication_paths %}
       {% assign item = site.publications | where: "permalink", path | first %}
       {% if item %}
       <article class="archive__item">
-        <p>{{ forloop.index }}. {{ item.citation }} {% if item.my_role == "last author" %}<strong>Last author.</strong> {% endif %}{% if item.paperurl %}<a href="{{ item.paperurl }}">Publication</a>.{% endif %}</p>
+        <p>{{ forloop.index }}. {{ item.citation }} {% if item.my_role == "last author" %}<strong>Last author.</strong> {% elsif item.my_role == "first and corresponding author" %}<strong>First and corresponding author; MSCA fellowship.</strong> {% endif %}{% if item.paperurl %}<a href="{{ item.paperurl }}">Publication</a>.{% endif %}</p>
       </article>
       {% endif %}
     {% endfor %}

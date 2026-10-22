@@ -7,6 +7,16 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<section class="research-highlight" aria-labelledby="msca-synthetic-maldi-news">
+  <p class="research-highlight__eyebrow">MSCA Postdoctoral Fellowship · New preprint</p>
+  <h2 id="msca-synthetic-maldi-news">Synthetic MALDI-TOF: a major fellowship milestone</h2>
+  <p><strong>My first major paper from the Marie Skłodowska-Curie Postdoctoral Fellowship is now on bioRxiv.</strong></p>
+  <p class="research-highlight__title">A synthetic MALDI-TOF MS atlas for microbial classification across hospitals</p>
+  <p>An open atlas of <strong>4.3 million synthetic spectra spanning 43 bacterial species</strong>, with models evaluated on independent hospital datasets.</p>
+  <p class="research-highlight__date">Posted 19 October 2026 · First and corresponding author · University of Zurich</p>
+  <p class="research-highlight__links"><a class="btn research-highlight__button" href="https://www.biorxiv.org/content/10.64898/2026.10.19.759651v1">Read the preprint</a> <a href="/publication/2026-10-19-Guerrero-Lopez-et-al-synthetic-maldi">Paper details and citation</a></p>
+</section>
+
 Overview
 --------
 
